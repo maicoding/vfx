@@ -19,13 +19,32 @@ Der Output landet in `docs/`:
 
 ## Auf GitHub veroeffentlichen
 
-Empfohlen: Diesen Vault-Ordner als eigenes Repository pushen. Danach in GitHub:
+Das Repository ist fuer zwei Veroeffentlichungswege vorbereitet.
+
+### Empfohlen: Branch `gh-pages`
+
+Der fertige statische Export wurde in den Branch `gh-pages` gepusht. Danach in GitHub:
+
+1. `Settings -> Pages`
+2. `Build and deployment -> Source -> Deploy from a branch`
+3. Branch `gh-pages`, Ordner `/ (root)`
+4. Speichern
+
+Die erwartete URL ist:
+
+```text
+https://maicoding.github.io/vfx/
+```
+
+### Optional: GitHub Actions
+
+Der Workflow `.github/workflows/pages.yml` kann manuell ausgefuehrt werden, wenn GitHub Pages im Repository auf `GitHub Actions` gestellt ist:
 
 1. `Settings -> Pages`
 2. `Build and deployment -> Source -> GitHub Actions`
-3. Workflow `Deploy GitHub Pages` ausfuehren oder auf `main` pushen
+3. Workflow `Deploy GitHub Pages` manuell ausfuehren
 
-Der Workflow baut den Vault mit `node scripts/build-pages.mjs` und deployt den `docs/`-Ordner.
+Hinweis: Der GitHub-Actions-Token durfte Pages in diesem Repository nicht selbst aktivieren. Deshalb ist der `gh-pages`-Branch der robustere Erstveroeffentlichungsweg.
 
 ## Inhaltliche Logik
 

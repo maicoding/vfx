@@ -24,6 +24,19 @@ Der Generator wandelt Markdown in HTML, loest Obsidian-Wikilinks auf, erzeugt Ba
 
 ## GitHub Pages
 
-Der Workflow `.github/workflows/pages.yml` deployt `docs/` automatisch, wenn GitHub Pages auf `GitHub Actions` gestellt ist.
+Empfohlener Weg fuer dieses Repository:
+
+1. In GitHub `Settings -> Pages` oeffnen.
+2. `Build and deployment -> Source -> Deploy from a branch` waehlen.
+3. Branch `gh-pages` und Ordner `/ (root)` auswaehlen.
+4. Speichern.
+
+Der Branch `gh-pages` enthaelt bereits den fertigen statischen Export. Die erwartete URL ist:
+
+```text
+https://maicoding.github.io/vfx/
+```
+
+Der Workflow `.github/workflows/pages.yml` bleibt als manueller GitHub-Actions-Deploy erhalten, falls Pages spaeter auf `GitHub Actions` umgestellt wird.
 
 Mehr Details: `GITHUB_PAGES.md`
