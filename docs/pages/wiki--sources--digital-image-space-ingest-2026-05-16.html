@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Image Space Ingest, 16.05.2026 · AI Postproduktion VFX Vault</title>
+  <meta name="description" content="type: sourcebundle status: reviewedforsynthesis created: 20260516 updated: 20260516 tags: [digitalimagespace, theory, ingest, manovich, latentspace, neuralrendering] sourcestatus: mixedprimarytheoryandcurrentresearch">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="note-page">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-top">
+    <a class="brand" href="../index.html" aria-label="Startseite">
+      <span class="brand-mark" aria-hidden="true">DR</span>
+      <span><strong>Digital Rooms</strong><small>AI · Postproduktion · VFX</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Hauptnavigation">
+      <a href="../index.html">Atlas</a>
+      <a href="../links.html">Links</a>
+      <a href="../attachments.html">Rohquellen</a>
+      <a href="../pages/00-index--start-hier.html">Start hier</a>
+    </nav>
+  </header>
+  <div class="site-shell">
+    <aside class="side-nav" aria-label="Vault-Navigation">
+    <label class="search-box">
+      <span>Vault durchsuchen</span>
+      <input type="search" id="site-search" placeholder="Tool, Theorie, Paper, Claim...">
+    </label>
+    <div id="search-results" class="search-results" aria-live="polite"></div>
+    <div class="nav-tree"><details open>
+        <summary>Start <span>1</span></summary>
+        <div class="nav-links"><a href="00-index--start-hier.html">Digital Rooms, AI und Postproduktion</a></div>
+      </details><details >
+        <summary>System <span>6</span></summary>
+        <div class="nav-links"><a href="00-system--health-check.html">Health Check</a><a href="00-system--index.html">System Index</a><a href="00-system--log.html">System Log</a><a href="00-system--topic-lifecycle.html">Topic Lifecycle</a><a href="00-system--vault-operating-system.html">Vault Operating System</a><a href="00-system--workflows.html">Workflows</a></div>
+      </details><details >
+        <summary>Tools und Modelle <span>8</span></summary>
+        <div class="nav-links"><a href="01-tools-und-modelle--adobe-firefly-postproduktion.html">Adobe Firefly, Premiere und After Effects</a><a href="01-tools-und-modelle--foundry-nuke-ai.html">Foundry Nuke AI</a><a href="01-tools-und-modelle--kling-3.html">Kling 3.0</a><a href="01-tools-und-modelle--nano-banana-2-imagen.html">Nano Banana 2, Imagen 4 und Bildmodelle</a><a href="01-tools-und-modelle--runway-gen-4-5.html">Runway Gen4.5</a><a href="01-tools-und-modelle--seedance-2.html">Seedance 2.0</a><a href="01-tools-und-modelle--sora-2.html">Sora 2</a><a href="01-tools-und-modelle--tool-landschaft-2026.html">ToolLandschaft 2026</a></div>
+      </details><details >
+        <summary>Postproduktion <span>1</span></summary>
+        <div class="nav-links"><a href="02-postproduktion-workflows--bedeutung-fur-postproduktion.html">Bedeutung für Postproduktion</a></div>
+      </details><details >
+        <summary>Rotoscoping / VFX <span>1</span></summary>
+        <div class="nav-links"><a href="03-rotoscoping-ai-vfx--rotoscoping-und-ai-vfx.html">Rotoscoping und AI VFX</a></div>
+      </details><details >
+        <summary>Trends <span>1</span></summary>
+        <div class="nav-links"><a href="04-trends-und-vorreiter--trends-2026.html">Trends 2026: AI, VFX und Postproduktion</a></div>
+      </details><details >
+        <summary>Ethik, Recht, Provenance <span>1</span></summary>
+        <div class="nav-links"><a href="05-ethik-recht-provenance--recht-ethik-provenance.html">Recht, Ethik und Provenance</a></div>
+      </details><details >
+        <summary>Quellen <span>1</span></summary>
+        <div class="nav-links"><a href="06-quellen--quellenbibliothek.html">Quellenbibliothek</a></div>
+      </details><details >
+        <summary>Notion Sync <span>1</span></summary>
+        <div class="nav-links"><a href="07-notion-sync--notion-sync.html">Notion Sync</a></div>
+      </details><details >
+        <summary>Marktkarte <span>2</span></summary>
+        <div class="nav-links"><a href="08-marktkarte--fuhrende-firmen-studios-agenturen.html">Führende Firmen, Studios und Agenturen</a><a href="08-marktkarte--marktkarte-ai-postproduktion.html">Marktkarte AI Postproduktion</a></div>
+      </details><details >
+        <summary>Emerging Technologies <span>1</span></summary>
+        <div class="nav-links"><a href="09-emerging-technologies--emerging-technologies.html">Emerging Technologies</a></div>
+      </details><details >
+        <summary>Use Cases <span>1</span></summary>
+        <div class="nav-links"><a href="10-use-cases--use-cases-nach-produktionsphase.html">Use Cases nach Produktionsphase</a></div>
+      </details><details >
+        <summary>Best Practices <span>1</span></summary>
+        <div class="nav-links"><a href="11-best-practices--best-practice-workflows.html">Best Practice Workflows</a></div>
+      </details><details >
+        <summary>Skills und Rollen <span>1</span></summary>
+        <div class="nav-links"><a href="12-skills-und-rollen--skills-der-zukunft.html">Skills und Rollen der Zukunft</a></div>
+      </details><details >
+        <summary>Forschung / Papers <span>1</span></summary>
+        <div class="nav-links"><a href="13-forschung-papers--forschung-und-paper-pipeline.html">Forschung und Paper Pipeline</a></div>
+      </details><details >
+        <summary>Studium <span>1</span></summary>
+        <div class="nav-links"><a href="14-positionierung-studium--strategie-fur-studierende-ai-vfx-postproduktion.html">Strategie für Studierende: Positionierung in AI VFX und Postproduktion</a></div>
+      </details><details >
+        <summary>Promotion <span>17</span></summary>
+        <div class="nav-links"><a href="15-promotion--begriffsapparat-promotion.html">Begriffsapparat</a><a href="15-promotion--fallstudien-und-experimente.html">Fallstudien und Experimente</a><a href="15-promotion--forschungsfragen-2.html">Forschungsfragen</a><a href="15-promotion--forschungsfragen.html">Forschungsfragen</a><a href="15-promotion--hypothesen-2.html">Hypothesen</a><a href="15-promotion--hypothesen.html">Hypothesen</a><a href="15-promotion--literatur-und-referenzfelder.html">Literatur und Referenzfelder</a><a href="15-promotion--manovich-und-generative-postproduktion.html">Manovich und generative Postproduktion</a><a href="15-promotion--methodik-research-through-design.html">Methodik: Research through Design</a><a href="15-promotion--mogliche-gliederung-2.html">Mögliche Gliederung</a><a href="15-promotion--mogliche-gliederung.html">Mögliche Gliederung</a><a href="15-promotion--promotion-index.html">Promotion: Digital Rooms und generative Bildräume</a><a href="15-promotion--promotionsformel-digital-rooms.html">Promotionsformel: Digital Rooms</a><a href="15-promotion--theorieachsen-2.html">Theorieachsen</a><a href="15-promotion--theorieachsen.html">Theorieachsen</a><a href="15-promotion--theorie-landkarte-ai-postproduktion.html">TheorieLandkarte: AI, VFX und postproduktive Gestaltung</a><a href="15-promotion--theoriepositionen-erweiterung.html">Theoriepositionen: Erweiterung jenseits von Manovich</a></div>
+      </details><details >
+        <summary>Digital Image Space <span>12</span></summary>
+        <div class="nav-links"><a href="16-digital-image-space--digital-image-space-index.html">Digital Image Space und Digital Rooms</a><a href="16-digital-image-space--digital-image-space-begriff.html">Digital Image Space: Begriff</a><a href="16-digital-image-space--digital-rooms.html">Digital Rooms</a><a href="16-digital-image-space--digital-rooms-erweiterte-felder.html">Digital Rooms: Erweiterte Felder</a><a href="16-digital-image-space--image-space-und-indexikalitat.html">Image Space und Indexikalität</a><a href="16-digital-image-space--interface-als-bildraum.html">Interface als Bildraum</a><a href="16-digital-image-space--latent-space-als-gestaltungsraum.html">Latent Space als Gestaltungsraum</a><a href="16-digital-image-space--manovich-und-digital-image-space.html">Manovich und Digital Image Space</a><a href="16-digital-image-space--methodische-experimente-digital-image-space.html">Methodische Experimente: Digital Image Space</a><a href="16-digital-image-space--neural-rendering-und-raumliche-bilder.html">Neural Rendering und räumliche Bilder</a><a href="16-digital-image-space--operative-bildraume.html">Operative Bildräume</a><a href="16-digital-image-space--vom-frame-zur-szene.html">Vom Frame zur Szene</a></div>
+      </details><details >
+        <summary>System Files <span>3</span></summary>
+        <div class="nav-links"><a href="agents.html">AGENTS.md</a><a href="claude.html">CLAUDE.md</a><a href="github-pages.html">GitHub Pages Export</a></div>
+      </details><details >
+        <summary>Outputs <span>2</span></summary>
+        <div class="nav-links"><a href="outputs--notion--notion-abgleich-2026-05-16.html">Notion Abgleich 20260516</a><a href="outputs--readme.html">Outputs</a></div>
+      </details><details >
+        <summary>Raw Sources <span>1</span></summary>
+        <div class="nav-links"><a href="raw--readme.html">Raw Sources</a></div>
+      </details><details >
+        <summary>Review Layer <span>5</span></summary>
+        <div class="nav-links"><a href="review--claim-evidence-matrix.html">Claim Evidence Matrix</a><a href="review--gegenstimmen-register.html">Gegenstimmen Register</a><a href="review--readme.html">Review Layer</a><a href="review--digital-image-space-evidence.html">Review: Digital Image Space</a><a href="review--theorie-erweiterung-evidence.html">Review: TheorieErweiterung</a></div>
+      </details><details open>
+        <summary>Research Wiki <span>15</span></summary>
+        <div class="nav-links"><a href="wiki--concepts--readme.html">Concepts</a><a href="wiki--sources--digital-image-space-ingest-2026-05-16.html" aria-current="page">Digital Image Space Ingest, 16.05.2026</a><a href="wiki--syntheses--pressespiegel-ai-video-wave2-2026-05-16.html">Evidenzsynthese: Pressespiegel Wave 2, 16.05.2026</a><a href="wiki--operations--readme.html">Operations</a><a href="wiki--sources--pressespiegel-ai-video-governance-2026-05-16.html">Pressespiegel KI, 16.05.2026</a><a href="wiki--sources--pressespiegel-ai-video-wave2-2026-05-16.html">Pressespiegel Wave 2 mit Studienbasis, 16.05.2026</a><a href="wiki--index.html">Research Wiki Index</a><a href="wiki--sources--digital-rooms-erweiterung-ingest-2026-05-16.html">Source Ingest: Digital Rooms Erweiterung</a><a href="wiki--sources--readme.html">Sources</a><a href="wiki--syntheses--digital-image-space-2026-05-16.html">Synthese: Digital Image Space</a><a href="wiki--syntheses--pressespiegel-ai-video-governance-2026-05-16.html">Synthese: Pressespiegel KI, 16.05.2026</a><a href="wiki--syntheses--digital-rooms-promotion-shift-2026-05-16.html">Synthese: Promotionsshift zu Digital Rooms</a><a href="wiki--syntheses--readme.html">Syntheses</a><a href="wiki--sources--theorie-ingest-erweiterung-2026-05-16.html">TheorieIngest Erweiterung, 16.05.2026</a><a href="wiki--log.html">Wiki Log</a></div>
+      </details></div>
+  </aside>
+    <main id="main" class="main-content note-page">
+      <article class="article-page">
+    <header class="article-hero">
+      <p class="meta-line">Research Wiki · Wiki · wiki/sources/digital-image-space-ingest-2026-05-16.md</p>
+      <h1>Digital Image Space Ingest, 16.05.2026</h1>
+      <p>type: sourcebundle status: reviewedforsynthesis created: 20260516 updated: 20260516 tags: [digitalimagespace, theory, ingest, manovich, latentspace, neuralrendering] sourcestatus: mixedprimarytheoryandcurrentresearch</p>
+    </header>
+    <div class="article-layout">
+      <div class="article-body"><hr>
+<p>type: source-bundle</p>
+<p>status: reviewed-for-synthesis</p>
+<p>created: 2026-05-16</p>
+<p>updated: 2026-05-16</p>
+<p>tags: [digital-image-space, theory, ingest, manovich, latent-space, neural-rendering]</p>
+<p>source_status: mixed-primary-theory-and-current-research</p>
+<hr>
+<h1 id="digital-image-space-ingest-16-05-2026">Digital Image Space Ingest, 16.05.2026</h1>
+<h2 id="ziel">Ziel</h2>
+<p>Quellenbündel für die Erweiterung des Vaults um Digital Image Space.</p>
+<h2 id="kernquellen">Kernquellen</h2>
+<div class="table-wrap"><table><thead><tr><th>Quelle</th><th>Typ</th><th>Relevanz</th></tr></thead><tbody><tr><td>Lev Manovich: Separate and Reassemble</td><td>Theorie / Autorenseite</td><td>Generative KI als Fortsetzung von Trennen, Komprimieren und Rekombinieren digitaler Medien</td></tr><tr><td>Lev Manovich: The Poetics of Augmented Space</td><td>Theorie / Journal</td><td>Raum als dynamisch mit Information überlagert; anschlussfähig für Interface, AR, Bildraum</td></tr><tr><td>Daniel Binns: A media-materialist method for interpreting generative AI images</td><td>Peer-reviewed, 2026</td><td>Dataset, Model, Interface, Prompt als Analyseebenen; Latent Space als probabilistischer Bildraum</td></tr><tr><td>Splatware: What is Gaussian Splatting?</td><td>Technische Dokumentation</td><td>schnelle Definition und technische Vergleichsebene für 3DGS</td></tr><tr><td>Emergent Mind: Neural Implicit &amp; Gaussian Splatting</td><td>Forschungsübersicht</td><td>Verhältnis NeRF, neural implicit, Gaussian Splatting, Editierbarkeit und Geschwindigkeit</td></tr></tbody></table></div>
+<h2 id="extraktion">Extraktion</h2>
+<h3 id="manovich-separate-and-reassemble">Manovich: Separate and Reassemble</h3>
+<ul>
+<li>Generative KI wird als neue Stufe der digitalen Medienlogik verstanden: Trennen, Komprimieren, Rekombinieren.</li>
+<li>Relevant für Latent Space, Deep Remixability und Database Logic.</li>
+<li>Für die Promotion: Manovich trägt nicht nur Software Studies, sondern direkt die Frage, wie AI Bildräume aus vorhandenen Kulturmustern neu zusammensetzt.</li>
+</ul>
+<h3 id="manovich-augmented-space">Manovich: Augmented Space</h3>
+<ul>
+<li>Physischer Raum kann mit dynamischen, lokalisierten Informationsschichten überlagert werden.</li>
+<li>Für Digital Image Space übertragbar auf Footage, das durch Mattes, Depth, Tracking, Segmentation, Prompting und Provenance-Schichten erweitert wird.</li>
+</ul>
+<h3 id="binns-2026">Binns 2026</h3>
+<ul>
+<li>Schlägt eine vierteilige Analyse generativer Bilder vor: Dataset, Model, Interface, Prompt.</li>
+<li>Latent Space wird als probabilistisches Terrain verstanden, nicht als Spiegel der Realität.</li>
+<li>Interface wird als ästhetische und epistemische Rahmung sichtbar.</li>
+<li>Sehr stark für Methodik und Theorie des Digital Image Space.</li>
+</ul>
+<h3 id="gaussian-splatting-neural-rendering">Gaussian Splatting / Neural Rendering</h3>
+<ul>
+<li>3DGS repräsentiert Szenen nicht als Mesh, sondern als viele räumliche Gaussians mit Farbe, Form und Opazität.</li>
+<li>Wichtig für Digital Image Space, weil fotografische Aufnahme in navigierbare Szene übergeht.</li>
+<li>Einschränkung: technische Demos sind nicht automatisch produktionsfähige VFX-Assets.</li>
+</ul>
+<h2 id="synthese">Synthese</h2>
+<p>Digital Image Space sollte als mehrschichtiger Bildraum beschrieben werden:</p>
+<ul>
+<li>Pixel Space.</li>
+<li>Layer/Node/Timeline Space.</li>
+<li>Operational Image Space.</li>
+<li>Latent Space.</li>
+<li>Scene Space.</li>
+<li>Interface Space.</li>
+<li>Provenance Space.</li>
+</ul>
+<h2 id="quellenstatus">Quellenstatus</h2>
+<ul>
+<li>Manovich: starke Theoriequelle.</li>
+<li>Binns 2026: sehr relevant, aktuelle peer-reviewed Methodik.</li>
+<li>Splatware/Emergent Mind: technische Sekundärquellen, nützlich für Begriffe, aber nicht als alleinige wissenschaftliche Evidenz.</li>
+</ul></div>
+      <aside class="article-meta">
+        <section>
+          <h2>Auf dieser Seite</h2>
+          <div class="toc"><a class="h2" href="#ziel">Ziel</a><a class="h2" href="#kernquellen">Kernquellen</a><a class="h2" href="#extraktion">Extraktion</a><a class="h3" href="#manovich-separate-and-reassemble">Manovich: Separate and Reassemble</a><a class="h3" href="#manovich-augmented-space">Manovich: Augmented Space</a><a class="h3" href="#binns-2026">Binns 2026</a><a class="h3" href="#gaussian-splatting-neural-rendering">Gaussian Splatting / Neural Rendering</a><a class="h2" href="#synthese">Synthese</a><a class="h2" href="#quellenstatus">Quellenstatus</a></div>
+        </section>
+        <section>
+          <h2>Interne Links</h2>
+          <ul><li><span>Keine internen Ausgänge</span></li></ul>
+        </section>
+        <section>
+          <h2>Backlinks</h2>
+          <ul><li><a href="wiki--index.html">Research Wiki Index</a><small>Research Wiki</small></li></ul>
+        </section>
+        <section>
+          <h2>Externe Quellen</h2>
+          <ul><li><span>Keine externen URLs</span></li></ul>
+        </section>
+      </aside>
+    </div>
+  </article>
+    </main>
+  </div>
+  <script src="../assets/search-index.js"></script>
+  <script src="../assets/search.js"></script>
+</body>
+</html>

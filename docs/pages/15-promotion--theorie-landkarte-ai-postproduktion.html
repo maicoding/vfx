@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TheorieLandkarte: AI, VFX und postproduktive Gestaltung · AI Postproduktion VFX Vault</title>
+  <meta name="description" content="Diese Notiz ordnet wichtige Theorien, Autor:innen und Begriffe für eine Promotion zu generativer KI, Rotoscoping und Postproduktion. Die Theorie sollte nicht als dekorativer Überbau dienen, sondern konkrete Beobachtungen an Workflows sch...">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+</head>
+<body class="note-page">
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-top">
+    <a class="brand" href="../index.html" aria-label="Startseite">
+      <span class="brand-mark" aria-hidden="true">DR</span>
+      <span><strong>Digital Rooms</strong><small>AI · Postproduktion · VFX</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Hauptnavigation">
+      <a href="../index.html">Atlas</a>
+      <a href="../links.html">Links</a>
+      <a href="../attachments.html">Rohquellen</a>
+      <a href="../pages/00-index--start-hier.html">Start hier</a>
+    </nav>
+  </header>
+  <div class="site-shell">
+    <aside class="side-nav" aria-label="Vault-Navigation">
+    <label class="search-box">
+      <span>Vault durchsuchen</span>
+      <input type="search" id="site-search" placeholder="Tool, Theorie, Paper, Claim...">
+    </label>
+    <div id="search-results" class="search-results" aria-live="polite"></div>
+    <div class="nav-tree"><details open>
+        <summary>Start <span>1</span></summary>
+        <div class="nav-links"><a href="00-index--start-hier.html">Digital Rooms, AI und Postproduktion</a></div>
+      </details><details >
+        <summary>System <span>6</span></summary>
+        <div class="nav-links"><a href="00-system--health-check.html">Health Check</a><a href="00-system--index.html">System Index</a><a href="00-system--log.html">System Log</a><a href="00-system--topic-lifecycle.html">Topic Lifecycle</a><a href="00-system--vault-operating-system.html">Vault Operating System</a><a href="00-system--workflows.html">Workflows</a></div>
+      </details><details >
+        <summary>Tools und Modelle <span>8</span></summary>
+        <div class="nav-links"><a href="01-tools-und-modelle--adobe-firefly-postproduktion.html">Adobe Firefly, Premiere und After Effects</a><a href="01-tools-und-modelle--foundry-nuke-ai.html">Foundry Nuke AI</a><a href="01-tools-und-modelle--kling-3.html">Kling 3.0</a><a href="01-tools-und-modelle--nano-banana-2-imagen.html">Nano Banana 2, Imagen 4 und Bildmodelle</a><a href="01-tools-und-modelle--runway-gen-4-5.html">Runway Gen4.5</a><a href="01-tools-und-modelle--seedance-2.html">Seedance 2.0</a><a href="01-tools-und-modelle--sora-2.html">Sora 2</a><a href="01-tools-und-modelle--tool-landschaft-2026.html">ToolLandschaft 2026</a></div>
+      </details><details >
+        <summary>Postproduktion <span>1</span></summary>
+        <div class="nav-links"><a href="02-postproduktion-workflows--bedeutung-fur-postproduktion.html">Bedeutung für Postproduktion</a></div>
+      </details><details >
+        <summary>Rotoscoping / VFX <span>1</span></summary>
+        <div class="nav-links"><a href="03-rotoscoping-ai-vfx--rotoscoping-und-ai-vfx.html">Rotoscoping und AI VFX</a></div>
+      </details><details >
+        <summary>Trends <span>1</span></summary>
+        <div class="nav-links"><a href="04-trends-und-vorreiter--trends-2026.html">Trends 2026: AI, VFX und Postproduktion</a></div>
+      </details><details >
+        <summary>Ethik, Recht, Provenance <span>1</span></summary>
+        <div class="nav-links"><a href="05-ethik-recht-provenance--recht-ethik-provenance.html">Recht, Ethik und Provenance</a></div>
+      </details><details >
+        <summary>Quellen <span>1</span></summary>
+        <div class="nav-links"><a href="06-quellen--quellenbibliothek.html">Quellenbibliothek</a></div>
+      </details><details >
+        <summary>Notion Sync <span>1</span></summary>
+        <div class="nav-links"><a href="07-notion-sync--notion-sync.html">Notion Sync</a></div>
+      </details><details >
+        <summary>Marktkarte <span>2</span></summary>
+        <div class="nav-links"><a href="08-marktkarte--fuhrende-firmen-studios-agenturen.html">Führende Firmen, Studios und Agenturen</a><a href="08-marktkarte--marktkarte-ai-postproduktion.html">Marktkarte AI Postproduktion</a></div>
+      </details><details >
+        <summary>Emerging Technologies <span>1</span></summary>
+        <div class="nav-links"><a href="09-emerging-technologies--emerging-technologies.html">Emerging Technologies</a></div>
+      </details><details >
+        <summary>Use Cases <span>1</span></summary>
+        <div class="nav-links"><a href="10-use-cases--use-cases-nach-produktionsphase.html">Use Cases nach Produktionsphase</a></div>
+      </details><details >
+        <summary>Best Practices <span>1</span></summary>
+        <div class="nav-links"><a href="11-best-practices--best-practice-workflows.html">Best Practice Workflows</a></div>
+      </details><details >
+        <summary>Skills und Rollen <span>1</span></summary>
+        <div class="nav-links"><a href="12-skills-und-rollen--skills-der-zukunft.html">Skills und Rollen der Zukunft</a></div>
+      </details><details >
+        <summary>Forschung / Papers <span>1</span></summary>
+        <div class="nav-links"><a href="13-forschung-papers--forschung-und-paper-pipeline.html">Forschung und Paper Pipeline</a></div>
+      </details><details >
+        <summary>Studium <span>1</span></summary>
+        <div class="nav-links"><a href="14-positionierung-studium--strategie-fur-studierende-ai-vfx-postproduktion.html">Strategie für Studierende: Positionierung in AI VFX und Postproduktion</a></div>
+      </details><details open>
+        <summary>Promotion <span>17</span></summary>
+        <div class="nav-links"><a href="15-promotion--begriffsapparat-promotion.html">Begriffsapparat</a><a href="15-promotion--fallstudien-und-experimente.html">Fallstudien und Experimente</a><a href="15-promotion--forschungsfragen-2.html">Forschungsfragen</a><a href="15-promotion--forschungsfragen.html">Forschungsfragen</a><a href="15-promotion--hypothesen-2.html">Hypothesen</a><a href="15-promotion--hypothesen.html">Hypothesen</a><a href="15-promotion--literatur-und-referenzfelder.html">Literatur und Referenzfelder</a><a href="15-promotion--manovich-und-generative-postproduktion.html">Manovich und generative Postproduktion</a><a href="15-promotion--methodik-research-through-design.html">Methodik: Research through Design</a><a href="15-promotion--mogliche-gliederung-2.html">Mögliche Gliederung</a><a href="15-promotion--mogliche-gliederung.html">Mögliche Gliederung</a><a href="15-promotion--promotion-index.html">Promotion: Digital Rooms und generative Bildräume</a><a href="15-promotion--promotionsformel-digital-rooms.html">Promotionsformel: Digital Rooms</a><a href="15-promotion--theorieachsen-2.html">Theorieachsen</a><a href="15-promotion--theorieachsen.html">Theorieachsen</a><a href="15-promotion--theorie-landkarte-ai-postproduktion.html" aria-current="page">TheorieLandkarte: AI, VFX und postproduktive Gestaltung</a><a href="15-promotion--theoriepositionen-erweiterung.html">Theoriepositionen: Erweiterung jenseits von Manovich</a></div>
+      </details><details >
+        <summary>Digital Image Space <span>12</span></summary>
+        <div class="nav-links"><a href="16-digital-image-space--digital-image-space-index.html">Digital Image Space und Digital Rooms</a><a href="16-digital-image-space--digital-image-space-begriff.html">Digital Image Space: Begriff</a><a href="16-digital-image-space--digital-rooms.html">Digital Rooms</a><a href="16-digital-image-space--digital-rooms-erweiterte-felder.html">Digital Rooms: Erweiterte Felder</a><a href="16-digital-image-space--image-space-und-indexikalitat.html">Image Space und Indexikalität</a><a href="16-digital-image-space--interface-als-bildraum.html">Interface als Bildraum</a><a href="16-digital-image-space--latent-space-als-gestaltungsraum.html">Latent Space als Gestaltungsraum</a><a href="16-digital-image-space--manovich-und-digital-image-space.html">Manovich und Digital Image Space</a><a href="16-digital-image-space--methodische-experimente-digital-image-space.html">Methodische Experimente: Digital Image Space</a><a href="16-digital-image-space--neural-rendering-und-raumliche-bilder.html">Neural Rendering und räumliche Bilder</a><a href="16-digital-image-space--operative-bildraume.html">Operative Bildräume</a><a href="16-digital-image-space--vom-frame-zur-szene.html">Vom Frame zur Szene</a></div>
+      </details><details >
+        <summary>System Files <span>3</span></summary>
+        <div class="nav-links"><a href="agents.html">AGENTS.md</a><a href="claude.html">CLAUDE.md</a><a href="github-pages.html">GitHub Pages Export</a></div>
+      </details><details >
+        <summary>Outputs <span>2</span></summary>
+        <div class="nav-links"><a href="outputs--notion--notion-abgleich-2026-05-16.html">Notion Abgleich 20260516</a><a href="outputs--readme.html">Outputs</a></div>
+      </details><details >
+        <summary>Raw Sources <span>1</span></summary>
+        <div class="nav-links"><a href="raw--readme.html">Raw Sources</a></div>
+      </details><details >
+        <summary>Review Layer <span>5</span></summary>
+        <div class="nav-links"><a href="review--claim-evidence-matrix.html">Claim Evidence Matrix</a><a href="review--gegenstimmen-register.html">Gegenstimmen Register</a><a href="review--readme.html">Review Layer</a><a href="review--digital-image-space-evidence.html">Review: Digital Image Space</a><a href="review--theorie-erweiterung-evidence.html">Review: TheorieErweiterung</a></div>
+      </details><details >
+        <summary>Research Wiki <span>15</span></summary>
+        <div class="nav-links"><a href="wiki--concepts--readme.html">Concepts</a><a href="wiki--sources--digital-image-space-ingest-2026-05-16.html">Digital Image Space Ingest, 16.05.2026</a><a href="wiki--syntheses--pressespiegel-ai-video-wave2-2026-05-16.html">Evidenzsynthese: Pressespiegel Wave 2, 16.05.2026</a><a href="wiki--operations--readme.html">Operations</a><a href="wiki--sources--pressespiegel-ai-video-governance-2026-05-16.html">Pressespiegel KI, 16.05.2026</a><a href="wiki--sources--pressespiegel-ai-video-wave2-2026-05-16.html">Pressespiegel Wave 2 mit Studienbasis, 16.05.2026</a><a href="wiki--index.html">Research Wiki Index</a><a href="wiki--sources--digital-rooms-erweiterung-ingest-2026-05-16.html">Source Ingest: Digital Rooms Erweiterung</a><a href="wiki--sources--readme.html">Sources</a><a href="wiki--syntheses--digital-image-space-2026-05-16.html">Synthese: Digital Image Space</a><a href="wiki--syntheses--pressespiegel-ai-video-governance-2026-05-16.html">Synthese: Pressespiegel KI, 16.05.2026</a><a href="wiki--syntheses--digital-rooms-promotion-shift-2026-05-16.html">Synthese: Promotionsshift zu Digital Rooms</a><a href="wiki--syntheses--readme.html">Syntheses</a><a href="wiki--sources--theorie-ingest-erweiterung-2026-05-16.html">TheorieIngest Erweiterung, 16.05.2026</a><a href="wiki--log.html">Wiki Log</a></div>
+      </details></div>
+  </aside>
+    <main id="main" class="main-content note-page">
+      <article class="article-page">
+    <header class="article-hero">
+      <p class="meta-line">Promotion · Compiled · 15_Promotion/Theorie_Landkarte_AI_Postproduktion.md</p>
+      <h1>TheorieLandkarte: AI, VFX und postproduktive Gestaltung</h1>
+      <p>Diese Notiz ordnet wichtige Theorien, Autor:innen und Begriffe für eine Promotion zu generativer KI, Rotoscoping und Postproduktion. Die Theorie sollte nicht als dekorativer Überbau dienen, sondern konkrete Beobachtungen an Workflows sch...</p>
+    </header>
+    <div class="article-layout">
+      <div class="article-body"><h1 id="theorielandkarte-ai-vfx-und-postproduktive-gestaltung">Theorie-Landkarte: AI, VFX und postproduktive Gestaltung</h1>
+<p>Tags: #theorie #promotion #medientheorie #software-studies #designforschung</p>
+<h2 id="ziel">Ziel</h2>
+<p>Diese Notiz ordnet wichtige Theorien, Autor:innen und Begriffe für eine Promotion zu generativer KI, Rotoscoping und Postproduktion. Die Theorie sollte nicht als dekorativer Überbau dienen, sondern konkrete Beobachtungen an Workflows schärfen: Wer oder was handelt? Wo liegt Kontrolle? Was gilt als Bild? Was wird automatisiert? Was bleibt Urteil?</p>
+<h2 id="1-software-studies-und-cultural-software">1. Software Studies und Cultural Software</h2>
+<h3 id="lev-manovich">Lev Manovich</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Cultural Software.</li>
+<li>Software Takes Command.</li>
+<li>Database Logic.</li>
+<li>Deep Remixability.</li>
+<li>Cultural Analytics.</li>
+<li>AI Aesthetics.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Postproduktionssoftware als kulturelle Produktionslogik.</li>
+<li>AI als Erweiterung von Softwarekultur: nicht nur Operation, sondern Generierung.</li>
+<li>AI-Look als Ergebnis von Modell-, Interface- und Datenbanklogiken.</li>
+</ul>
+<p>Verknüpfte Notiz:</p>
+<ul>
+<li><a href="15-promotion--manovich-und-generative-postproduktion.html">Manovich und generative Postproduktion</a></li>
+<li><a href="16-digital-image-space--manovich-und-digital-image-space.html">Manovich und Digital Image Space</a></li>
+</ul>
+<h2 id="2-technisches-bild-apparat-und-programm">2. Technisches Bild, Apparat und Programm</h2>
+<h3 id="vilem-flusser">Vilém Flusser</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>technisches Bild.</li>
+<li>Apparat.</li>
+<li>Programm.</li>
+<li>Funktionär.</li>
+<li>Black Box.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Tools als Apparate mit programmierten Möglichkeitsräumen.</li>
+<li>Artists als Funktionär:innen und Spielende im Programm des Apparats.</li>
+<li>Prompting als Spiel mit einem Black-Box-System.</li>
+<li>Rotoscoping als Praxis, die Apparate sichtbar macht: Kante, Objekt, Vordergrund und Hintergrund sind nicht naturgegeben.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wie verändert generative KI Flussers technischen Apparat, wenn der Apparat nicht nur Bilder aufnimmt, sondern Bilder synthetisiert?</blockquote>
+<h2 id="3-operational-images-und-machine-vision">3. Operational Images und Machine Vision</h2>
+<h3 id="harun-farocki-jussi-parikka">Harun Farocki / Jussi Parikka</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>operational image.</li>
+<li>machine vision.</li>
+<li>Bilder als Teil einer Operation statt Repräsentation.</li>
+<li>Invisualität / Bilder für Maschinen.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Mattes, Depth Maps, Segmentation Masks und Tracking-Daten sind operative Bilder.</li>
+<li>Sie sind nicht primär für Betrachtung, sondern für Weiterverarbeitung gemacht.</li>
+<li>Rotoscoping wird dadurch als Arbeit mit operationalen Zwischenbildern lesbar.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Was passiert, wenn Postproduktion zunehmend mit Bildern arbeitet, die nicht für Menschen, sondern für Maschinen und Pipelines erzeugt werden?</blockquote>
+<h2 id="4-humanmachine-interaction-und-situated-action">4. Human-Machine Interaction und Situated Action</h2>
+<h3 id="lucy-suchman">Lucy Suchman</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>situated action.</li>
+<li>human-machine reconfigurations.</li>
+<li>Kritik planbasierter KI.</li>
+<li>Agency am Interface.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Postproduktion ist nicht einfach Plan-Ausführung: Prompts, Outputs, Fehler und Korrekturen entstehen situativ.</li>
+<li>Die menschliche Handlung wird am Interface neu konfiguriert.</li>
+<li>AI-Workflows sind iterative Aushandlungen statt lineare Automatisierung.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wie lässt sich Prompting als situated action beschreiben, wenn der Plan erst im Umgang mit Modellfehlern und Bildartefakten entsteht?</blockquote>
+<h2 id="5-posthumanismus-kognition-und-assemblagen">5. Posthumanismus, Kognition und Assemblagen</h2>
+<h3 id="n-katherine-hayles">N. Katherine Hayles</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>posthuman.</li>
+<li>embodiment vs. information.</li>
+<li>cognitive assemblage.</li>
+<li>distributed cognition.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Bildarbeit entsteht in Assemblagen aus Artist, Tool, Modell, Interface, Daten, Prompt, Pipeline und Review.</li>
+<li>Das menschliche Urteil bleibt verkörpert und situiert, auch wenn Information und Bildoperationen algorithmisch werden.</li>
+<li>Gegen die naive Idee, Kreativität werde einfach in Daten ausgelagert.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wie verändert AI VFX die kognitive Arbeit von Postproduktion, wenn Urteil, Wahrnehmung und Operation über Mensch-Maschine-Assemblagen verteilt werden?</blockquote>
+<h2 id="6-software-gewohnheit-und-programmierbarkeit">6. Software, Gewohnheit und Programmierbarkeit</h2>
+<h3 id="wendy-hui-kyong-chun">Wendy Hui Kyong Chun</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>programmability.</li>
+<li>software as memory.</li>
+<li>habitual new media.</li>
+<li>Kontrolle und Freiheit.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Interfaces erzeugen Gewohnheiten: bestimmte Prompts, Looks, Workarounds, Fehlerdiagnosen.</li>
+<li>Plattformen stabilisieren visuelle und arbeitspraktische Routinen.</li>
+<li>Software erscheint flexibel, kanalisiert aber Verhalten.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche Gewohnheiten und Defaults entstehen durch AI-Postproduktionssoftware, und wie formen sie ästhetische Entscheidungen?</blockquote>
+<h2 id="7-arbeit-automatisierung-und-lernraume">7. Arbeit, Automatisierung und Lernräume</h2>
+<h3 id="shoshana-zuboff">Shoshana Zuboff</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>automate / informate.</li>
+<li>abstraction of work.</li>
+<li>division of learning.</li>
+<li>computer-mediated work.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI automatisiert Roto, Cleanup oder Logging nicht nur, sondern macht Arbeit zugleich messbar, steuerbar und abstrakter.</li>
+<li>Expertise verschiebt sich von Ausführung zu Überwachung, Bewertung und Prozesssteuerung.</li>
+<li>Junior-Arbeit und Lernwege müssen neu gedacht werden.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wird AI-Postproduktion vor allem automatisiert oder informatisiert, also in neue Daten-, Kontroll- und Lernstrukturen überführt?</blockquote>
+<h2 id="8-ai-als-infrastruktur-arbeit-und-extraktion">8. AI als Infrastruktur, Arbeit und Extraktion</h2>
+<h3 id="kate-crawford-trevor-paglen">Kate Crawford / Trevor Paglen</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>AI as infrastructure.</li>
+<li>data labor.</li>
+<li>planetary costs.</li>
+<li>training sets as politics of images.</li>
+<li>datasets as cultural extraction.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI VFX ist nicht nur Interface und Output, sondern basiert auf Daten, Arbeit, Energie, Infrastruktur und Macht.</li>
+<li>Trainingsdaten und Referenzmaterialien sind kulturell und rechtlich nicht neutral.</li>
+<li>Postproduktion muss Provenance auch als Infrastrukturfrage verstehen.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche unsichtbaren Arbeits-, Daten- und Infrastrukturbedingungen stecken in scheinbar schnellen AI-Postproduktionsoutputs?</blockquote>
+<h2 id="9-nonhuman-photography-und-ai-art">9. Nonhuman Photography und AI Art</h2>
+<h3 id="joanna-zylinska">Joanna Zylinska</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>nonhuman photography.</li>
+<li>machine vision.</li>
+<li>AI art.</li>
+<li>perception machines.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Bilder sind nicht einfach menschliche Bilder mit anderem Werkzeug.</li>
+<li>Sehen, Erzeugen und Bewerten werden zwischen menschlichen und nichtmenschlichen Akteuren verteilt.</li>
+<li>VFX eignet sich besonders, weil dort menschliche Wahrnehmung und maschinelle Bildoperationen eng verschränkt sind.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche Formen nichtmenschlicher Bildproduktion tauchen in AI-VFX-Workflows auf, und wie werden sie menschlich kuratiert?</blockquote>
+<h2 id="10-research-through-design-und-reflektierende-praxis">10. Research through Design und reflektierende Praxis</h2>
+<h3 id="christopher-frayling-zimmerman-forlizzi-stolterman-bill-gaver-donald-schon">Christopher Frayling / Zimmerman, Forlizzi, Stolterman / Bill Gaver / Donald Schön</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>research into / for / through design.</li>
+<li>reflection-in-action.</li>
+<li>reflection-on-action.</li>
+<li>knowing-in-action.</li>
+<li>design artifacts as theory-building.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Eigene AI-VFX-Experimente können Erkenntnis produzieren.</li>
+<li>Workflow-Prototypen, Vergleichstafeln und audiovisuelle Tests sind nicht nur Illustration, sondern Forschungsmaterial.</li>
+<li>Fehler, Artefakte und Korrekturen werden methodisch relevant.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche Erkenntnisse entstehen erst durch das Bauen und Testen hybrider AI-Postproduktionsworkflows?</blockquote>
+<h2 id="11-humanai-cocreation-und-creative-ai">11. Human-AI Co-Creation und Creative AI</h2>
+<h3 id="hci-cocreative-systems">HCI / Co-Creative Systems</h3>
+<p>Relevante Ansätze:</p>
+<ul>
+<li>COFI Framework.</li>
+<li>Human-AI co-creativity as joint search.</li>
+<li>iterative cycles of proposal, critique and revision.</li>
+<li>user control, system initiative, explainability.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI VFX kann als Co-Creation beschrieben werden, aber nur, wenn Kontrolle, Initiative und Bewertung differenziert betrachtet werden.</li>
+<li>Rotoscoping ist ein guter Gegenfall zur romantischen Co-Creation: Hier zählt Präzision, nicht nur Inspiration.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Ist AI-Rotoscoping Co-Creation, Assistenz oder operative Automatisierung?</blockquote>
+<h2 id="12-bildwahrheit-indexikalitat-und-synthetische-medien">12. Bildwahrheit, Indexikalität und synthetische Medien</h2>
+<p>Relevante Linien:</p>
+<ul>
+<li>Fototheorie.</li>
+<li>VFX Studies.</li>
+<li>Medienforensik.</li>
+<li>Provenance-Theorie.</li>
+<li>C2PA-Kritik.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>VFX war schon immer eine Praxis zwischen Aufnahme und Konstruktion.</li>
+<li>Generative KI verschiebt die Grenze, weil sie Bildanteile erzeugt, die weder klassische Aufnahme noch klassische Retusche sind.</li>
+<li>Provenance wird zur epistemischen Infrastruktur.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wie verändert sich der Status von Footage, wenn Aufnahme, Retusche, Simulation und Generierung in einem Shot zusammenfallen?</blockquote>
+<h2 id="13-medienmaterialismus-und-technische-bedingungen">13. Medienmaterialismus und technische Bedingungen</h2>
+<h3 id="friedrich-kittler">Friedrich Kittler</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Speicher, Übertragung, Verarbeitung.</li>
+<li>technische Medien.</li>
+<li>Materialität der Signalverarbeitung.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Postproduktion ist nicht nur kreative Bildarbeit, sondern abhängig von Speicherformaten, Codecs, Rechenmodellen, Interfaces, Cloud-Infrastruktur und Pipeline-Standards.</li>
+<li>AI VFX kann als Verschiebung medientechnischer Bedingungen beschrieben werden: von Pixelbearbeitung zu Modell-, Daten- und Inferenzsystemen.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche technischen Bedingungen machen bestimmte Formen postproduktiver Bildarbeit überhaupt erst möglich?</blockquote>
+<h2 id="14-bildzirkulation-und-politische-asthetik">14. Bildzirkulation und politische Ästhetik</h2>
+<h3 id="hito-steyerl">Hito Steyerl</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Poor Image.</li>
+<li>Zirkulation.</li>
+<li>Kompression.</li>
+<li>Bildökonomie.</li>
+<li>Sichtbarkeit und Macht.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Bilder zirkulieren als glatte, synthetische oder slopartige Bilder durch Plattformen.</li>
+<li>Steyerl hilft, den AI-Look nicht nur ästhetisch, sondern politisch-ökonomisch zu lesen.</li>
+<li>Besonders stark für die Gegenüberstellung von Poor Image und Synthetic Image.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wird das AI-Bild zur neuen Form zirkulierender Bildarmut: hochaufgelöst, aber ästhetisch und politisch verarmt?</blockquote>
+<h2 id="15-graphesis-capta-und-interfacewissen">15. Graphesis, Capta und Interface-Wissen</h2>
+<h3 id="johanna-drucker">Johanna Drucker</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>capta statt data.</li>
+<li>Graphesis.</li>
+<li>Visualisierung als interpretative Form.</li>
+<li>Interface als epistemische Struktur.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Mattes, Prompts, Trainingsdaten und Provenance sind nicht einfach gegeben, sondern gemacht, gerahmt und interpretiert.</li>
+<li>Digital Image Space kann als Raum von Capta gelesen werden: als erfasste, strukturierte und interpretierte Bilddaten.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Was ändert sich, wenn wir AI-Bilddaten nicht als data, sondern als capta verstehen?</blockquote>
+<h2 id="16-stack-plattform-und-planetare-computation">16. Stack, Plattform und planetare Computation</h2>
+<h3 id="benjamin-bratton">Benjamin Bratton</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>The Stack.</li>
+<li>planetary-scale computation.</li>
+<li>Cloud, interface, user, address, city, earth.</li>
+<li>computation as governance.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Postproduktion ist Teil einer größeren Rechen- und Plattformarchitektur.</li>
+<li>Digital Image Space kann als Schicht im Stack gelesen werden: Modell, Cloud, Interface, Asset, User, Rechte und Infrastruktur.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche Stack-Schichten ermöglichen und kontrollieren AI-Postproduktion?</blockquote>
+<h2 id="17-interface-protocol-und-softwarekultur">17. Interface, Protocol und Softwarekultur</h2>
+<h3 id="alexander-galloway-matthew-fuller-florian-cramer">Alexander Galloway / Matthew Fuller / Florian Cramer</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Interface Effect.</li>
+<li>Protocol.</li>
+<li>Software Studies.</li>
+<li>Interface-Kritik.</li>
+<li>kulturelle Logik von Software.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Prompt Box, API, Timeline, Node Graph und Varianten-Galerie sind nicht neutrale Oberflächen.</li>
+<li>Sie legen nahe, was als Handlung, Kontrolle, Fehler oder Variation gilt.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wie formen Interfaces und Protokolle die scheinbar freie Kreativität generativer Postproduktion?</blockquote>
+<h2 id="18-technische-exteriorisierung-und-lernraume">18. Technische Exteriorisierung und Lernräume</h2>
+<h3 id="bernard-stiegler">Bernard Stiegler</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Technics and Time.</li>
+<li>Exteriorisierung.</li>
+<li>Proletarisierung.</li>
+<li>Deproletarisierung.</li>
+<li>Aufmerksamkeit.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Tools exteriorisieren Bildwissen in Modelle und Workflows.</li>
+<li>Roto, Cleanup und Logging als Lernräume können verschwinden.</li>
+<li>Die zentrale Frage wird, wie Bildwissen wieder angeeignet und nicht nur automatisiert wird.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wann führt AI-Postproduktion zu Proletarisierung von Bildwissen, und wann zu neuer Deproletarisierung durch reflektierte Praxis?</blockquote>
+<h2 id="19-verteilte-agency-und-apparatus">19. Verteilte Agency und Apparatus</h2>
+<h3 id="latour-barad-haraway">Latour / Barad / Haraway</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>Actor-Network Theory.</li>
+<li>distributed agency.</li>
+<li>apparatus.</li>
+<li>intra-action.</li>
+<li>situated knowledges.</li>
+<li>Cyborg.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>Handlung in AI VFX liegt nicht nur beim Menschen oder beim Modell.</li>
+<li>Kante, Matte, Objekt und Vordergrund entstehen in Netzwerken aus Tools, Daten, Interface, Artist, Modell und Freigabepraxis.</li>
+<li>Situiertes Wissen schützt vor der Illusion eines neutralen AI-Blicks.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Wer oder was handelt, wenn ein AI-VFX-Shot entsteht?</blockquote>
+<h2 id="20-technikphilosophie-und-medienarchaologie">20. Technikphilosophie und Medienarchäologie</h2>
+<h3 id="simondon-yuk-hui-gunning-huhtamo">Simondon / Yuk Hui / Gunning / Huhtamo</h3>
+<p>Kernbegriffe:</p>
+<ul>
+<li>technische Individuation.</li>
+<li>technische Milieus.</li>
+<li>Cosmotechnics.</li>
+<li>Apparatus.</li>
+<li>Medienarchäologie.</li>
+</ul>
+<p>Nutzen für die Promotion:</p>
+<ul>
+<li>AI-Tools können als sich entwickelnde technische Objekte verstanden werden.</li>
+<li>Digital Image Space muss nicht als universale Techno-Logik gelesen werden, sondern als kulturell und historisch spezifische Bildordnung.</li>
+<li>AI-Video wird in historische Linien von Panorama, Compositing, optischen Apparaten, VR/AR und Illusionsräumen eingeordnet.</li>
+</ul>
+<p>Starke Anschlussfrage:</p>
+<blockquote>Welche älteren Bildmaschinen kehren in AI-Video und Digital Image Space wieder?</blockquote>
+<h2 id="priorisierte-theoriekombination-fur-die-promotion">Priorisierte Theorie-Kombination für die Promotion</h2>
+<h3 id="kern">Kern</h3>
+<ol>
+<li>Manovich: Software als kulturelle Produktionslogik und Digital Image Space.</li>
+<li>Farocki/Parikka: Operational Images.</li>
+<li>Drucker: Capta, Interface und Visualisierung.</li>
+<li>Suchman: Situated Action und Human-Machine Reconfiguration.</li>
+<li>Research through Design / Schön: Praxis als Erkenntnis.</li>
+</ol>
+<h3 id="erganzend">Ergänzend</h3>
+<ol>
+<li>Flusser: Apparat, technisches Bild, Programm.</li>
+<li>Steyerl: Bildzirkulation, Poor Image, politische Ästhetik.</li>
+<li>Stiegler oder Zuboff: Automatisierung, Informatisierung, Lernräume.</li>
+<li>Crawford/Paglen/Bratton: Infrastruktur, Daten, Macht, Stack.</li>
+<li>Hayles/Chun/Zylinska: Assemblagen, Gewohnheit, Nonhuman Photography.</li>
+</ol>
+<h3 id="referenzhorizont">Referenzhorizont</h3>
+<ol>
+<li>Kittler: medientechnische Bedingungen.</li>
+<li>Latour/Barad/Haraway: Agency, Apparatus, situiertes Wissen.</li>
+<li>Bazin/Barthes/Sontag: Indexikalität und fotografische Spur.</li>
+<li>Simondon/Yuk Hui: Technikphilosophie und Cosmotechnics.</li>
+<li>Gunning/Huhtamo: Apparatus und Medienarchäologie.</li>
+</ol>
+<h2 id="quellen">Quellen</h2>
+<ul>
+<li>Lev Manovich: Cultural Software: <a href="https://manovich.net/index.php/projects/cultural-software" target="_blank" rel="noopener noreferrer">https://manovich.net/index.php/projects/cultural-software</a></li>
+<li>Lev Manovich: Separate and Reassemble: Generative AI and Media History: <a href="https://manovich.net/content/separate-and-reassemble-generative-ai-and-media-history/separate-and-reassemble-generative-ai-and-media-history.pdf" target="_blank" rel="noopener noreferrer">https://manovich.net/content/separate-and-reassemble-generative-ai-and-media-history/separate-and-reassemble-generative-ai-and-media-history.pdf</a></li>
+<li>Vilém Flusser: Technical Images / Apparatus, Flusser Wiki: <a href="https://wiki.flusser.club/doku.php?id=technical_images" target="_blank" rel="noopener noreferrer">https://wiki.flusser.club/doku.php?id=technical_images</a></li>
+<li>Wendy Hui Kyong Chun: Programmed Visions, MIT Press: <a href="https://mitpress.mit.edu/9780262518512/programmed-visions/" target="_blank" rel="noopener noreferrer">https://mitpress.mit.edu/9780262518512/programmed-visions/</a></li>
+<li>N. Katherine Hayles: How We Became Posthuman, University of Chicago Press: <a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html" target="_blank" rel="noopener noreferrer">https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html</a></li>
+<li>Jussi Parikka: Operational Images, University of Minnesota Press: <a href="https://manifold.umn.edu/projects/operational-images" target="_blank" rel="noopener noreferrer">https://manifold.umn.edu/projects/operational-images</a></li>
+<li>Kate Crawford: Atlas of AI: <a href="https://en.wikipedia.org/wiki/Atlas_of_AI" target="_blank" rel="noopener noreferrer">https://en.wikipedia.org/wiki/Atlas_of_AI</a></li>
+<li>Joanna Zylinska: AI Art: Machine Visions and Warped Dreams: <a href="https://www.openhumanitiespress.org/books/download/Zylinska_2020_AI-Art.pdf" target="_blank" rel="noopener noreferrer">https://www.openhumanitiespress.org/books/download/Zylinska_2020_AI-Art.pdf</a></li>
+<li>Lucy Suchman: Human-Machine Reconfigurations / Plans and Situated Actions: <a href="https://www.si.edu/object/siris_sil_1053515" target="_blank" rel="noopener noreferrer">https://www.si.edu/object/siris_sil_1053515</a></li>
+<li>Research through Co-Design, Design Science: <a href="https://www.cambridge.org/core/journals/design-science/article/research-through-codesign/AE7CBA81694E7BF8F406243D9AE48A24" target="_blank" rel="noopener noreferrer">https://www.cambridge.org/core/journals/design-science/article/research-through-codesign/AE7CBA81694E7BF8F406243D9AE48A24</a></li>
+<li>COFI Framework for Human-AI Co-Creative Systems: <a href="https://colab.ws/articles/10.1145/3519026" target="_blank" rel="noopener noreferrer">https://colab.ws/articles/10.1145/3519026</a></li>
+<li>Johanna Drucker: Humanities Approaches to Graphical Display: <a href="https://www.digitalhumanities.org/dhqdev/vol/5/1/000091/000091.html" target="_blank" rel="noopener noreferrer">https://www.digitalhumanities.org/dhqdev/vol/5/1/000091/000091.html</a></li>
+<li>Benjamin Bratton: The Stack, MIT Press: <a href="https://direct.mit.edu/books/monograph/3504/The-StackOn-Software-and-Sovereignty" target="_blank" rel="noopener noreferrer">https://direct.mit.edu/books/monograph/3504/The-StackOn-Software-and-Sovereignty</a></li>
+<li>Hito Steyerl: In Defense of the Poor Image: <a href="https://www.paradigmtrilogy.com/assets/documents/issue-02/hito-steyerl-in-defense-of-the-poor-image.pdf" target="_blank" rel="noopener noreferrer">https://www.paradigmtrilogy.com/assets/documents/issue-02/hito-steyerl-in-defense-of-the-poor-image.pdf</a></li>
+<li>Alexander Galloway: The Interface Effect: <a href="https://tc3.canopycanopycanopy.com/contents/the-interface-effect" target="_blank" rel="noopener noreferrer">https://tc3.canopycanopycanopy.com/contents/the-interface-effect</a></li>
+<li>Donna Haraway: Situated Knowledges: <a href="https://commons.princeton.edu/hum583-f21/wp-content/uploads/sites/283/2021/08/Haraway-Situated-Knowledges.pdf" target="_blank" rel="noopener noreferrer">https://commons.princeton.edu/hum583-f21/wp-content/uploads/sites/283/2021/08/Haraway-Situated-Knowledges.pdf</a></li>
+<li>Yuk Hui: Art and Cosmotechnics: <a href="https://neural.it/2022/08/yuk-hui-art-and-cosmotechnics/" target="_blank" rel="noopener noreferrer">https://neural.it/2022/08/yuk-hui-art-and-cosmotechnics/</a></li>
+<li>Simondon overview: On the Mode of Existence of Technical Objects: <a href="https://www.boundary2.org/2018/11/existenceoftechnicalobjects/" target="_blank" rel="noopener noreferrer">https://www.boundary2.org/2018/11/existenceoftechnicalobjects/</a></li>
+</ul></div>
+      <aside class="article-meta">
+        <section>
+          <h2>Auf dieser Seite</h2>
+          <div class="toc"><a class="h2" href="#ziel">Ziel</a><a class="h2" href="#1-software-studies-und-cultural-software">1. Software Studies und Cultural Software</a><a class="h3" href="#lev-manovich">Lev Manovich</a><a class="h2" href="#2-technisches-bild-apparat-und-programm">2. Technisches Bild, Apparat und Programm</a><a class="h3" href="#vilem-flusser">Vilém Flusser</a><a class="h2" href="#3-operational-images-und-machine-vision">3. Operational Images und Machine Vision</a><a class="h3" href="#harun-farocki-jussi-parikka">Harun Farocki / Jussi Parikka</a><a class="h2" href="#4-humanmachine-interaction-und-situated-action">4. HumanMachine Interaction und Situated Action</a><a class="h3" href="#lucy-suchman">Lucy Suchman</a><a class="h2" href="#5-posthumanismus-kognition-und-assemblagen">5. Posthumanismus, Kognition und Assemblagen</a><a class="h3" href="#n-katherine-hayles">N. Katherine Hayles</a><a class="h2" href="#6-software-gewohnheit-und-programmierbarkeit">6. Software, Gewohnheit und Programmierbarkeit</a><a class="h3" href="#wendy-hui-kyong-chun">Wendy Hui Kyong Chun</a><a class="h2" href="#7-arbeit-automatisierung-und-lernraume">7. Arbeit, Automatisierung und Lernräume</a><a class="h3" href="#shoshana-zuboff">Shoshana Zuboff</a><a class="h2" href="#8-ai-als-infrastruktur-arbeit-und-extraktion">8. AI als Infrastruktur, Arbeit und Extraktion</a><a class="h3" href="#kate-crawford-trevor-paglen">Kate Crawford / Trevor Paglen</a><a class="h2" href="#9-nonhuman-photography-und-ai-art">9. Nonhuman Photography und AI Art</a><a class="h3" href="#joanna-zylinska">Joanna Zylinska</a><a class="h2" href="#10-research-through-design-und-reflektierende-praxis">10. Research through Design und reflektierende Praxis</a><a class="h3" href="#christopher-frayling-zimmerman-forlizzi-stolterman-bill-gaver-donald-schon">Christopher Frayling / Zimmerman, Forlizzi, Stolterman / Bill Gaver / Donald Schön</a><a class="h2" href="#11-humanai-cocreation-und-creative-ai">11. HumanAI CoCreation und Creative AI</a><a class="h3" href="#hci-cocreative-systems">HCI / CoCreative Systems</a><a class="h2" href="#12-bildwahrheit-indexikalitat-und-synthetische-medien">12. Bildwahrheit, Indexikalität und synthetische Medien</a><a class="h2" href="#13-medienmaterialismus-und-technische-bedingungen">13. Medienmaterialismus und technische Bedingungen</a><a class="h3" href="#friedrich-kittler">Friedrich Kittler</a><a class="h2" href="#14-bildzirkulation-und-politische-asthetik">14. Bildzirkulation und politische Ästhetik</a><a class="h3" href="#hito-steyerl">Hito Steyerl</a><a class="h2" href="#15-graphesis-capta-und-interfacewissen">15. Graphesis, Capta und InterfaceWissen</a><a class="h3" href="#johanna-drucker">Johanna Drucker</a><a class="h2" href="#16-stack-plattform-und-planetare-computation">16. Stack, Plattform und planetare Computation</a><a class="h3" href="#benjamin-bratton">Benjamin Bratton</a><a class="h2" href="#17-interface-protocol-und-softwarekultur">17. Interface, Protocol und Softwarekultur</a><a class="h3" href="#alexander-galloway-matthew-fuller-florian-cramer">Alexander Galloway / Matthew Fuller / Florian Cramer</a><a class="h2" href="#18-technische-exteriorisierung-und-lernraume">18. Technische Exteriorisierung und Lernräume</a><a class="h3" href="#bernard-stiegler">Bernard Stiegler</a><a class="h2" href="#19-verteilte-agency-und-apparatus">19. Verteilte Agency und Apparatus</a><a class="h3" href="#latour-barad-haraway">Latour / Barad / Haraway</a><a class="h2" href="#20-technikphilosophie-und-medienarchaologie">20. Technikphilosophie und Medienarchäologie</a><a class="h3" href="#simondon-yuk-hui-gunning-huhtamo">Simondon / Yuk Hui / Gunning / Huhtamo</a><a class="h2" href="#priorisierte-theoriekombination-fur-die-promotion">Priorisierte TheorieKombination für die Promotion</a><a class="h3" href="#kern">Kern</a><a class="h3" href="#erganzend">Ergänzend</a><a class="h3" href="#referenzhorizont">Referenzhorizont</a><a class="h2" href="#quellen">Quellen</a></div>
+        </section>
+        <section>
+          <h2>Interne Links</h2>
+          <ul><li><a href="15-promotion--manovich-und-generative-postproduktion.html">Manovich und generative Postproduktion</a><small>Promotion</small></li><li><a href="16-digital-image-space--manovich-und-digital-image-space.html">Manovich und Digital Image Space</a><small>Digital Image Space</small></li></ul>
+        </section>
+        <section>
+          <h2>Backlinks</h2>
+          <ul><li><a href="00-index--start-hier.html">Digital Rooms, AI und Postproduktion</a><small>Start</small></li><li><a href="15-promotion--promotion-index.html">Promotion: Digital Rooms und generative Bildräume</a><small>Promotion</small></li><li><a href="16-digital-image-space--digital-image-space-index.html">Digital Image Space und Digital Rooms</a><small>Digital Image Space</small></li></ul>
+        </section>
+        <section>
+          <h2>Externe Quellen</h2>
+          <ul><li><a href="https://manovich.net/index.php/projects/cultural-software" target="_blank" rel="noopener noreferrer">manovich.net</a><small>https://manovich.net/index.php/projects/cultural-software</small></li><li><a href="https://manovich.net/content/separate-and-reassemble-generative-ai-and-media-history/separate-and-reassemble-generative-ai-and-media-history.pdf" target="_blank" rel="noopener noreferrer">manovich.net</a><small>https://manovich.net/content/separate-and-reassemble-generative-ai-and-media-history/separate-and-reassemble-generative-ai-and-media-history.pdf</small></li><li><a href="https://wiki.flusser.club/doku.php?id=technical_images" target="_blank" rel="noopener noreferrer">wiki.flusser.club</a><small>https://wiki.flusser.club/doku.php?id=technical_images</small></li><li><a href="https://mitpress.mit.edu/9780262518512/programmed-visions/" target="_blank" rel="noopener noreferrer">mitpress.mit.edu</a><small>https://mitpress.mit.edu/9780262518512/programmed-visions/</small></li><li><a href="https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html" target="_blank" rel="noopener noreferrer">press.uchicago.edu</a><small>https://press.uchicago.edu/ucp/books/book/chicago/H/bo3769963.html</small></li><li><a href="https://manifold.umn.edu/projects/operational-images" target="_blank" rel="noopener noreferrer">manifold.umn.edu</a><small>https://manifold.umn.edu/projects/operational-images</small></li><li><a href="https://en.wikipedia.org/wiki/Atlas_of_AI" target="_blank" rel="noopener noreferrer">en.wikipedia.org</a><small>https://en.wikipedia.org/wiki/Atlas_of_AI</small></li><li><a href="https://www.openhumanitiespress.org/books/download/Zylinska_2020_AI-Art.pdf" target="_blank" rel="noopener noreferrer">openhumanitiespress.org</a><small>https://www.openhumanitiespress.org/books/download/Zylinska_2020_AI-Art.pdf</small></li><li><a href="https://www.si.edu/object/siris_sil_1053515" target="_blank" rel="noopener noreferrer">si.edu</a><small>https://www.si.edu/object/siris_sil_1053515</small></li><li><a href="https://www.cambridge.org/core/journals/design-science/article/research-through-codesign/AE7CBA81694E7BF8F406243D9AE48A24" target="_blank" rel="noopener noreferrer">cambridge.org</a><small>https://www.cambridge.org/core/journals/design-science/article/research-through-codesign/AE7CBA81694E7BF8F406243D9AE48A24</small></li><li><a href="https://colab.ws/articles/10.1145/3519026" target="_blank" rel="noopener noreferrer">colab.ws</a><small>https://colab.ws/articles/10.1145/3519026</small></li><li><a href="https://www.digitalhumanities.org/dhqdev/vol/5/1/000091/000091.html" target="_blank" rel="noopener noreferrer">digitalhumanities.org</a><small>https://www.digitalhumanities.org/dhqdev/vol/5/1/000091/000091.html</small></li><li><a href="https://direct.mit.edu/books/monograph/3504/The-StackOn-Software-and-Sovereignty" target="_blank" rel="noopener noreferrer">direct.mit.edu</a><small>https://direct.mit.edu/books/monograph/3504/The-StackOn-Software-and-Sovereignty</small></li><li><a href="https://www.paradigmtrilogy.com/assets/documents/issue-02/hito-steyerl-in-defense-of-the-poor-image.pdf" target="_blank" rel="noopener noreferrer">paradigmtrilogy.com</a><small>https://www.paradigmtrilogy.com/assets/documents/issue-02/hito-steyerl-in-defense-of-the-poor-image.pdf</small></li><li><a href="https://tc3.canopycanopycanopy.com/contents/the-interface-effect" target="_blank" rel="noopener noreferrer">tc3.canopycanopycanopy.com</a><small>https://tc3.canopycanopycanopy.com/contents/the-interface-effect</small></li><li><a href="https://commons.princeton.edu/hum583-f21/wp-content/uploads/sites/283/2021/08/Haraway-Situated-Knowledges.pdf" target="_blank" rel="noopener noreferrer">commons.princeton.edu</a><small>https://commons.princeton.edu/hum583-f21/wp-content/uploads/sites/283/2021/08/Haraway-Situated-Knowledges.pdf</small></li><li><a href="https://neural.it/2022/08/yuk-hui-art-and-cosmotechnics/" target="_blank" rel="noopener noreferrer">neural.it</a><small>https://neural.it/2022/08/yuk-hui-art-and-cosmotechnics/</small></li><li><a href="https://www.boundary2.org/2018/11/existenceoftechnicalobjects/" target="_blank" rel="noopener noreferrer">boundary2.org</a><small>https://www.boundary2.org/2018/11/existenceoftechnicalobjects/</small></li></ul>
+        </section>
+      </aside>
+    </div>
+  </article>
+    </main>
+  </div>
+  <script src="../assets/search-index.js"></script>
+  <script src="../assets/search.js"></script>
+</body>
+</html>
