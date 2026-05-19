@@ -19,6 +19,8 @@ Der Output landet in `docs/`:
 - `docs/assets/daily-thesis.js` fuer die These des Tages
 - `docs/site-manifest.json` als maschinenlesbarer Exportbericht
 
+Der Export ist eine oeffentliche Inhaltsschicht. Interne Betriebs-, Sync-, System- und Workflow-Notizen bleiben im Repository, werden aber vor dem Rendern aus Markdown, Suche, Backlinks und Linklisten herausgefiltert.
+
 ## Auf GitHub veroeffentlichen
 
 ### Empfohlen: Branch `gh-pages`
@@ -44,6 +46,6 @@ Der Workflow kann auch ueber `Actions -> Publish GitHub Pages -> Run workflow` m
 
 ## Inhaltliche Logik
 
-Markdown bleibt die Quelle der Wahrheit. Die Seite loest Obsidian-Wikilinks auf, extrahiert externe URLs, erzeugt Backlinks, kopiert lokale `raw/assets`-Dateien und macht alles ueber eine statische Suche auffindbar.
+Markdown bleibt die Quelle der Wahrheit. Die Seite loest Obsidian-Wikilinks auf, extrahiert externe URLs, erzeugt Backlinks, kopiert lokale `raw/assets`-Dateien und macht die oeffentlichen Inhaltsnotizen ueber eine statische Suche auffindbar.
 
 Zusaetzlich kuratiert der Generator Stränge wie `Digital Rooms als Promotionskern`, `Tool- und Modellradar`, `Evidence Layer` oder `Provenance, Recht und Verantwortung`. Jede passende Notiz zeigt ihre Strang-Mitgliedschaft inklusive Vor/Zurueck-Navigation. Die `These des Tages` wird clientseitig aus einer festen Thesenliste anhand des lokalen Datums gewaehlt und mit der jeweiligen Vault-Quelle verlinkt.

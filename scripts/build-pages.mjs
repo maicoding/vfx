@@ -226,6 +226,104 @@ const dailyTheses = [
 ];
 
 const ignoreDirs = new Set([".obsidian", "docs", "scripts"]);
+const hiddenMarkdownDirs = new Set(["00_System", "07_Notion_Sync", "outputs", "wiki/operations"]);
+const hiddenMarkdownFiles = new Set(["AGENTS.md", "CLAUDE.md", "GITHUB_PAGES.md", "README.md", "wiki/log.md"]);
+const hiddenTargetKeys = new Set([
+  "agents",
+  "claude",
+  "github pages",
+  "notion sync",
+  "readme",
+  "system index",
+  "system log",
+  "topic lifecycle",
+  "vault operating system",
+]);
+const hiddenLinePhrases = [
+  "00_System/",
+  "07_Notion_Sync/",
+  "AGENTS.md",
+  "CLAUDE.md",
+  "GITHUB_PAGES.md",
+  "Notion Sync",
+  "System Index",
+  "System Log",
+  "Topic Lifecycle",
+  "Vault Operating System",
+  "health_check.md",
+  "topic_lifecycle.md",
+  "wiki/operations/",
+  "workflows.md",
+];
+
+function isPublicContentMarkdown(rel) {
+  const segments = rel.split("/");
+  const rootSegment = segments[0];
+  const twoPartSegment = segments.slice(0, 2).join("/");
+  if (hiddenMarkdownDirs.has(rootSegment) || hiddenMarkdownDirs.has(twoPartSegment)) return false;
+  if (hiddenMarkdownFiles.has(rel)) return false;
+  if (path.basename(rel).toLowerCase() === "readme.md") return false;
+  return true;
+}
+
+function targetCandidateRels(target, currentRel) {
+  const cleanTarget = target.split("#")[0].trim().replace(/\.md$/i, "");
+  if (!cleanTarget) return [];
+
+  const candidates = [];
+  const currentDir = path.posix.dirname(currentRel);
+  if (cleanTarget.includes("/") || cleanTarget.startsWith(".")) {
+    candidates.push(path.posix.normalize(path.posix.join(currentDir, `${cleanTarget}.md`)));
+    candidates.push(path.posix.normalize(`${cleanTarget}.md`));
+    candidates.push(path.posix.normalize(path.posix.join(currentDir, cleanTarget, "README.md")));
+    candidates.push(path.posix.normalize(path.posix.join(currentDir, cleanTarget, "index.md")));
+  } else {
+    candidates.push(path.posix.normalize(path.posix.join(currentDir, `${cleanTarget}.md`)));
+  }
+  return candidates;
+}
+
+function isHiddenWikiTarget(target, currentRel) {
+  const cleanTarget = target.split("#")[0].trim().replace(/\.md$/i, "");
+  if (!cleanTarget) return false;
+  const candidateRels = targetCandidateRels(target, currentRel);
+  if (candidateRels.some((rel) => !isPublicContentMarkdown(rel))) return true;
+  const baseKey = normalizeKey(path.posix.basename(cleanTarget));
+  const targetKey = normalizeKey(cleanTarget);
+  return hiddenTargetKeys.has(baseKey) || hiddenTargetKeys.has(targetKey);
+}
+
+function isHiddenSystemLine(line, currentRel) {
+  const hasHiddenWikiLink = [...line.matchAll(/\[\[([^\]]+)\]\]/g)].some((match) =>
+    isHiddenWikiTarget(match[1].split("|")[0].trim(), currentRel),
+  );
+  if (hasHiddenWikiLink) return true;
+  const normalizedLine = line.toLowerCase();
+  return hiddenLinePhrases.some((phrase) => normalizedLine.includes(phrase.toLowerCase()));
+}
+
+function publicMarkdown(markdown, rel) {
+  const lines = markdown.replace(/\r\n/g, "\n").split("\n");
+  const filtered = [];
+  let inCode = false;
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("```")) {
+      filtered.push(line);
+      inCode = !inCode;
+      continue;
+    }
+    const publicLine =
+      !inCode && trimmed === "### Positionierung und System"
+        ? line.replace("Positionierung und System", "Positionierung, Evidenz und Quellen")
+        : line;
+    if (!inCode && isHiddenSystemLine(publicLine, rel)) continue;
+    filtered.push(publicLine);
+  }
+
+  return filtered.join("\n");
+}
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -410,18 +508,7 @@ function resolveTarget(target, currentRel, docsByRel, docsByBase) {
   const hash = target.includes("#") ? slugPart(target.split("#").slice(1).join("#")) : "";
   if (!cleanTarget) return null;
 
-  const candidates = [];
-  const currentDir = path.posix.dirname(currentRel);
-  if (cleanTarget.includes("/") || cleanTarget.startsWith(".")) {
-    candidates.push(path.posix.normalize(path.posix.join(currentDir, `${cleanTarget}.md`)));
-    candidates.push(path.posix.normalize(`${cleanTarget}.md`));
-    candidates.push(path.posix.normalize(path.posix.join(currentDir, cleanTarget, "README.md")));
-    candidates.push(path.posix.normalize(path.posix.join(currentDir, cleanTarget, "index.md")));
-  } else {
-    candidates.push(path.posix.normalize(path.posix.join(currentDir, `${cleanTarget}.md`)));
-  }
-
-  for (const candidate of candidates) {
+  for (const candidate of targetCandidateRels(target, currentRel)) {
     if (docsByRel.has(candidate)) {
       return { doc: docsByRel.get(candidate), hash };
     }
@@ -450,6 +537,7 @@ function inlineMarkdown(text, currentDoc, docsByRel, docsByBase) {
     const [targetRaw, labelRaw] = inner.split("|");
     const target = targetRaw.trim();
     const label = (labelRaw || path.posix.basename(target.replace(/\.md$/i, ""))).trim();
+    if (isHiddenWikiTarget(target, currentDoc.rel)) return "";
     const resolved = resolveTarget(target, currentDoc.rel, docsByRel, docsByBase);
     if (!resolved) return label;
     const hash = resolved.hash ? `#${resolved.hash}` : "";
@@ -2147,22 +2235,24 @@ function copyAttachments() {
 function build() {
   const mdFiles = walk(vaultRoot)
     .filter((file) => file.endsWith(".md"))
+    .filter((file) => isPublicContentMarkdown(toPosix(path.relative(vaultRoot, file))))
     .sort((a, b) => toPosix(path.relative(vaultRoot, a)).localeCompare(toPosix(path.relative(vaultRoot, b)), "de"));
 
   const docs = mdFiles.map((file) => {
     const rel = toPosix(path.relative(vaultRoot, file));
     const markdown = fs.readFileSync(file, "utf8");
+    const publicBody = publicMarkdown(markdown, rel);
     return {
       file,
       rel,
       slug: slugForRel(rel),
-      title: extractTitle(markdown, rel),
-      summary: extractSummary(markdown),
-      headings: extractHeadings(markdown),
-      urls: extractUrls(markdown),
+      title: extractTitle(publicBody, rel),
+      summary: extractSummary(publicBody),
+      headings: extractHeadings(publicBody),
+      urls: extractUrls(publicBody),
       section: sectionForRel(rel),
       kind: kindForRel(rel),
-      markdown,
+      markdown: publicBody,
       outgoing: [],
     };
   });

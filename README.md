@@ -14,6 +14,8 @@ https://maicoding.github.io/vfx/
 
 `main` bleibt die Quelle der Wahrheit fuer Vault-Inhalte, Generator und Workflow. Der statische Export wird aus `docs/` gebaut und automatisch in den Branch `gh-pages` veroeffentlicht.
 
+Der Pages-Export ist bewusst auf Inhalte kuratiert: interne Betriebs-, Sync-, System- und Workflow-Notizen bleiben im Vault, werden aber nicht in die oeffentliche Seite, Suche, Backlinks oder Linklisten uebernommen.
+
 Die Seite enthaelt:
 
 - `index.html` als Atlas-Startseite
@@ -30,7 +32,7 @@ Die Seite enthaelt:
 node scripts/build-pages.mjs
 ```
 
-Der Generator wandelt Markdown in HTML, loest Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs, kopiert lokale Dateien aus `raw/assets`, baut Strang-Navigationen und schreibt eine maschinenlesbare `site-manifest.json`.
+Der Generator wandelt oeffentliche Markdown-Inhalte in HTML, loest Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs, kopiert lokale Dateien aus `raw/assets`, baut Strang-Navigationen und schreibt eine maschinenlesbare `site-manifest.json`.
 
 ## GitHub Pages
 
