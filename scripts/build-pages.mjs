@@ -42,6 +42,189 @@ const featuredPaths = [
   "review/Claim_Evidence_Matrix.md",
 ];
 
+const strandDefinitions = [
+  {
+    id: "digital-rooms",
+    title: "Digital Rooms als Promotionskern",
+    color: "violet",
+    description:
+      "Der theoretische Hauptpfad: vom Digital Image Space ueber operative Bildraeume bis zur Promotionsformel Digital Rooms.",
+    paths: [
+      "00_Index/Start_Hier.md",
+      "15_Promotion/Promotion_Index.md",
+      "15_Promotion/Promotionsformel_Digital_Rooms.md",
+      "15_Promotion/Theorie_Landkarte_AI_Postproduktion.md",
+      "16_Digital_Image_Space/Digital_Image_Space_Index.md",
+      "16_Digital_Image_Space/Digital_Rooms.md",
+      "16_Digital_Image_Space/Digital_Rooms_Erweiterte_Felder.md",
+      "16_Digital_Image_Space/Interface_als_Bildraum.md",
+      "16_Digital_Image_Space/Latent_Space_als_Gestaltungsraum.md",
+      "16_Digital_Image_Space/Operative_Bildräume.md",
+    ],
+  },
+  {
+    id: "tool-radar",
+    title: "Tool- und Modellradar",
+    color: "teal",
+    description:
+      "Aktuelle Modell- und Tool-Landschaft fuer Video, Bild, Compositing, Rotoscoping und Postproduktionspipelines.",
+    paths: [
+      "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
+      "01_Tools_und_Modelle/Sora_2.md",
+      "01_Tools_und_Modelle/Runway_Gen_4_5.md",
+      "01_Tools_und_Modelle/Kling_3.md",
+      "01_Tools_und_Modelle/Seedance_2.md",
+      "01_Tools_und_Modelle/Nano_Banana_2_Imagen.md",
+      "01_Tools_und_Modelle/Adobe_Firefly_Postproduktion.md",
+      "01_Tools_und_Modelle/Foundry_Nuke_AI.md",
+      "11_Best_Practices/Best_Practice_Workflows.md",
+    ],
+  },
+  {
+    id: "scene-room",
+    title: "Scene Room: VFX und Postproduktion",
+    color: "coral",
+    description:
+      "Wie KI-Modelle vom Frame zur Szene, zur Rotoscoping-Pipeline und zu neuen Use Cases in der Postproduktion wandern.",
+    paths: [
+      "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
+      "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
+      "09_Emerging_Technologies/Emerging_Technologies.md",
+      "10_Use_Cases/Use_Cases_nach_Produktionsphase.md",
+      "11_Best_Practices/Best_Practice_Workflows.md",
+      "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
+      "16_Digital_Image_Space/Neural_Rendering_und_räumliche_Bilder.md",
+    ],
+  },
+  {
+    id: "provenance",
+    title: "Provenance, Recht und Verantwortung",
+    color: "gold",
+    description:
+      "Der kritische Pfad zu Nachweisbarkeit, C2PA, Urheberrecht, Gegenstimmen und ethischen Grenzen generativer Postproduktion.",
+    paths: [
+      "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
+      "06_Quellen/Quellenbibliothek.md",
+      "review/Claim_Evidence_Matrix.md",
+      "review/Gegenstimmen_Register.md",
+      "wiki/syntheses/pressespiegel-ai-video-governance-2026-05-16.md",
+      "wiki/sources/pressespiegel-ai-video-governance-2026-05-16.md",
+    ],
+  },
+  {
+    id: "evidence",
+    title: "Forschung und Evidence Layer",
+    color: "green",
+    description:
+      "Paper, Claim-Matrix, Review-Layer und Wiki-Synthesen als Pruefschicht fuer belastbare Forschungsargumente.",
+    paths: [
+      "13_Forschung_Papers/Forschung_und_Paper_Pipeline.md",
+      "15_Promotion/Literatur_und_Referenzfelder.md",
+      "review/Claim_Evidence_Matrix.md",
+      "review/digital-image-space-evidence.md",
+      "review/theorie-erweiterung-evidence.md",
+      "wiki/syntheses/digital-image-space-2026-05-16.md",
+      "wiki/syntheses/digital-rooms-promotion-shift-2026-05-16.md",
+      "wiki/sources/digital-image-space-ingest-2026-05-16.md",
+      "wiki/sources/theorie-ingest-erweiterung-2026-05-16.md",
+    ],
+  },
+  {
+    id: "lehre-rollen",
+    title: "Lehre, Skills und Rollen",
+    color: "teal",
+    description:
+      "Was Studierende, Artists und Lehrformate aus der KI-Verschiebung in Postproduktion und VFX ableiten koennen.",
+    paths: [
+      "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
+      "12_Skills_und_Rollen/Skills_der_Zukunft.md",
+      "15_Promotion/Methodik_Research_through_Design.md",
+      "15_Promotion/Fallstudien_und_Experimente.md",
+      "15_Promotion/Forschungsfragen.md",
+      "15_Promotion/Hypothesen.md",
+    ],
+  },
+  {
+    id: "markt-workflows",
+    title: "Markt, Studios und Workflows",
+    color: "coral",
+    description:
+      "Der Branchenblick: Marktkarte, Studios, Vorreiter, Trends und realistische Workflow-Konsequenzen.",
+    paths: [
+      "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
+      "08_Marktkarte/Führende_Firmen_Studios_Agenturen.md",
+      "04_Trends_und_Vorreiter/Trends_2026.md",
+      "10_Use_Cases/Use_Cases_nach_Produktionsphase.md",
+      "11_Best_Practices/Best_Practice_Workflows.md",
+      "wiki/syntheses/pressespiegel-ai-video-wave2-2026-05-16.md",
+      "wiki/sources/pressespiegel-ai-video-wave2-2026-05-16.md",
+    ],
+  },
+];
+
+const dailyTheses = [
+  {
+    label: "These",
+    text: "Digital Rooms sind weniger ein einzelnes Tool als eine neue Produktionssituation: Bild, Interface, Daten und Handlung fallen im selben Raum zusammen.",
+    source: "15_Promotion/Promotionsformel_Digital_Rooms.md",
+  },
+  {
+    label: "These",
+    text: "Die zentrale Frage der KI-Postproduktion ist nicht, ob Modelle Arbeit ersetzen, sondern welche Entscheidungen in den Raum vor dem finalen Frame wandern.",
+    source: "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
+  },
+  {
+    label: "These",
+    text: "Ein AI-VFX-Workflow wird erst professionell, wenn er wiederholbar, nachweisbar und in bestehende Verantwortlichkeiten uebersetzbar ist.",
+    source: "11_Best_Practices/Best_Practice_Workflows.md",
+  },
+  {
+    label: "These",
+    text: "Provenance ist keine nachtraegliche Fussnote, sondern ein Gestaltungsparameter fuer glaubwuerdige generative Bildproduktion.",
+    source: "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
+  },
+  {
+    label: "These",
+    text: "Der Digital Image Space verschiebt Bildproduktion vom Bearbeiten einzelner Frames zum Navigieren, Kuratieren und Stabilisieren moeglicher Szenen.",
+    source: "16_Digital_Image_Space/Digital_Image_Space_Index.md",
+  },
+  {
+    label: "These",
+    text: "Die Staerke generativer Video-Tools liegt nicht nur im Output, sondern in der neuen Arbeit am Prompt, an Referenzen, Seeds, Loops und Kontrollbildern.",
+    source: "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
+  },
+  {
+    label: "These",
+    text: "Rotoscoping wird durch KI nicht banal, sondern wandert naeher an Fragen von Segmentierung, Kontrolle, Qualitaetssicherung und Verantwortung.",
+    source: "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
+  },
+  {
+    label: "These",
+    text: "Studierende brauchen weniger Tool-Listen als Denkmodelle, mit denen sie neue Werkzeuge schnell einordnen und kritisch einsetzen koennen.",
+    source: "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
+  },
+  {
+    label: "These",
+    text: "Der Markt fuer AI-Postproduktion wird nicht durch ein Sieger-Tool entschieden, sondern durch anschlussfaehige Pipelines zwischen Modellen, Studios und Rechtssystemen.",
+    source: "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
+  },
+  {
+    label: "These",
+    text: "Forschung durch Gestaltung wird hier zur Methode, weil Digital Rooms erst sichtbar werden, wenn man sie baut, benutzt und scheitern laesst.",
+    source: "15_Promotion/Methodik_Research_through_Design.md",
+  },
+  {
+    label: "These",
+    text: "Backlinks im Vault sind keine reine Navigation; sie zeigen, welche Begriffe argumentativ tragen und welche noch Evidenz brauchen.",
+    source: "review/Claim_Evidence_Matrix.md",
+  },
+  {
+    label: "These",
+    text: "Vom Frame zur Szene heisst: Das Bild wird nicht mehr nur gerendert, sondern als verhandelbarer Raum aus Zeit, Perspektive, Prompt und Modellzustand organisiert.",
+    source: "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
+  },
+];
+
 const ignoreDirs = new Set([".obsidian", "docs", "scripts"]);
 
 function ensureDir(dir) {
@@ -49,7 +232,16 @@ function ensureDir(dir) {
 }
 
 function removeDir(dir) {
-  if (fs.existsSync(dir)) fs.rmSync(dir, { recursive: true, force: true });
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory() && !entry.isSymbolicLink()) {
+      removeDir(full);
+    } else {
+      fs.unlinkSync(full);
+    }
+  }
+  fs.rmdirSync(dir);
 }
 
 function walk(dir) {
@@ -463,6 +655,8 @@ function layout({ title, description, body, activeRel = "", fromDoc = null, navH
     </a>
     <nav class="top-nav" aria-label="Hauptnavigation">
       <a href="${root("index.html")}">Atlas</a>
+      <a href="${root("strands.html")}">Stränge</a>
+      <a href="${root("index.html#these-des-tages")}">These</a>
       <a href="${root("links.html")}">Links</a>
       <a href="${root("attachments.html")}">Rohquellen</a>
       <a href="${root("pages/00-index--start-hier.html")}">Start hier</a>
@@ -474,6 +668,7 @@ function layout({ title, description, body, activeRel = "", fromDoc = null, navH
       ${body}
     </main>
   </div>
+  <script src="${root("assets/daily-thesis.js")}"></script>
   <script src="${root("assets/search-index.js")}"></script>
   <script src="${root("assets/search.js")}"></script>
 </body>
@@ -567,7 +762,175 @@ function cardForDoc(doc, href) {
   </article>`;
 }
 
-function buildIndex(docs, allUrls, attachments, backlinks) {
+function buildStrands(docs) {
+  const docsByRel = new Map(docs.map((doc) => [doc.rel, doc]));
+  const strands = strandDefinitions
+    .map((definition) => ({
+      ...definition,
+      docs: definition.paths.map((rel) => docsByRel.get(rel)).filter(Boolean),
+    }))
+    .filter((strand) => strand.docs.length);
+
+  for (const doc of docs) doc.strands = [];
+  for (const strand of strands) {
+    strand.docs.forEach((doc, index) => {
+      doc.strands.push({
+        id: strand.id,
+        title: strand.title,
+        color: strand.color,
+        position: index + 1,
+        total: strand.docs.length,
+        prev: strand.docs[index - 1] || null,
+        next: strand.docs[index + 1] || null,
+      });
+    });
+  }
+
+  return strands;
+}
+
+function thesisForDate(date = new Date()) {
+  const day = Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / 86400000);
+  return dailyTheses[day % dailyTheses.length];
+}
+
+function thesisPayload(docsByRel) {
+  return dailyTheses.map((thesis) => {
+    const doc = docsByRel.get(thesis.source);
+    return {
+      ...thesis,
+      sourceTitle: doc?.title || thesis.source,
+      href: doc ? `pages/${doc.slug}.html` : "",
+    };
+  });
+}
+
+function dailyThesisInnerHtml(thesis, docsByRel) {
+  const doc = docsByRel.get(thesis.source);
+  const source = doc
+    ? `<a href="pages/${doc.slug}.html">${escapeHtml(doc.title)}</a>`
+    : `<span>${escapeHtml(thesis.source)}</span>`;
+  return `<p class="thesis-kicker">${escapeHtml(thesis.label)}</p>
+    <blockquote>${escapeHtml(thesis.text)}</blockquote>
+    <p class="thesis-source">Quelle: ${source}</p>`;
+}
+
+function dailyThesisSection(docsByRel) {
+  return `<section class="content-band daily-section" id="these-des-tages">
+    <div class="section-heading">
+      <h2>These des Tages</h2>
+      <p>Ein wechselnder Denkanker aus dem Vault, verlinkt mit der passenden Notiz.</p>
+    </div>
+    <article class="daily-thesis" data-daily-thesis>${dailyThesisInnerHtml(thesisForDate(), docsByRel)}</article>
+  </section>`;
+}
+
+function strandCard(strand) {
+  const first = strand.docs[0];
+  const last = strand.docs[strand.docs.length - 1];
+  return `<article class="strand-card" style="--strand-color: var(--${strand.color});">
+    <a href="strands.html#${escapeHtml(strand.id)}">
+      <span>${strand.docs.length} Stationen</span>
+      <strong>${escapeHtml(strand.title)}</strong>
+      <p>${escapeHtml(strand.description)}</p>
+      <small>${escapeHtml(first.title)} → ${escapeHtml(last.title)}</small>
+    </a>
+  </article>`;
+}
+
+function strandOverviewSection(strands) {
+  return `<section class="content-band" id="strange">
+    <div class="section-heading">
+      <h2>Stränge verfolgen</h2>
+      <p>Kuratierte Pfade verbinden Theorie, Tools, Evidence und Praxis, ohne die Vault-Struktur zu verstecken.</p>
+      <a class="button" href="strands.html">Alle Stränge öffnen</a>
+    </div>
+    <div class="strand-grid">${strands.map(strandCard).join("")}</div>
+  </section>`;
+}
+
+function buildStrandsPage(docs, strands) {
+  const body = `<article class="article-page strands-page">
+    <header class="article-hero">
+      <p class="meta-line">${strands.length} kuratierte Stränge · ${strands.reduce((sum, strand) => sum + strand.docs.length, 0)} Stationen</p>
+      <h1>Stränge verfolgen</h1>
+      <p>Die Stränge legen Lesewege durch den Vault: als Forschungsargument, Tool-Radar, Evidenzschicht oder Praxisperspektive.</p>
+    </header>
+    <div class="strand-index">
+      ${strands
+        .map(
+          (strand) => `<section class="strand-detail" id="${escapeHtml(strand.id)}" style="--strand-color: var(--${strand.color});">
+            <div class="strand-detail-head">
+              <span>${strand.docs.length} Stationen</span>
+              <h2>${escapeHtml(strand.title)}</h2>
+              <p>${escapeHtml(strand.description)}</p>
+            </div>
+            <div class="strand-timeline">
+              ${strand.docs
+                .map(
+                  (doc, index) => `<a class="strand-step" data-note-card data-title="${escapeHtml(doc.title.toLowerCase())}" data-section="${escapeHtml(doc.section.toLowerCase())}" href="pages/${doc.slug}.html">
+                    <span>${index + 1}</span>
+                    <strong>${escapeHtml(doc.title)}</strong>
+                    <small>${escapeHtml(doc.section)} · ${escapeHtml(doc.kind)}</small>
+                    <p>${escapeHtml(doc.summary)}</p>
+                  </a>`,
+                )
+                .join("")}
+            </div>
+          </section>`,
+        )
+        .join("")}
+    </div>
+  </article>`;
+  return layout({
+    title: "Stränge",
+    description: "Kuratierte Lese- und Forschungsstränge aus dem AI Postproduktion VFX Vault",
+    navHtml: navTreeHtml(docs, ""),
+    body,
+    extraClass: "strands-page",
+  });
+}
+
+function strandPagerHtml(doc) {
+  if (!doc.strands?.length) return "";
+  return `<section class="strand-pager" aria-label="Stränge dieser Notiz">
+    ${doc.strands
+      .map(
+        (strand) => `<div class="strand-pager-item" style="--strand-color: var(--${strand.color});">
+          <a class="strand-name" href="../strands.html#${escapeHtml(strand.id)}">${escapeHtml(strand.title)} <span>${strand.position}/${strand.total}</span></a>
+          <div class="strand-pager-links">
+            ${
+              strand.prev
+                ? `<a href="${strand.prev.slug}.html">← ${escapeHtml(strand.prev.title)}</a>`
+                : `<span>Startpunkt</span>`
+            }
+            ${
+              strand.next
+                ? `<a href="${strand.next.slug}.html">${escapeHtml(strand.next.title)} →</a>`
+                : `<span>Endpunkt</span>`
+            }
+          </div>
+        </div>`,
+      )
+      .join("")}
+  </section>`;
+}
+
+function strandMembershipHtml(doc) {
+  if (!doc.strands?.length) return "";
+  return `<section>
+    <h2>Stränge</h2>
+    <ul>
+      ${doc.strands
+        .map(
+          (strand) => `<li><a href="../strands.html#${escapeHtml(strand.id)}">${escapeHtml(strand.title)}</a><small>Station ${strand.position} von ${strand.total}</small></li>`,
+        )
+        .join("")}
+    </ul>
+  </section>`;
+}
+
+function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
   const featured = featuredPaths
     .map((rel) => docs.find((doc) => doc.rel === rel))
     .filter(Boolean);
@@ -592,6 +955,7 @@ function buildIndex(docs, allUrls, attachments, backlinks) {
       <p class="lede">Ein GitHub-Pages-Wissenshub zu generativer KI, VFX, Postproduktion, Video-/Bildmodellen, Theorie, Promotion und der Frage, wie digitale Bild-, Daten-, Interface- und Handlungsräume gestaltet werden.</p>
       <div class="hero-actions">
         <a class="button primary" href="pages/00-index--start-hier.html">Start hier</a>
+        <a class="button" href="strands.html">Stränge verfolgen</a>
         <a class="button" href="links.html">Quellen und Links</a>
       </div>
       <dl class="stats-row">
@@ -603,6 +967,10 @@ function buildIndex(docs, allUrls, attachments, backlinks) {
     </div>
     <div class="hero-visual">${graphSvg(sectionStats)}</div>
   </section>`;
+
+  const dailyHtml = dailyThesisSection(docsByRel);
+
+  const strandsHtml = strandOverviewSection(strands);
 
   const featuredHtml = `<section class="content-band">
     <div class="section-heading">
@@ -684,7 +1052,7 @@ function buildIndex(docs, allUrls, attachments, backlinks) {
     title: "Atlas",
     description: "GitHub-Pages-Wissenshub aus dem AI_Postproduktion_VFX_Vault",
     navHtml: navTreeHtml(docs, ""),
-    body: `${hero}${featuredHtml}${sectionsHtml}${toolsHtml}${researchHtml}${linkedHtml}${notesHtml}`,
+    body: `${hero}${dailyHtml}${strandsHtml}${featuredHtml}${sectionsHtml}${toolsHtml}${researchHtml}${linkedHtml}${notesHtml}`,
     extraClass: "atlas-page",
   });
 }
@@ -770,6 +1138,7 @@ function buildNotePage(doc, docs, backlinks, docsByRel, docsByBase) {
   const outgoing = doc.outgoing
     .map((target) => `<li><a href="${target.slug}.html">${escapeHtml(target.title)}</a><small>${escapeHtml(target.section)}</small></li>`)
     .join("");
+  const strandMeta = strandMembershipHtml(doc);
 
   const body = `<article class="article-page">
     <header class="article-hero">
@@ -778,12 +1147,13 @@ function buildNotePage(doc, docs, backlinks, docsByRel, docsByBase) {
       <p>${escapeHtml(doc.summary)}</p>
     </header>
     <div class="article-layout">
-      <div class="article-body">${articleHtml}</div>
+      <div class="article-body">${strandPagerHtml(doc)}${articleHtml}</div>
       <aside class="article-meta">
         <section>
           <h2>Auf dieser Seite</h2>
           <div class="toc">${headings || "<span>Keine Zwischenüberschriften</span>"}</div>
         </section>
+        ${strandMeta}
         <section>
           <h2>Interne Links</h2>
           <ul>${outgoing || "<li><span>Keine internen Ausgänge</span></li>"}</ul>
@@ -1031,6 +1401,7 @@ a { color: inherit; }
 h1, h2, h3, h4 {
   letter-spacing: 0;
   line-height: 1.04;
+  overflow-wrap: anywhere;
 }
 .hero h1 {
   max-width: 880px;
@@ -1146,11 +1517,85 @@ h1, h2, h3, h4 {
 .note-card strong {
   font-size: 18px;
   line-height: 1.15;
+  overflow-wrap: anywhere;
 }
 .note-card p {
   color: var(--muted);
   font-size: 14px;
 }
+.daily-section {
+  padding-top: 34px;
+}
+.daily-thesis {
+  border: 1px solid var(--line);
+  border-left: 8px solid var(--violet);
+  border-radius: 8px;
+  background: white;
+  padding: 22px;
+  box-shadow: 0 14px 34px rgba(20,20,20,.05);
+}
+.daily-thesis .thesis-kicker {
+  margin: 0 0 12px;
+  color: var(--violet);
+  font-size: 12px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+.daily-thesis blockquote {
+  margin: 0;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  font-size: clamp(23px, 3vw, 40px);
+  font-weight: 760;
+  line-height: 1.12;
+}
+.daily-thesis .thesis-source {
+  margin: 16px 0 0;
+  color: var(--muted);
+}
+.daily-thesis a {
+  color: #005f70;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.strand-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+.strand-card {
+  min-height: 238px;
+  border: 1px solid var(--line);
+  border-top: 6px solid var(--strand-color, var(--teal));
+  border-radius: 8px;
+  background: rgba(255,255,255,.82);
+  box-shadow: 0 12px 34px rgba(20,20,20,.04);
+}
+.strand-card a {
+  display: grid;
+  gap: 10px;
+  height: 100%;
+  padding: 16px;
+  text-decoration: none;
+}
+.strand-card span {
+  color: var(--strand-color, var(--teal));
+  font-size: 12px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+.strand-card strong {
+  font-size: 20px;
+  line-height: 1.12;
+  overflow-wrap: anywhere;
+}
+.strand-card p,
+.strand-card small {
+  color: var(--muted);
+}
+.strand-card p { margin: 0; }
+.strand-card small { margin-top: auto; }
 .section-list {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
@@ -1225,6 +1670,7 @@ th {
 .article-page {
   max-width: 1400px;
   margin: 0 auto;
+  min-width: 0;
 }
 .article-hero {
   padding: 30px 0 34px;
@@ -1244,6 +1690,49 @@ th {
 .article-body {
   min-width: 0;
   padding: 30px 0 70px;
+}
+.strand-pager {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.strand-pager-item {
+  border: 1px solid var(--line);
+  border-left: 6px solid var(--strand-color, var(--teal));
+  border-radius: 8px;
+  background: rgba(255,255,255,.78);
+  padding: 12px;
+}
+.strand-name {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--ink) !important;
+  font-weight: 780;
+  text-decoration: none !important;
+}
+.strand-name span {
+  color: var(--strand-color, var(--teal));
+}
+.strand-pager-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-top: 10px;
+}
+.strand-pager-links a,
+.strand-pager-links span {
+  min-height: 44px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 8px 10px;
+  color: #005f70 !important;
+  font-size: 13px;
+  text-decoration: none !important;
+}
+.strand-pager-links span {
+  color: var(--muted) !important;
 }
 .article-body h1 { display: none; }
 .article-body h2 {
@@ -1377,6 +1866,79 @@ blockquote {
   color: var(--muted);
   overflow-wrap: anywhere;
 }
+.strand-index {
+  display: grid;
+  gap: 18px;
+  padding: 30px 0 70px;
+}
+.strand-detail {
+  scroll-margin-top: 92px;
+  border-top: 6px solid var(--strand-color, var(--teal));
+  background: rgba(255,255,255,.66);
+  padding: 22px 0 0;
+}
+.strand-detail-head {
+  display: grid;
+  gap: 8px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--line);
+}
+.strand-detail-head span {
+  color: var(--strand-color, var(--teal));
+  font-size: 12px;
+  font-weight: 820;
+  text-transform: uppercase;
+}
+.strand-detail-head h2 {
+  margin: 0;
+  font-size: clamp(28px, 3.6vw, 48px);
+}
+.strand-detail-head p {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 18px;
+  overflow-wrap: anywhere;
+}
+.strand-timeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 16px 0 28px;
+}
+.strand-step {
+  display: grid;
+  gap: 8px;
+  min-height: 210px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: white;
+  padding: 14px;
+  text-decoration: none;
+}
+.strand-step > span {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--strand-color, var(--teal));
+  color: white;
+  font-weight: 820;
+}
+.strand-step strong {
+  font-size: 18px;
+  line-height: 1.14;
+  overflow-wrap: anywhere;
+}
+.strand-step small,
+.strand-step p {
+  color: var(--muted);
+}
+.strand-step p {
+  margin: 0;
+  font-size: 14px;
+}
 @media (max-width: 1180px) {
   .site-shell { grid-template-columns: 1fr; }
   .side-nav {
@@ -1393,6 +1955,8 @@ blockquote {
   .card-grid,
   .compact-grid,
   .rank-list,
+  .strand-grid,
+  .strand-timeline,
   .section-list,
   .domain-grid,
   .attachment-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -1421,6 +1985,16 @@ blockquote {
     font-size: 13px;
   }
   .site-shell { min-height: 0; }
+  .article-page,
+  .strand-index,
+  .strand-detail,
+  .strand-detail-head,
+  .strand-timeline,
+  .strand-step {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
   .main-content {
     width: 100vw;
     max-width: 100vw;
@@ -1444,6 +2018,9 @@ blockquote {
   .card-grid,
   .compact-grid,
   .rank-list,
+  .strand-grid,
+  .strand-timeline,
+  .strand-pager-links,
   .section-list,
   .domain-grid,
   .attachment-list { grid-template-columns: 1fr; }
@@ -1501,6 +2078,42 @@ function searchJs() {
   }
 
   input.addEventListener("input", () => renderResults(input.value));
+})();`;
+}
+
+function dailyThesisJs(docsByRel) {
+  return `window.VAULT_DAILY_THESES = ${JSON.stringify(thesisPayload(docsByRel), null, 2)};
+
+(() => {
+  const targets = [...document.querySelectorAll("[data-daily-thesis]")];
+  const theses = window.VAULT_DAILY_THESES || [];
+  if (!targets.length || !theses.length) return;
+
+  const now = new Date();
+  const day = Math.floor(Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) / 86400000);
+  const thesis = theses[day % theses.length];
+  const inNoteFolder = location.pathname.includes("/pages/");
+  const href = thesis.href && inNoteFolder && thesis.href.startsWith("pages/") ? "../" + thesis.href : thesis.href;
+  const source = href
+    ? '<a href="' + href + '">' + escapeHtml(thesis.sourceTitle) + '</a>'
+    : '<span>' + escapeHtml(thesis.sourceTitle || thesis.source) + '</span>';
+
+  targets.forEach((target) => {
+    target.innerHTML =
+      '<p class="thesis-kicker">' + escapeHtml(thesis.label || "These") + '</p>' +
+      '<blockquote>' + escapeHtml(thesis.text) + '</blockquote>' +
+      '<p class="thesis-source">Quelle: ' + source + '</p>';
+  });
+
+  function escapeHtml(value) {
+    return String(value).replace(/[&<>"']/g, (char) => ({
+      "&": "&amp;",
+      "<": "&lt;",
+      ">": "&gt;",
+      '"': "&quot;",
+      "'": "&#039;"
+    })[char]);
+  }
 })();`;
 }
 
@@ -1584,6 +2197,7 @@ function build() {
       backlinks.get(target.rel).push(doc);
     }
   }
+  const strands = buildStrands(docs);
 
   removeDir(docsRoot);
   ensureDir(path.join(docsRoot, "assets"));
@@ -1595,6 +2209,7 @@ function build() {
   fs.writeFileSync(path.join(docsRoot, ".nojekyll"), "");
   fs.writeFileSync(path.join(docsRoot, "assets", "styles.css"), stylesCss());
   fs.writeFileSync(path.join(docsRoot, "assets", "favicon.svg"), faviconSvg());
+  fs.writeFileSync(path.join(docsRoot, "assets", "daily-thesis.js"), dailyThesisJs(docsByRel));
   fs.writeFileSync(path.join(docsRoot, "assets", "search.js"), searchJs());
   fs.writeFileSync(
     path.join(docsRoot, "assets", "search-index.js"),
@@ -1611,10 +2226,11 @@ function build() {
     )};\n`,
   );
 
-  fs.writeFileSync(path.join(docsRoot, "index.html"), buildIndex(docs, allUrls, attachments, backlinks));
+  fs.writeFileSync(path.join(docsRoot, "index.html"), buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel));
+  fs.writeFileSync(path.join(docsRoot, "strands.html"), buildStrandsPage(docs, strands));
   fs.writeFileSync(path.join(docsRoot, "links.html"), buildLinksPage(docs, allUrls));
   fs.writeFileSync(path.join(docsRoot, "attachments.html"), buildAttachmentsPage(docs, attachments));
-  fs.writeFileSync(path.join(docsRoot, "404.html"), buildIndex(docs, allUrls, attachments, backlinks));
+  fs.writeFileSync(path.join(docsRoot, "404.html"), buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel));
 
   for (const doc of docs) {
     const html = buildNotePage(doc, docs, backlinks, docsByRel, docsByBase);
@@ -1629,6 +2245,13 @@ function build() {
         notes: docs.length,
         externalLinks: allUrls.length,
         attachments: attachments.length,
+        strands: strands.map((strand) => ({
+          id: strand.id,
+          title: strand.title,
+          description: strand.description,
+          pages: strand.docs.map((doc) => ({ title: doc.title, rel: doc.rel, href: `pages/${doc.slug}.html` })),
+        })),
+        dailyTheses: thesisPayload(docsByRel),
         pages: docs.map((doc) => ({ title: doc.title, rel: doc.rel, href: `pages/${doc.slug}.html` })),
       },
       null,
@@ -1640,3 +2263,4 @@ function build() {
 }
 
 build();
+process.exit(0);

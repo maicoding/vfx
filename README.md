@@ -6,13 +6,23 @@ Der Vault sammelt Recherche zu generativer KI, Postproduktion, VFX, Video- und B
 
 ## Online-Seite
 
-Die statische Seite liegt in `docs/` und ist fuer GitHub Pages vorbereitet:
+Die Live-Seite liegt auf GitHub Pages:
 
-- `docs/index.html` als Atlas-Startseite
-- `docs/pages/*.html` als gerenderte Vault-Notizen
-- `docs/links.html` als extrahierter externer Linkindex
-- `docs/attachments.html` als lokale Rohquellenliste
-- `docs/assets/search-index.js` fuer die statische Suche
+```text
+https://maicoding.github.io/vfx/
+```
+
+`main` bleibt die Quelle der Wahrheit fuer Vault-Inhalte, Generator und Workflow. Der statische Export wird aus `docs/` gebaut und automatisch in den Branch `gh-pages` veroeffentlicht.
+
+Die Seite enthaelt:
+
+- `index.html` als Atlas-Startseite
+- `strands.html` als kuratierte Forschungs- und Lesestränge
+- `pages/*.html` als gerenderte Vault-Notizen
+- `links.html` als extrahierter externer Linkindex
+- `attachments.html` als lokale Rohquellenliste
+- `assets/search-index.js` fuer die statische Suche
+- `assets/daily-thesis.js` fuer die These des Tages
 
 ## Lokal neu bauen
 
@@ -20,7 +30,7 @@ Die statische Seite liegt in `docs/` und ist fuer GitHub Pages vorbereitet:
 node scripts/build-pages.mjs
 ```
 
-Der Generator wandelt Markdown in HTML, loest Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs und kopiert lokale Dateien aus `raw/assets`.
+Der Generator wandelt Markdown in HTML, loest Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs, kopiert lokale Dateien aus `raw/assets`, baut Strang-Navigationen und schreibt eine maschinenlesbare `site-manifest.json`.
 
 ## GitHub Pages
 
@@ -31,12 +41,6 @@ Empfohlener Weg fuer dieses Repository:
 3. Branch `gh-pages` und Ordner `/ (root)` auswaehlen.
 4. Speichern.
 
-Der Branch `gh-pages` enthaelt bereits den fertigen statischen Export. Die erwartete URL ist:
-
-```text
-https://maicoding.github.io/vfx/
-```
-
-Der Workflow `.github/workflows/pages.yml` bleibt als manueller GitHub-Actions-Deploy erhalten, falls Pages spaeter auf `GitHub Actions` umgestellt wird.
+Der Workflow `.github/workflows/pages.yml` baut bei jedem Push auf `main` neu und pusht den fertigen Export nach `gh-pages`.
 
 Mehr Details: `GITHUB_PAGES.md`
