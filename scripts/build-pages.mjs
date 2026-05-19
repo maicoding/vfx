@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
 const docsRoot = path.join(vaultRoot, "docs");
+const assetVersion = (process.env.GITHUB_SHA || `local-${Date.now().toString(36)}`).slice(0, 12);
 
 const sectionLabels = new Map([
   ["00_Index", "Start"],
@@ -724,6 +725,7 @@ function markdownToHtml(markdown, currentDoc, docsByRel, docsByBase) {
 
 function layout({ title, description, body, activeRel = "", fromDoc = null, navHtml = "", extraClass = "" }) {
   const root = (target) => rootHref(fromDoc, target);
+  const asset = (target) => `${root(target)}?v=${assetVersion}`;
   return `<!doctype html>
 <html lang="de">
 <head>
@@ -731,8 +733,8 @@ function layout({ title, description, body, activeRel = "", fromDoc = null, navH
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(title)} · AI Postproduktion VFX Vault</title>
   <meta name="description" content="${escapeHtml(description || "GitHub-Pages-Wissenshub aus dem AI_Postproduktion_VFX_Vault")}">
-  <link rel="stylesheet" href="${root("assets/styles.css")}">
-  <link rel="icon" href="${root("assets/favicon.svg")}" type="image/svg+xml">
+  <link rel="stylesheet" href="${asset("assets/styles.css")}">
+  <link rel="icon" href="${asset("assets/favicon.svg")}" type="image/svg+xml">
 </head>
 <body class="${extraClass}">
   <a class="skip-link" href="#main">Zum Inhalt springen</a>
@@ -756,9 +758,9 @@ function layout({ title, description, body, activeRel = "", fromDoc = null, navH
       ${body}
     </main>
   </div>
-  <script src="${root("assets/daily-thesis.js")}"></script>
-  <script src="${root("assets/search-index.js")}"></script>
-  <script src="${root("assets/search.js")}"></script>
+  <script src="${asset("assets/daily-thesis.js")}"></script>
+  <script src="${asset("assets/search-index.js")}"></script>
+  <script src="${asset("assets/search.js")}"></script>
 </body>
 </html>`;
 }
