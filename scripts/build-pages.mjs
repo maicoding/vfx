@@ -6,6 +6,11 @@ const scriptDir = path.dirname(fileURLToPath(import.meta.url));
 const vaultRoot = path.resolve(scriptDir, "..");
 const docsRoot = path.join(vaultRoot, "docs");
 const assetVersion = (process.env.GITHUB_SHA || `local-${Date.now().toString(36)}`).slice(0, 12);
+const debugBuild = process.env.DEBUG_BUILD_PAGES === "1";
+
+function debugStep(label) {
+  if (debugBuild) console.error(`[build-pages] ${label}`);
+}
 
 const sectionLabels = new Map([
   ["00_Index", "Start"],
@@ -49,7 +54,7 @@ const strandDefinitions = [
     title: "Digital Rooms als Promotionskern",
     color: "violet",
     description:
-      "Der theoretische Hauptpfad: vom Digital Image Space ueber operative Bildraeume bis zur Promotionsformel Digital Rooms.",
+      "Der theoretische Hauptpfad: vom Digital Image Space über operative Bildräume bis zur Promotionsformel Digital Rooms.",
     paths: [
       "00_Index/Start_Hier.md",
       "15_Promotion/Promotion_Index.md",
@@ -68,7 +73,7 @@ const strandDefinitions = [
     title: "Tool- und Modellradar",
     color: "teal",
     description:
-      "Aktuelle Modell- und Tool-Landschaft fuer Video, Bild, Compositing, Rotoscoping und Postproduktionspipelines.",
+      "Aktuelle Modell- und Tool-Landschaft für Video, Bild, Compositing, Rotoscoping und Postproduktionspipelines.",
     paths: [
       "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
       "01_Tools_und_Modelle/Sora_2.md",
@@ -117,7 +122,7 @@ const strandDefinitions = [
     title: "Forschung und Evidence Layer",
     color: "green",
     description:
-      "Paper, Claim-Matrix, Review-Layer und Wiki-Synthesen als Pruefschicht fuer belastbare Forschungsargumente.",
+      "Paper, Claim-Matrix, Review-Layer und Wiki-Synthesen als Prüfschicht für belastbare Forschungsargumente.",
     paths: [
       "13_Forschung_Papers/Forschung_und_Paper_Pipeline.md",
       "15_Promotion/Literatur_und_Referenzfelder.md",
@@ -135,7 +140,7 @@ const strandDefinitions = [
     title: "Lehre, Skills und Rollen",
     color: "teal",
     description:
-      "Was Studierende, Artists und Lehrformate aus der KI-Verschiebung in Postproduktion und VFX ableiten koennen.",
+      "Was Studierende, Artists und Lehrformate aus der KI-Verschiebung in Postproduktion und VFX ableiten können.",
     paths: [
       "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
       "12_Skills_und_Rollen/Skills_der_Zukunft.md",
@@ -176,42 +181,42 @@ const dailyTheses = [
   },
   {
     label: "These",
-    text: "Ein AI-VFX-Workflow wird erst professionell, wenn er wiederholbar, nachweisbar und in bestehende Verantwortlichkeiten uebersetzbar ist.",
+    text: "Ein AI-VFX-Workflow wird erst professionell, wenn er wiederholbar, nachweisbar und in bestehende Verantwortlichkeiten übersetzbar ist.",
     source: "11_Best_Practices/Best_Practice_Workflows.md",
   },
   {
     label: "These",
-    text: "Provenance ist keine nachtraegliche Fussnote, sondern ein Gestaltungsparameter fuer glaubwuerdige generative Bildproduktion.",
+    text: "Provenance ist keine nachträgliche Fußnote, sondern ein Gestaltungsparameter für glaubwürdige generative Bildproduktion.",
     source: "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
   },
   {
     label: "These",
-    text: "Der Digital Image Space verschiebt Bildproduktion vom Bearbeiten einzelner Frames zum Navigieren, Kuratieren und Stabilisieren moeglicher Szenen.",
+    text: "Der Digital Image Space verschiebt Bildproduktion vom Bearbeiten einzelner Frames zum Navigieren, Kuratieren und Stabilisieren möglicher Szenen.",
     source: "16_Digital_Image_Space/Digital_Image_Space_Index.md",
   },
   {
     label: "These",
-    text: "Die Staerke generativer Video-Tools liegt nicht nur im Output, sondern in der neuen Arbeit am Prompt, an Referenzen, Seeds, Loops und Kontrollbildern.",
+    text: "Die Stärke generativer Video-Tools liegt nicht nur im Output, sondern in der neuen Arbeit am Prompt, an Referenzen, Seeds, Loops und Kontrollbildern.",
     source: "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
   },
   {
     label: "These",
-    text: "Rotoscoping wird durch KI nicht banal, sondern wandert naeher an Fragen von Segmentierung, Kontrolle, Qualitaetssicherung und Verantwortung.",
+    text: "Rotoscoping wird durch KI nicht banal, sondern wandert näher an Fragen von Segmentierung, Kontrolle, Qualitätssicherung und Verantwortung.",
     source: "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
   },
   {
     label: "These",
-    text: "Studierende brauchen weniger Tool-Listen als Denkmodelle, mit denen sie neue Werkzeuge schnell einordnen und kritisch einsetzen koennen.",
+    text: "Studierende brauchen weniger Tool-Listen als Denkmodelle, mit denen sie neue Werkzeuge schnell einordnen und kritisch einsetzen können.",
     source: "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
   },
   {
     label: "These",
-    text: "Der Markt fuer AI-Postproduktion wird nicht durch ein Sieger-Tool entschieden, sondern durch anschlussfaehige Pipelines zwischen Modellen, Studios und Rechtssystemen.",
+    text: "Der Markt für AI-Postproduktion wird nicht durch ein Sieger-Tool entschieden, sondern durch anschlussfähige Pipelines zwischen Modellen, Studios und Rechtssystemen.",
     source: "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
   },
   {
     label: "These",
-    text: "Forschung durch Gestaltung wird hier zur Methode, weil Digital Rooms erst sichtbar werden, wenn man sie baut, benutzt und scheitern laesst.",
+    text: "Forschung durch Gestaltung wird hier zur Methode, weil Digital Rooms erst sichtbar werden, wenn man sie baut, benutzt und scheitern lässt.",
     source: "15_Promotion/Methodik_Research_through_Design.md",
   },
   {
@@ -263,6 +268,7 @@ function isPublicContentMarkdown(rel) {
   const twoPartSegment = segments.slice(0, 2).join("/");
   if (hiddenMarkdownDirs.has(rootSegment) || hiddenMarkdownDirs.has(twoPartSegment)) return false;
   if (hiddenMarkdownFiles.has(rel)) return false;
+  if (/\s2\.md$/u.test(path.posix.basename(rel))) return false;
   if (path.basename(rel).toLowerCase() === "readme.md") return false;
   return true;
 }
@@ -453,6 +459,18 @@ function extractSummary(markdown) {
   if (buffer.length) candidates.push(buffer.join(" "));
   const text = stripMarkdown(candidates[0] || markdown.split(/\r?\n/).slice(0, 8).join(" "));
   return text.length > 240 ? `${text.slice(0, 237).trim()}...` : text;
+}
+
+function extractSearchText(markdown) {
+  return markdown
+    .replace(/```[\s\S]*?```/g, " ")
+    .replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (_, target, label) => `${label || target} ${target}`)
+    .replace(/!\[([^\]]*)\]\([^)]+\)/g, "$1")
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, "$1 $2")
+    .replace(/[`*_>#]/g, "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .slice(0, 12000);
 }
 
 function extractHeadings(markdown) {
@@ -2162,7 +2180,12 @@ function searchJs() {
       return;
     }
     const matches = window.VAULT_SEARCH_INDEX
-      .map((item) => ({ item, haystack: [item.title, item.section, item.summary, item.rel].join(" ").toLowerCase() }))
+      .map((item) => ({
+        item,
+        haystack: [item.title, item.section, item.summary, item.rel, item.headings, item.searchText]
+          .join(" ")
+          .toLowerCase()
+      }))
       .filter(({ haystack }) => haystack.includes(normalized))
       .slice(0, 8);
     const inNoteFolder = location.pathname.includes("/pages/");
@@ -2252,13 +2275,16 @@ function copyAttachments() {
 }
 
 function build() {
+  debugStep("collect markdown");
   const mdFiles = walk(vaultRoot)
     .filter((file) => file.endsWith(".md"))
     .filter((file) => isPublicContentMarkdown(toPosix(path.relative(vaultRoot, file))))
     .sort((a, b) => toPosix(path.relative(vaultRoot, a)).localeCompare(toPosix(path.relative(vaultRoot, b)), "de"));
 
+  debugStep(`prepare docs: ${mdFiles.length}`);
   const docs = mdFiles.map((file) => {
     const rel = toPosix(path.relative(vaultRoot, file));
+    debugStep(`prepare doc: ${rel}`);
     const markdown = fs.readFileSync(file, "utf8");
     const publicBody = publicMarkdown(markdown, rel);
     return {
@@ -2268,6 +2294,7 @@ function build() {
       title: extractTitle(publicBody, rel),
       summary: extractSummary(publicBody),
       headings: extractHeadings(publicBody),
+      searchText: extractSearchText(publicBody),
       urls: extractUrls(publicBody),
       section: sectionForRel(rel),
       kind: kindForRel(rel),
@@ -2276,6 +2303,7 @@ function build() {
     };
   });
 
+  debugStep("dedupe slugs");
   const slugCounts = new Map();
   for (const doc of docs) {
     const count = slugCounts.get(doc.slug) || 0;
@@ -2291,6 +2319,7 @@ function build() {
     docsByBase.get(base).push(doc);
   }
 
+  debugStep("resolve backlinks");
   const backlinks = new Map();
   for (const doc of docs) {
     const links = [...doc.markdown.matchAll(/\[\[([^\]]+)\]\]/g)];
@@ -2306,15 +2335,19 @@ function build() {
       backlinks.get(target.rel).push(doc);
     }
   }
+  debugStep("build strands");
   const strands = buildStrands(docs);
 
+  debugStep("reset docs directory");
   removeDir(docsRoot);
   ensureDir(path.join(docsRoot, "assets"));
   ensureDir(path.join(docsRoot, "pages"));
 
+  debugStep("copy attachments");
   const attachments = copyAttachments();
   const allUrls = docs.flatMap((doc) => doc.urls.map((url) => ({ url, doc })));
 
+  debugStep("write assets");
   fs.writeFileSync(path.join(docsRoot, ".nojekyll"), "");
   fs.writeFileSync(path.join(docsRoot, "assets", "styles.css"), stylesCss());
   fs.writeFileSync(path.join(docsRoot, "assets", "favicon.svg"), faviconSvg());
@@ -2327,6 +2360,8 @@ function build() {
         title: doc.title,
         section: doc.section,
         summary: doc.summary,
+        headings: doc.headings.map((heading) => heading.text),
+        searchText: doc.searchText,
         rel: doc.rel,
         href: `pages/${doc.slug}.html`,
       })),
@@ -2335,17 +2370,25 @@ function build() {
     )};\n`,
   );
 
+  debugStep("write index");
   fs.writeFileSync(path.join(docsRoot, "index.html"), buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel));
+  debugStep("write strands");
   fs.writeFileSync(path.join(docsRoot, "strands.html"), buildStrandsPage(docs, strands));
+  debugStep("write links");
   fs.writeFileSync(path.join(docsRoot, "links.html"), buildLinksPage(docs, allUrls));
+  debugStep("write attachments");
   fs.writeFileSync(path.join(docsRoot, "attachments.html"), buildAttachmentsPage(docs, attachments));
+  debugStep("write 404");
   fs.writeFileSync(path.join(docsRoot, "404.html"), buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel));
 
+  debugStep("write note pages");
   for (const doc of docs) {
+    debugStep(`write note: ${doc.rel}`);
     const html = buildNotePage(doc, docs, backlinks, docsByRel, docsByBase);
     fs.writeFileSync(path.join(docsRoot, "pages", `${doc.slug}.html`), html);
   }
 
+  debugStep("write manifest");
   fs.writeFileSync(
     path.join(docsRoot, "site-manifest.json"),
     JSON.stringify(

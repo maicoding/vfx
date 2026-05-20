@@ -12,9 +12,9 @@ Die Live-Seite liegt auf GitHub Pages:
 https://maicoding.github.io/vfx/
 ```
 
-`main` bleibt die Quelle der Wahrheit fuer Vault-Inhalte, Generator und Workflow. Der statische Export wird aus `docs/` gebaut und automatisch in den Branch `gh-pages` veroeffentlicht.
+`main` bleibt die Quelle der Wahrheit für Vault-Inhalte, Generator und Workflow. Der statische Export wird aus `docs/` gebaut und automatisch in den Branch `gh-pages` veröffentlicht.
 
-Der Pages-Export ist bewusst auf Inhalte kuratiert: interne Betriebs-, Sync-, System- und Workflow-Notizen bleiben im Vault, werden aber nicht in die oeffentliche Seite, Suche, Backlinks oder Linklisten uebernommen.
+Der Pages-Export ist bewusst auf Inhalte kuratiert: interne Betriebs-, Sync-, System- und Workflow-Notizen bleiben im Vault, werden aber nicht in die öffentliche Seite, Suche, Backlinks oder Linklisten übernommen.
 
 Die Seite enthaelt:
 
@@ -23,8 +23,8 @@ Die Seite enthaelt:
 - `pages/*.html` als gerenderte Vault-Notizen
 - `links.html` als extrahierter externer Linkindex
 - `attachments.html` als lokale Rohquellenliste
-- `assets/search-index.js` fuer die statische Suche
-- `assets/daily-thesis.js` fuer die These des Tages
+- `assets/search-index.js` für die statische Suche
+- `assets/daily-thesis.js` für die These des Tages
 
 ## Lokal neu bauen
 
@@ -32,15 +32,15 @@ Die Seite enthaelt:
 node scripts/build-pages.mjs
 ```
 
-Der Generator wandelt oeffentliche Markdown-Inhalte in HTML, loest Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs, kopiert lokale Dateien aus `raw/assets`, baut Strang-Navigationen und schreibt eine maschinenlesbare `site-manifest.json`.
+Der Generator wandelt öffentliche Markdown-Inhalte in HTML, löst Obsidian-Wikilinks auf, erzeugt Backlinks, extrahiert externe URLs, kopiert lokale Dateien aus `raw/assets`, baut Strang-Navigationen und schreibt eine maschinenlesbare `site-manifest.json`.
 
 ## GitHub Pages
 
-Empfohlener Weg fuer dieses Repository:
+Empfohlener Weg für dieses Repository:
 
-1. In GitHub `Settings -> Pages` oeffnen.
-2. `Build and deployment -> Source -> Deploy from a branch` waehlen.
-3. Branch `gh-pages` und Ordner `/ (root)` auswaehlen.
+1. In GitHub `Settings -> Pages` öffnen.
+2. `Build and deployment -> Source -> Deploy from a branch` wählen.
+3. Branch `gh-pages` und Ordner `/ (root)` auswählen.
 4. Speichern.
 
 Der Workflow `.github/workflows/pages.yml` baut bei jedem Push auf `main` neu und pusht den fertigen Export nach `gh-pages`.

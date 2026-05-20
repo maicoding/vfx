@@ -1,6 +1,6 @@
 # Digital Rooms, AI und Postproduktion
 
-Stand: 2026-05-17
+Stand: 2026-05-19
 
 Dieser Vault sammelt Recherche zu generativer KI, Digital Rooms, Digital Image Space, Postproduktion, VFX, Video-/Bildmodellen, Theorie, Promotion und der Frage, wie sich digitale Bild-, Daten-, Interface- und Handlungsräume in den kommenden Jahren verändern.
 
@@ -14,6 +14,7 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 
 - [[../15_Promotion/Promotion_Index|Promotion]]
 - [[../15_Promotion/Promotionsformel_Digital_Rooms|Promotionsformel Digital Rooms]]
+- [[../15_Promotion/Digital_Rooms_Mapping_Matrix|Digital Rooms Mapping Matrix]]
 - [[../15_Promotion/Theorie_Landkarte_AI_Postproduktion|Theorie-Landkarte Promotion]]
 - [[../15_Promotion/Theoriepositionen_Erweiterung|Theoriepositionen: Erweiterung]]
 - [[../16_Digital_Image_Space/Digital_Image_Space_Index|Digital Image Space]]
@@ -42,6 +43,8 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 - [[../00_System/topic_lifecycle|Topic Lifecycle]]
 - [[../review/Claim_Evidence_Matrix|Claim Evidence Matrix]]
 - [[../review/Gegenstimmen_Register|Gegenstimmen Register]]
+- [[../review/Offene_Fragen_Research_2026-05-19|Offene Fragen Research 2026-05-19]]
+- [[../review/Methodik_Luecken_Research_2026-05-20|Methodik-Lücken Research 2026-05-20]]
 - [[../06_Quellen/Quellenbibliothek|Quellenbibliothek]]
 - [[../07_Notion_Sync/Notion_Sync|Notion Sync]]
 - [[../00_System/index|System Index]]
@@ -54,13 +57,18 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 4. Die theoretische Hierarchie ist jetzt enger: Manovich, Drucker, Farocki/Parikka, Raumtheorie und Suchman/Dourish bilden den Kern.
 5. Neural Rendering, Gaussian Splatting, Digital Twins, generative Interfaces und soziale Plattformräume werden als Fallmaterial geprüft.
 6. Der methodische Beitrag soll eine Typologie und Mapping-Methode für Digital Rooms sein, nicht nur ein Markt- oder Toolvergleich.
+7. Recherche vom 2026-05-19: `Digital Rooms` bleibt ein heuristischer Arbeitsbegriff, nicht claim-ready als etablierter Fachterminus.
+8. `Interface Room` und `Scene Room` sind als Fallcluster stärker belegt als `Public / Built Room`.
+9. Recherche vom 2026-05-20: Die größte methodische Lücke ist ein eigenes Artefakt; die `Digital Rooms Mapping Matrix` ist dafür der stärkste Kandidat.
+10. Der Vault bleibt bewusst zweifach lesbar: als Denkraum für unfertige, Karpathy-artige Verdichtung und als Belegarchiv für rückverfolgbare Claims.
 
 ## Offene Recherchefragen
 
 - Welche Claims sind `claim-ready`, welche bleiben Denkraum?
 - Welche Gegenstimmen schwächen die Promotionsformel wirklich?
 - Welche konkreten Artefakte eignen sich für `Interface Room`, `Scene Room` und `Public / Built Room`?
-- Soll der dritte Fall eher Digital Twin, virtuelle Ausstellung, digitaler Lernraum oder soziale Plattform sein?
+- Soll der dritte Fall eher digitaler Lernraum, virtuelle Ausstellung oder Digital Twin sein?
 - Welche eigenen Designexperimente sind realistisch umsetzbar?
+- Funktioniert die `Digital Rooms Mapping Matrix` an allen drei Clustern oder nur an `Interface Room` und `Scene Room`?
 - Welche Betreuer:innenprofile passen besser: Designforschung, Medienwissenschaft, HCI, Architektur oder Creative Technology?
 - Wie technisch muss die Arbeit werden, ohne ihre gestalterische Frage zu verlieren?
