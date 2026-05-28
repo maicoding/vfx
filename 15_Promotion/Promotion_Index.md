@@ -59,6 +59,7 @@ Stand: 2026-05-29
 
 - [[Promotionsformel_Digital_Rooms|Promotionsformel]]
 - [[Digital_Rooms_Mapping_Matrix|Digital Rooms Mapping Matrix]]
+- [[Denkachsen_Register|Denkachsen Register]]
 - [[Theorieachsen|Theorieachsen]]
 - [[Theorie_Landkarte_AI_Postproduktion|Theorie-Landkarte]]
 - [[Theoriepositionen_Erweiterung|Theoriepositionen]]
@@ -99,6 +100,7 @@ Stand: 2026-05-29
 
 - Karpathy-Style Denkraum
 - Belegarchiv
+- [[Denkachsen_Register|Denkachsen Register]]
 - [[../review/Claim_Evidence_Matrix|Claim Evidence Matrix]]
 - [[../review/Gegenstimmen_Register|Gegenstimmen Register]]
 - [[../review/Offene_Fragen_Research_2026-05-19|Offene Fragen]]

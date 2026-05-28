@@ -82,6 +82,8 @@ automation:
 - Nur die Verwendung ist begrenzt: Ein Signal darf keine Tatsachenbehauptung tragen.
 - Verdichten heißt nicht glätten. Widersprüche und offene Fragen bleiben sichtbar.
 - Alte Denkspuren dürfen reaktiviert werden, wenn neue Fragen oder Quellen sie relevant machen.
+- Neue Denkachsen werden im [[../15_Promotion/Denkachsen_Register|Denkachsen Register]] sortiert.
+- Neue Themen verwenden [[Karpathy_Capture_Template|Karpathy Capture Template]], bevor sie in Synthesen, Indexseiten oder Notion wandern.
 
 ## Status-Upgrade-Regel
 

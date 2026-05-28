@@ -14,6 +14,7 @@ Stand: 2026-05-29
 - [[../16_Digital_Image_Space/Digital_Rooms_Erweiterte_Felder|Erweiterte Felder]]
 - [[../15_Promotion/Promotionsformel_Digital_Rooms|Promotionsformel]]
 - [[../15_Promotion/Digital_Rooms_Mapping_Matrix|Mapping Matrix]]
+- [[../15_Promotion/Denkachsen_Register|Denkachsen Register]]
 
 ### 2. Digital Image Space
 
@@ -101,11 +102,13 @@ Stand: 2026-05-29
 - [[../15_Promotion/Hypothesen|Hypothesen]]
 - [[../15_Promotion/Mögliche_Gliederung|Gliederung]]
 - [[../15_Promotion/Literatur_und_Referenzfelder|Literatur und Referenzfelder]]
+- [[../15_Promotion/Denkachsen_Register|Denkachsen Register]]
 
 ### 10. Evidenz und Review
 
 - Karpathy-Style Denkraum
 - Belegarchiv
+- [[../15_Promotion/Denkachsen_Register|Denkachsen Register]]
 - [[../review/Claim_Evidence_Matrix|Claim Evidence Matrix]]
 - [[../review/Gegenstimmen_Register|Gegenstimmen Register]]
 - [[../review/Offene_Fragen_Research_2026-05-19|Offene Fragen]]
@@ -117,5 +120,6 @@ Stand: 2026-05-29
 
 - [[../00_System/Vault_Operating_System|Vault Operating System]]
 - [[../00_System/topic_lifecycle|Topic Lifecycle]]
+- [[../00_System/Karpathy_Capture_Template|Karpathy Capture Template]]
 - [[../00_System/index|System Index]]
 - [[../07_Notion_Sync/Notion_Sync|Notion Sync]]
