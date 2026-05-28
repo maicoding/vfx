@@ -59,6 +59,7 @@ const strandDefinitions = [
       "00_Index/Start_Hier.md",
       "15_Promotion/Promotion_Index.md",
       "15_Promotion/Promotionsformel_Digital_Rooms.md",
+      "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
       "15_Promotion/Theorie_Landkarte_AI_Postproduktion.md",
       "16_Digital_Image_Space/Digital_Image_Space_Index.md",
       "16_Digital_Image_Space/Digital_Rooms.md",
@@ -66,6 +67,21 @@ const strandDefinitions = [
       "16_Digital_Image_Space/Interface_als_Bildraum.md",
       "16_Digital_Image_Space/Latent_Space_als_Gestaltungsraum.md",
       "16_Digital_Image_Space/Operative_Bildräume.md",
+    ],
+  },
+  {
+    id: "interface-room",
+    title: "Interface Room: generative Interfaces",
+    color: "teal",
+    description:
+      "Wie Interfaces (Chat, Canvas, Timeline, Node Graph, Review) zu operativen Räumen werden, in denen Entscheidung, Kontrolle und Verantwortung verteilt sind.",
+    paths: [
+      "16_Digital_Image_Space/Interface_als_Bildraum.md",
+      "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+      "15_Promotion/Fallstudien_und_Experimente.md",
+      "15_Promotion/Forschungsfragen.md",
+      "15_Promotion/Promotionsformel_Digital_Rooms.md",
+      "11_Best_Practices/Best_Practice_Workflows.md",
     ],
   },
   {
@@ -100,6 +116,22 @@ const strandDefinitions = [
       "11_Best_Practices/Best_Practice_Workflows.md",
       "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
       "16_Digital_Image_Space/Neural_Rendering_und_räumliche_Bilder.md",
+    ],
+  },
+  {
+    id: "public-built-room",
+    title: "Public / Built Room: Lernraum, Ausstellung, Twin",
+    color: "gold",
+    description:
+      "Der dritte Fallcluster: öffentliche, institutionelle oder gebaute Digital Rooms – als Lernraum, Ausstellung oder (falls möglich) Digital Twin.",
+    paths: [
+      "15_Promotion/Public_Built_Room.md",
+      "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+      "15_Promotion/Fallstudien_und_Experimente.md",
+      "review/Claim_Evidence_Matrix.md",
+      "review/Offene_Fragen_Research_2026-05-19.md",
+      "wiki/sources/digital-rooms-erweiterung-ingest-2026-05-16.md",
+      "wiki/sources/offene-fragen-digital-rooms-research-2026-05-19.md",
     ],
   },
   {
@@ -176,6 +208,11 @@ const dailyTheses = [
   },
   {
     label: "These",
+    text: "Public / Built Rooms werden erst als Forschungsfall stark, wenn ein konkretes Artefakt gewählt ist und sich Verantwortung, Zugang und Datenflüsse daran prüfen lassen.",
+    source: "15_Promotion/Public_Built_Room.md",
+  },
+  {
+    label: "These",
     text: "Die zentrale Frage der KI-Postproduktion ist nicht, ob Modelle Arbeit ersetzen, sondern welche Entscheidungen in den Raum vor dem finalen Frame wandern.",
     source: "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
   },
@@ -247,11 +284,14 @@ const hiddenTargetKeys = new Set([
 ]);
 const hiddenLinePhrases = [
   "00_System/",
+  "00_System",
   "07_Notion_Sync/",
   "AGENTS.md",
   "CLAUDE.md",
   "GITHUB_PAGES.md",
   "Notion Sync",
+  "outputs/",
+  "outputs\\",
   "System Index",
   "System Log",
   "Topic Lifecycle",
@@ -870,6 +910,12 @@ function cardForDoc(doc, href) {
   </article>`;
 }
 
+function topicCardForDoc(doc, href) {
+  return `<article class="note-card" data-note-card data-title="${escapeHtml(doc.title.toLowerCase())}" data-section="${escapeHtml(doc.section.toLowerCase())}">
+    <a href="${href}"><span>${escapeHtml(doc.section)}</span><strong>${escapeHtml(doc.title)}</strong></a>
+  </article>`;
+}
+
 function buildStrands(docs) {
   const docsByRel = new Map(docs.map((doc) => [doc.rel, doc]));
   const strands = strandDefinitions
@@ -1058,13 +1104,12 @@ function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
 
   const hero = `<section class="hero">
     <div class="hero-copy">
-      <p class="meta-line">Stand aus Vault · 2026-05-17</p>
-      <h1>Digital Rooms, AI und Postproduktion</h1>
-      <p class="lede">Ein GitHub-Pages-Wissenshub zu generativer KI, VFX, Postproduktion, Video-/Bildmodellen, Theorie, Promotion und der Frage, wie digitale Bild-, Daten-, Interface- und Handlungsräume gestaltet werden.</p>
+      <p class="meta-line">Stand · 2026-05-29</p>
+      <h1>Digital Rooms</h1>
       <div class="hero-actions">
-        <a class="button primary" href="pages/00-index--start-hier.html">Start hier</a>
-        <a class="button" href="strands.html">Stränge verfolgen</a>
-        <a class="button" href="links.html">Quellen und Links</a>
+        <a class="button primary" href="pages/00-index--start-hier.html">Themen</a>
+        <a class="button" href="pages/15-promotion--promotion-index.html">Promotion</a>
+        <a class="button" href="links.html">Quellen</a>
       </div>
       <dl class="stats-row">
         <div><dt>${docs.length}</dt><dd>Notizen</dd></div>
@@ -1082,16 +1127,14 @@ function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
 
   const featuredHtml = `<section class="content-band">
     <div class="section-heading">
-      <h2>Empfohlene Einstiegspfade</h2>
-      <p>Die wichtigsten Knoten aus Startseite, Promotion, Theorie, Tool-Landschaft und Evidenzprüfung.</p>
+      <h2>Themen</h2>
     </div>
-    <div class="card-grid featured-grid">${featured.map((doc) => cardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
+    <div class="card-grid featured-grid">${featured.map((doc) => topicCardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
   </section>`;
 
   const sectionsHtml = `<section class="content-band split-band">
     <div class="section-heading">
       <h2>Themenfelder</h2>
-      <p>Alle Vault-Schichten bleiben sichtbar: kompilierte Wiki, Review Layer, Quellen, Outputs und Denkraum.</p>
     </div>
     <div class="section-list">
       ${sectionStats
@@ -1104,24 +1147,21 @@ function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
 
   const toolsHtml = `<section class="content-band">
     <div class="section-heading">
-      <h2>Tool- und Modellradar</h2>
-      <p>Produkt- und Pipeline-Notizen für Video, Bild, Compositing, Rotoscoping und Postproduktion.</p>
+      <h2>Tools und Modelle</h2>
     </div>
-    <div class="rail">${toolDocs.map((doc) => cardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
+    <div class="rail">${toolDocs.map((doc) => topicCardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
   </section>`;
 
   const researchHtml = `<section class="content-band">
     <div class="section-heading">
       <h2>Promotion und Digital Image Space</h2>
-      <p>Theorieachsen, Fallstudien, Begriffsapparat und methodische Experimente als zusammenhängender Forschungsraum.</p>
     </div>
-    <div class="card-grid compact-grid">${researchDocs.map((doc) => cardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
+    <div class="card-grid compact-grid">${researchDocs.map((doc) => topicCardForDoc(doc, `pages/${doc.slug}.html`)).join("")}</div>
   </section>`;
 
   const linkedHtml = `<section class="content-band">
     <div class="section-heading">
       <h2>Stark verlinkte Knoten</h2>
-      <p>Backlinks zeigen, welche Notizen im Vault als Orientierungspunkte fungieren.</p>
     </div>
     <div class="rank-list">
       ${mostLinked
@@ -1135,7 +1175,6 @@ function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
   const notesHtml = `<section class="content-band" id="all-notes">
     <div class="section-heading">
       <h2>Alle Notizen</h2>
-      <p>Kompletter Export aus dem Vault. Die Suche oben links filtert über Titel, Zusammenfassung, Abschnitt und Pfad.</p>
     </div>
     <div class="table-wrap notes-table">
       <table>
@@ -1158,9 +1197,9 @@ function buildIndex(docs, allUrls, attachments, backlinks, strands, docsByRel) {
 
   return layout({
     title: "Atlas",
-    description: "GitHub-Pages-Wissenshub aus dem AI_Postproduktion_VFX_Vault",
+    description: "Digital Rooms",
     navHtml: navTreeHtml(docs, ""),
-    body: `${hero}${dailyHtml}${strandsHtml}${featuredHtml}${sectionsHtml}${toolsHtml}${researchHtml}${linkedHtml}${notesHtml}`,
+    body: `${hero}${featuredHtml}${sectionsHtml}${toolsHtml}${researchHtml}${linkedHtml}${notesHtml}`,
     extraClass: "atlas-page",
   });
 }
