@@ -70,6 +70,8 @@ Die Promotion untersucht nicht alle digitalen Räume. Sie konzentriert sich auf 
 - [[Manovich_und_generative_Postproduktion|Manovich und generative Postproduktion]]
 - [[Theoriepositionen_Erweiterung|Theoriepositionen: Erweiterung]]
 - [[Methodik_Research_through_Design|Methodik: Research through Design]]
+- [[Digital_Rooms_Mapping_Matrix|Digital Rooms Mapping Matrix]]
+- [[Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
 - [[Fallstudien_und_Experimente|Fallstudien und Experimente]]
 - [[Begriffsapparat_Promotion|Begriffsapparat]]
 - [[Hypothesen|Hypothesen]]
@@ -80,6 +82,7 @@ Die Promotion untersucht nicht alle digitalen Räume. Sie konzentriert sich auf 
 ## Verknüpfte Vault-Bereiche
 
 - [[../03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX|Rotoscoping und AI VFX]]
+- [[Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
 - [[../04_Trends_und_Vorreiter/Trends_2026|Trends 2026]]
 - [[../05_Ethik_Recht_Provenance/Recht_Ethik_Provenance|Recht, Ethik und Provenance]]
 - [[../09_Emerging_Technologies/Emerging_Technologies|Emerging Technologies]]

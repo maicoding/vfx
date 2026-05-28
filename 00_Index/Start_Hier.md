@@ -15,6 +15,7 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 - [[../15_Promotion/Promotion_Index|Promotion]]
 - [[../15_Promotion/Promotionsformel_Digital_Rooms|Promotionsformel Digital Rooms]]
 - [[../15_Promotion/Digital_Rooms_Mapping_Matrix|Digital Rooms Mapping Matrix]]
+- [[../15_Promotion/Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
 - [[../15_Promotion/Theorie_Landkarte_AI_Postproduktion|Theorie-Landkarte Promotion]]
 - [[../15_Promotion/Theoriepositionen_Erweiterung|Theoriepositionen: Erweiterung]]
 - [[../16_Digital_Image_Space/Digital_Image_Space_Index|Digital Image Space]]
@@ -26,6 +27,7 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 
 - [[../01_Tools_und_Modelle/Tool_Landschaft_2026|Tool-Landschaft 2026]]
 - [[../02_Postproduktion_Workflows/Bedeutung_für_Postproduktion|Bedeutung für Postproduktion]]
+- [[../15_Promotion/Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
 - [[../03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX|Rotoscoping und AI VFX]]
 - [[../04_Trends_und_Vorreiter/Trends_2026|Trends 2026]]
 - [[../05_Ethik_Recht_Provenance/Recht_Ethik_Provenance|Recht, Ethik und Provenance]]
@@ -36,7 +38,15 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 - [[../11_Best_Practices/Best_Practice_Workflows|Best Practice Workflows]]
 - [[../12_Skills_und_Rollen/Skills_der_Zukunft|Skills und Rollen der Zukunft]]
 
-### Positionierung und System
+### Evidenz, Quellen und Review
+
+- [[../review/Claim_Evidence_Matrix|Claim Evidence Matrix]]
+- [[../review/Gegenstimmen_Register|Gegenstimmen Register]]
+- [[../review/Offene_Fragen_Research_2026-05-19|Offene Fragen Research 2026-05-19]]
+- [[../review/Methodik_Luecken_Research_2026-05-20|Methodik-Lücken Research 2026-05-20]]
+- [[../06_Quellen/Quellenbibliothek|Quellenbibliothek]]
+
+### 00_System: Interne Navigation (nicht öffentlich)
 
 - [[../14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion|Strategie für Studierende]]
 - [[../00_System/Vault_Operating_System|Vault Operating System]]
@@ -61,6 +71,7 @@ Generative KI verändert nicht nur Postproduktion oder VFX. Sie verschiebt digit
 8. `Interface Room` und `Scene Room` sind als Fallcluster stärker belegt als `Public / Built Room`.
 9. Recherche vom 2026-05-20: Die größte methodische Lücke ist ein eigenes Artefakt; die `Digital Rooms Mapping Matrix` ist dafür der stärkste Kandidat.
 10. Der Vault bleibt bewusst zweifach lesbar: als Denkraum für unfertige, Karpathy-artige Verdichtung und als Belegarchiv für rückverfolgbare Claims.
+11. Recherche vom 2026-05-28: `Hybrid Workflows` sind ein starkes Praxisfeld für den `Scene Room`, weil Plate, CG, AI, Gaussian Splats, USD, Color und Review dort als operativer Digital Room zusammenfallen.
 
 ## Offene Recherchefragen
 

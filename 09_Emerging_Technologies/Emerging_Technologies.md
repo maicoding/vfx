@@ -79,3 +79,15 @@ AI-basierte Kompression kann Review, Remote Workflows und Volumetric/Neural Rend
 ## 10. Multimodale Produktionsmodelle
 
 Die nächste Stufe ist nicht Text-to-Video, sondern ein Produktionsmodell, das Script, Storyboard, Kamera, Audio, Assets, Referenzen und Schnittlogik gemeinsam verarbeitet.
+
+## 11. Hybrid Workflows: Compositing, CGI, AI und Scene Rooms
+
+Hybrid Workflows verbinden Live-Action-Plates, CG-Render, Unreal-/Real-Time-Ausgaben, Gaussian Splats, AI-Roto/Cleanup, USD/MaterialX/ACES und Review-Layer. Sie sind deshalb ein konkreter Praxisfall für `Scene Rooms`.
+
+Vertiefung: [[../15_Promotion/Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
+
+Quellen / Signale:
+
+- Foundry Nuke 17.0: native Gaussian Splats, USD-basiertes 3D-System und erweiterte Machine-Learning-Funktionen: https://www.foundry.com/news-and-awards/foundry-releases-nuke-17-advancing-compositing-workflows
+- Nuke 17.0 Release Notes: SplatRender, USD 25.08 und Gaussian-Splat-Workflow: https://learn.foundry.com/nuke/content/release_notes/nuke_17.0.html
+- ACES 2.0 / ASWF: verbesserte Color- und Austauschlogik für komplexe Bildpipelines: https://press.oscars.org/news/academy-motion-picture-arts-and-sciences-launches-next-chapter-aces-academy-software

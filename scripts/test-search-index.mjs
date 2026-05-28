@@ -35,6 +35,7 @@ const rels = new Set(index.map((item) => item.rel));
 const requiredRels = [
   "00_Index/Start_Hier.md",
   "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+  "15_Promotion/Hybrid_Workflows_als_Digital_Rooms.md",
   "review/Offene_Fragen_Research_2026-05-19.md",
   "review/Methodik_Luecken_Research_2026-05-20.md",
   "wiki/sources/offene-fragen-digital-rooms-research-2026-05-19.md",
@@ -56,6 +57,10 @@ const requiredQueries = [
   "claim-ready",
   "Public / Built Room",
   "Gaussian Splatting",
+  "Hybrid Workflows",
+  "Nuke 17",
+  "USD",
+  "ACES 2.0",
   "Raumverantwortung",
   "Denkraum",
   "Belegarchiv",
