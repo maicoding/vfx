@@ -1,5 +1,13 @@
 # Rotoscoping und AI VFX
 
+## Karpathy-Status
+
+- Lifecycle: `signal / scoping`
+- Rolle: Praxis- oder Forschungsachse
+- Evidenzmodus: Beobachtungen, Quellen, offene Prüffragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als finalen Claim verwenden.
+- Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #rotoscoping #ai-vfx #compositing #matte
 
 ## Warum Rotoscoping der perfekte Testfall ist

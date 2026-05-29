@@ -1,5 +1,13 @@
 # Digital Rooms Mapping Matrix
 
+## Karpathy-Status
+
+- Lifecycle: `hypothesis / scoping`
+- Rolle: Promotions-Denkraum
+- Evidenzmodus: Begriffe, Fragen, Artefaktoptionen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als gesicherte Behauptung verwenden.
+- Nächster Prüfschritt: Artefakt und Quellenstatus klären.
 Status: hypothesis  
 Datum: 2026-05-20  
 Tags: #promotion #methodik #mapping #digital-rooms

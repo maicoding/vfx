@@ -1,5 +1,13 @@
 # Promotion: Digital Rooms
 
+## Karpathy-Status
+
+- Lifecycle: `scoping / evidence-linked`
+- Rolle: Promotions- und Theorieachse
+- Evidenzmodus: Theorieanker, Quellenanschlüsse, offene Fragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Matrixeintrag.
+- Nächster Prüfschritt: Status in Claim Evidence Matrix abgleichen.
 Tags: #promotion #forschung #dissertation #digital-rooms #digital-image-space #ai
 
 Stand: 2026-05-29

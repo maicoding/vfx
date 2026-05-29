@@ -1,5 +1,13 @@
 # Methodik: Research through Design
 
+## Karpathy-Status
+
+- Lifecycle: `scoping / evidence-linked`
+- Rolle: Promotions- und Theorieachse
+- Evidenzmodus: Theorieanker, Quellenanschlüsse, offene Fragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Matrixeintrag.
+- Nächster Prüfschritt: Status in Claim Evidence Matrix abgleichen.
 Tags: #methodik #research-through-design #praxisforschung #digital-rooms
 
 Stand: 2026-05-17
@@ -11,6 +19,8 @@ Die Promotion wird als **Research through Design** angelegt. Erkenntnis entsteht
 ## Methodischer Beitrag
 
 Die Arbeit entwickelt ein Analyse- und Entwurfsmodell für Digital Rooms. Dieses Modell beschreibt, wie digitale Räume aus Modell, Interface, operativen Bildern/Daten, Handlung und Verantwortung entstehen.
+
+Zentrale Arbeitsnotiz: [[Digital_Rooms_Mapping_Matrix|Digital Rooms Mapping Matrix]]
 
 ## Fallvergleich
 

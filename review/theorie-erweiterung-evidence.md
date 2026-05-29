@@ -1,5 +1,13 @@
 # Review: Theorie-Erweiterung
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked / review`
+- Rolle: Review / Gegenprüfung
+- Evidenzmodus: Quellen-, Claim- und Widerspruchsprüfung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Kontext als Synthese verwenden.
+- Nächster Prüfschritt: offene Prüfpunkte abarbeiten.
 Status: reviewed-for-integration  
 Datum: 2026-05-16
 

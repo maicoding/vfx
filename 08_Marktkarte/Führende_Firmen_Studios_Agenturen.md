@@ -1,5 +1,13 @@
 # Führende Firmen, Studios und Agenturen
 
+## Karpathy-Status
+
+- Lifecycle: `signal / evidence-linked`
+- Rolle: Praxis-, Tool- oder Trendkarte
+- Evidenzmodus: Herstellerquelle, Branchenquelle, Paper oder Review
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: keine Markt-/Leistungsclaims ohne Quelle und Datum.
+- Nächster Prüfschritt: Quellen aktualisieren und Gegenbeispiele suchen.
 Tags: #studios #agenturen #firmen #vorreiter
 
 ## Tool- und Modellanbieter

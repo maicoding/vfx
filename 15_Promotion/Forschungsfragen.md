@@ -1,5 +1,13 @@
 # Forschungsfragen
 
+## Karpathy-Status
+
+- Lifecycle: `hypothesis / scoping`
+- Rolle: Promotions-Denkraum
+- Evidenzmodus: Begriffe, Fragen, Artefaktoptionen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als gesicherte Behauptung verwenden.
+- Nächster Prüfschritt: Artefakt und Quellenstatus klären.
 Tags: #forschungsfragen #promotion #digital-rooms #digital-image-space
 
 ## Leitfrage

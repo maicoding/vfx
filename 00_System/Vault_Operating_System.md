@@ -1,5 +1,13 @@
 # Vault Operating System
 
+## Karpathy-Status
+
+- Lifecycle: `system-rule`
+- Rolle: Systemregel / Workflow
+- Evidenzmodus: Regeltext, keine Forschungsclaim-Seite
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: Regel anwenden, nicht als Evidenz zitieren.
+- Nächster Prüfschritt: Bei Workflow-Änderung synchronisieren.
 Status: living-system  
 Stand: 2026-05-17
 
@@ -98,13 +106,15 @@ Voraussetzung:
 
 ## Wöchentliche Automation
 
-Die Automation `Promotionsvault Digital Rooms Research-Scout` muss prüfen:
+Die Automation `Digital Rooms Vault Research-Scout` muss prüfen:
 
 - `source_refresh`
 - `contradiction_scan`
 - `topic_drift_scan`
 - `confidence_decay`
 - `slop_detection`
+
+Hinweis: `promotionsvault-research-scout` gehört zu einem anderen Promotionsvault und darf nicht für diesen Vault überschrieben werden.
 
 ## Aktuelle Risiken
 

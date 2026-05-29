@@ -1,5 +1,13 @@
 # Promotionsformel: Digital Rooms
 
+## Karpathy-Status
+
+- Lifecycle: `hypothesis / scoping`
+- Rolle: Promotions-Denkraum
+- Evidenzmodus: Begriffe, Fragen, Artefaktoptionen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als gesicherte Behauptung verwenden.
+- Nächster Prüfschritt: Artefakt und Quellenstatus klären.
 Tags: #promotion #digital-rooms #verdichtung #forschungsdesign
 
 Stand: 2026-05-17

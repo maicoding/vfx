@@ -1,5 +1,13 @@
 # Vom Frame zur Szene
 
+## Karpathy-Status
+
+- Lifecycle: `scoping / evidence-linked`
+- Rolle: Promotions- und Theorieachse
+- Evidenzmodus: Theorieanker, Quellenanschlüsse, offene Fragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Matrixeintrag.
+- Nächster Prüfschritt: Status in Claim Evidence Matrix abgleichen.
 Tags: #frame #scene #3d #4d #postproduktion
 
 ## Kernidee

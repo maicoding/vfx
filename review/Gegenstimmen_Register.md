@@ -1,5 +1,13 @@
 # Gegenstimmen Register
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked / review`
+- Rolle: Review / Gegenprüfung
+- Evidenzmodus: Quellen-, Claim- und Widerspruchsprüfung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Kontext als Synthese verwenden.
+- Nächster Prüfschritt: offene Prüfpunkte abarbeiten.
 Status: living-review  
 Zweck: Widerspruch aktiv sammeln, bevor Claims gehärtet werden.
 
@@ -21,6 +29,12 @@ Prüfung:
 - Entscheiden, ob `Digital Rooms` als eigener Begriff oder als heuristischer Arbeitsbegriff geführt wird.
 
 Status: `contested`
+
+Update 2026-05-19:
+
+- Gegenstimme bleibt stark.
+- Recherche zeigt historische Anschlussstellen über HCI-/CSCW-Room-Metaphern, aber keinen ausreichenden Beleg für `Digital Rooms` als etablierten Fachterminus.
+- Empfehlung: Begriff als heuristischen Designforschungsbegriff führen.
 
 ### 2. VFX wird zu stark abgewertet
 
@@ -47,6 +61,12 @@ Prüfung:
 - Vergleich nur über Matrix `Modell / Interface / operative Daten / Handlung / Verantwortung / Gestaltung`.
 
 Status: `hypothesis`
+
+Update 2026-05-19:
+
+- Der stärkste Kandidat ist aktuell ein digitaler Lernraum oder eine virtuelle Ausstellung.
+- Digital Twin ist evidenzstark, aber nur sinnvoll, wenn Zugang zu einem realen Raum, Datensatz oder institutionellen Partner besteht.
+- Soziale Plattformräume besser als Governance-Kontrast statt Hauptfall.
 
 ### 4. Theorie-Pyramide ist noch zu breit
 

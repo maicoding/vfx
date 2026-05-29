@@ -9,6 +9,14 @@ source_status: mixed-primary-theory-and-current-research
 
 # Digital Image Space Ingest, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked`
+- Rolle: Quellenkarte
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Anschlussnotizen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Scope als Claim nutzen.
+- Nächster Prüfschritt: Kontext und Gegenposition prüfen.
 ## Ziel
 
 Quellenbündel für die Erweiterung des Vaults um Digital Image Space.

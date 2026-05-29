@@ -1,5 +1,13 @@
 # Offene Fragen Research
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked / review`
+- Rolle: Review / Gegenprüfung
+- Evidenzmodus: Quellen-, Claim- und Widerspruchsprüfung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Kontext als Synthese verwenden.
+- Nächster Prüfschritt: offene Prüfpunkte abarbeiten.
 Status: evidence-linked / scoping  
 Datum: 2026-05-19  
 Tags: #review #offene-fragen #digital-rooms #claim-status

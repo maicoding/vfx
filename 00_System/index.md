@@ -7,6 +7,14 @@ updated: 2026-05-16
 
 # System Index
 
+## Karpathy-Status
+
+- Lifecycle: `system-rule`
+- Rolle: Systemregel / Workflow
+- Evidenzmodus: Regeltext, keine Forschungsclaim-Seite
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: Regel anwenden, nicht als Evidenz zitieren.
+- Nächster Prüfschritt: Bei Workflow-Änderung synchronisieren.
 Dieser Vault folgt dem Karpathy-Style LLM-Wiki-Pattern: Raw Sources bleiben erhalten, die thematischen Ordner bilden die kompilierte Wiki, Outputs sind abgeleitete Formate.
 
 ## System
@@ -44,6 +52,7 @@ Dieser Vault folgt dem Karpathy-Style LLM-Wiki-Pattern: Raw Sources bleiben erha
 - [[../14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion]]
 - [[../15_Promotion/Promotion_Index]]
 - [[../15_Promotion/Promotionsformel_Digital_Rooms]]
+- [[../15_Promotion/Digital_Rooms_Mapping_Matrix]]
 - [[../15_Promotion/Theoriepositionen_Erweiterung]]
 - [[../16_Digital_Image_Space/Digital_Image_Space_Index]]
 - [[../16_Digital_Image_Space/Digital_Rooms]]

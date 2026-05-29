@@ -8,6 +8,14 @@ tags: [digital-image-space, promotion, synthesis]
 
 # Synthese: Digital Image Space
 
+## Karpathy-Status
+
+- Lifecycle: `draft / synthesis`
+- Rolle: Verdichtung
+- Evidenzmodus: kompilierte Quellen- und Theoriearbeit
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Human Review.
+- Nächster Prüfschritt: Claims gegen Matrix prüfen.
 Digital Image Space erweitert das Promotionsprojekt von AI-Postproduktion als Workflow zu AI-Postproduktion als Bildraum. Der Begriff bündelt Pixel, Layer, operative Zwischenbilder, Latent Space, Szene, Interface und Provenance.
 
 ## Kernnutzen

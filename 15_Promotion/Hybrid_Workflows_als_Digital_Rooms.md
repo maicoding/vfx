@@ -1,5 +1,13 @@
 # Hybrid Workflows als Digital Rooms
 
+## Karpathy-Status
+
+- Lifecycle: `scoping / evidence-linked`
+- Rolle: Promotions- und Theorieachse
+- Evidenzmodus: Theorieanker, Quellenanschlüsse, offene Fragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Matrixeintrag.
+- Nächster Prüfschritt: Status in Claim Evidence Matrix abgleichen.
 Tags: #promotion #digital-rooms #hybrid-workflows #compositing #cgi #scene-room #evidence-linked
 
 Status: signal / evidence-linked  

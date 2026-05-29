@@ -1,5 +1,13 @@
 # Notion Sync
 
+## Karpathy-Status
+
+- Lifecycle: `scoping`
+- Rolle: Arbeitsnotiz
+- Evidenzmodus: Material und Verlinkung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als Claim verwenden.
+- Nächster Prüfschritt: Status prüfen.
 Tags: #notion #sync
 
 Diese Datei dokumentiert die synchrone Notion-Seite zum Vault.
@@ -13,6 +21,8 @@ Diese Datei dokumentiert die synchrone Notion-Seite zum Vault.
 - Notion-Ergänzungsseite Trends vertieft: https://www.notion.so/36128aff2cbc81c3b957c37ff0a6d50c
 - Notion-Ergänzungsseite Promotion Digital Rooms: https://www.notion.so/36128aff2cbc81259cacc23f07cb1a28
 - Notion-Unterseite Vault Operating System: https://www.notion.so/36328aff2cbc815985c4ea910c8d03d0
+- Notion-Unterseite Offene Fragen Research 2026-05-19: https://www.notion.so/36528aff2cbc81b89cfcdfe76de67419
+- Notion-Unterseite Digital Rooms Mapping Matrix: https://www.notion.so/36628aff2cbc818bbff3eb17ac16dee2
 - Notion-Unterseite Promotionsformel Digital Rooms: https://www.notion.so/36328aff2cbc8185aa88cf7522a66430
 - Notion-Unterseite Digital Rooms Promotionsfokus: https://www.notion.so/36228aff2cbc81f78660c5d4c0f70448
 - Notion-Unterseite Digital Rooms Erweiterte Felder: https://www.notion.so/36228aff2cbc81a8a679e4cab05c4478

@@ -1,5 +1,13 @@
 # Workflows
 
+## Karpathy-Status
+
+- Lifecycle: `system-rule`
+- Rolle: Systemregel / Workflow
+- Evidenzmodus: Regeltext, keine Forschungsclaim-Seite
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: Regel anwenden, nicht als Evidenz zitieren.
+- Nächster Prüfschritt: Bei Workflow-Änderung synchronisieren.
 ## Ingest
 
 1. Neues Material in `raw/inbox/` lesen.
@@ -13,7 +21,7 @@
 9. `00_Index/Start_Hier.md` immer aktualisieren, sobald sich Kernthese, Einstiegspfade, offene Fragen oder Prioritäten ändern.
 10. `00_System/index.md` und bei Bedarf `wiki/index.md` aktualisieren.
 11. `07_Notion_Sync/Notion_Sync.md` und die passende Notion-Seite nachziehen, wenn neue Hauptseiten, Synthesen oder Promotionsbausteine entstehen.
-12. Bei grundlegenden Änderungen an Promotionsfokus, Kernthese, Theorieachsen oder Fallstudienlogik die Automation `Promotionsvault Digital Rooms Research-Scout` prüfen und bei Bedarf aktualisieren.
+12. Bei grundlegenden Änderungen an Promotionsfokus, Kernthese, Theorieachsen oder Fallstudienlogik die Automation `Digital Rooms Vault Research-Scout` prüfen und bei Bedarf aktualisieren.
 13. Eintrag in `00_System/log.md` und bei Bedarf `wiki/log.md` anhängen.
 
 ## Topic Lifecycle

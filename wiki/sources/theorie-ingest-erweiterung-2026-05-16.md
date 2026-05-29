@@ -9,6 +9,14 @@ source_status: mixed-primary-theory-and-secondary-overview
 
 # Theorie-Ingest Erweiterung, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked`
+- Rolle: Quellenkarte
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Anschlussnotizen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Scope als Claim nutzen.
+- Nächster Prüfschritt: Kontext und Gegenposition prüfen.
 ## Ziel
 
 Ergänzung der Theorieebene jenseits von Manovich. Die neuen Positionen werden in drei Achsen sortiert:

@@ -1,5 +1,13 @@
 # Forschung und Paper Pipeline
 
+## Karpathy-Status
+
+- Lifecycle: `signal / scoping`
+- Rolle: Praxis- oder Forschungsachse
+- Evidenzmodus: Beobachtungen, Quellen, offene Prüffragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als finalen Claim verwenden.
+- Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #papers #forschung #ai-video #vfx #pipeline
 
 Stand: 2026-05-12

@@ -1,5 +1,13 @@
 # Trends 2026: AI, VFX und Postproduktion
 
+## Karpathy-Status
+
+- Lifecycle: `signal / evidence-linked`
+- Rolle: Praxis-, Tool- oder Trendkarte
+- Evidenzmodus: Herstellerquelle, Branchenquelle, Paper oder Review
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: keine Markt-/Leistungsclaims ohne Quelle und Datum.
+- Nächster Prüfschritt: Quellen aktualisieren und Gegenbeispiele suchen.
 Tags: #trends #postproduktion #ai-video #vfx #markt #workflow
 
 Stand: 2026-05-15

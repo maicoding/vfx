@@ -1,5 +1,13 @@
 # Denkachsen Register
 
+## Karpathy-Status
+
+- Lifecycle: `living-denkraum`
+- Rolle: Denkachsen-Sortierung
+- Evidenzmodus: Status, Material, Nicht-behaupten, Prüfschritt
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als Evidenzquelle verwenden.
+- Nächster Prüfschritt: bei neuen Achsen aktualisieren.
 Status: living-denkraum  
 Stand: 2026-05-29  
 Tags: #promotion #denkachsen #karpathy #digital-rooms

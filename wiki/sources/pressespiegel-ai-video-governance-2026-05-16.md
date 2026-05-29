@@ -9,6 +9,14 @@ source_status: press-articles
 
 # Pressespiegel KI, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `signal / needs-review`
+- Rolle: Quellenkarte / Branchensignal
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Unsicherheit
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als harten Claim verwenden.
+- Nächster Prüfschritt: Primärquelle und Gegenbelege prüfen.
 AI-Postproduktion/VFX: synthetische Kurzvideos, Stereotype, Modellkonvergenz, Plattformmacht und Governance.
 
 ## Quellenstatus

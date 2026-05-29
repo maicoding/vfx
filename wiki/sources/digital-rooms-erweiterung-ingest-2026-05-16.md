@@ -1,5 +1,13 @@
 # Source Ingest: Digital Rooms Erweiterung
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked`
+- Rolle: Quellenkarte
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Anschlussnotizen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Scope als Claim nutzen.
+- Nächster Prüfschritt: Kontext und Gegenposition prüfen.
 Tags: #source-ingest #digital-rooms #spatial-computing #digital-twins #governance
 
 Stand: 2026-05-16

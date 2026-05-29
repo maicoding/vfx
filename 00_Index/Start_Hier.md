@@ -1,5 +1,13 @@
 # Digital Rooms
 
+## Karpathy-Status
+
+- Lifecycle: `index`
+- Rolle: Navigation / Themenstruktur
+- Evidenzmodus: verlinkte Vault-Struktur
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als Forschungsclaim zitieren.
+- Nächster Prüfschritt: Links aktuell halten.
 Stand: 2026-05-29
 
 ## Thema

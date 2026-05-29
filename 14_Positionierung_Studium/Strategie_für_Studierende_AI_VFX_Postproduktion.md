@@ -1,5 +1,13 @@
 # Strategie für Studierende: Positionierung in AI VFX und Postproduktion
 
+## Karpathy-Status
+
+- Lifecycle: `signal / scoping`
+- Rolle: Praxis- oder Forschungsachse
+- Evidenzmodus: Beobachtungen, Quellen, offene Prüffragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als finalen Claim verwenden.
+- Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #studium #positionierung #karriere #portfolio #ai-vfx
 
 Stand: 2026-05-12

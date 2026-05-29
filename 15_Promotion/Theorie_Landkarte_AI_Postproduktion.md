@@ -1,5 +1,13 @@
 # Theorie-Landkarte: AI, VFX und postproduktive Gestaltung
 
+## Karpathy-Status
+
+- Lifecycle: `scoping / evidence-linked`
+- Rolle: Promotions- und Theorieachse
+- Evidenzmodus: Theorieanker, Quellenanschlüsse, offene Fragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Matrixeintrag.
+- Nächster Prüfschritt: Status in Claim Evidence Matrix abgleichen.
 Tags: #theorie #promotion #medientheorie #software-studies #designforschung
 
 ## Ziel

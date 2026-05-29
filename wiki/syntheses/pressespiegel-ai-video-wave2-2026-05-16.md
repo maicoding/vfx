@@ -9,6 +9,14 @@ source_status: mixed-press-and-policy-report
 
 # Evidenzsynthese: Pressespiegel Wave 2, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `draft / synthesis`
+- Rolle: Verdichtung
+- Evidenzmodus: kompilierte Quellen- und Theoriearbeit
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Human Review.
+- Nächster Prüfschritt: Claims gegen Matrix prüfen.
 Quelle: [[../sources/pressespiegel-ai-video-wave2-2026-05-16]]
 
 ## Kurzfazit
@@ -17,12 +25,12 @@ AI-Postproduktion/VFX: AI Slop, Kreativbranche, Arbeitsmarkt, Lern-/Kompetenzfra
 
 ## Was jetzt besser belegt ist
 
-1. Schule und Assessment: OECD 2026 stützt die These, dass generative KI Lern- und Prüfungspraktiken verändert und sichtbare Produktqualitaet nicht automatisch Lernzuwachs bedeutet.
-2. Soziale Ungleichheit: Wang, Zhou & Liu 2026 liefern direkte Evidenz, dass AI Awareness, Familiarity und Usage mit soziooekonomischem Status zusammenhaengen.
+1. Schule und Assessment: OECD 2026 stützt die These, dass generative KI Lern- und Prüfungspraktiken verändert und sichtbare Produktqualität nicht automatisch Lernzuwachs bedeutet.
+2. Soziale Ungleichheit: Wang, Zhou & Liu 2026 liefern direkte Evidenz, dass AI Awareness, Familiarity und Usage mit sozioökonomischem Status zusammenhängen.
 3. AI Literacy: Long & Magerko, UNESCO und OECD stützen die Linie, dass KI-Kompetenz kritisches Bewerten, Systemverständnis, Ethik und Anwendung umfasst.
 4. Governance/Mensch-im-Loop: EU AI Act, NIST, Trust-in-Automation- und Accountability-Literatur stützen die Forderung nach menschlicher Verantwortung und Kontrollarchitektur.
 5. AI Slop/Kreativbranche: als Praxisdiagnose plausibel; empirisch stärker abzusichern über Kreativitäts-/Homogenisierungsstudien, Bildbias und synthetische Medien, nicht über einzelne Beispiele.
 
 ## Vorsicht
 
-Agentic Commerce, Wirtschaftsgewinner, Rechenzentrumszahlen, Investitionssummen und konkrete politische Talkshow-/Kommentarpositionen bleiben ohne zusaetzliche Primärquellen schwach. Als Debattenindikatoren sind sie wertvoll, als Beweis noch nicht.
+Agentic Commerce, Wirtschaftsgewinner, Rechenzentrumszahlen, Investitionssummen und konkrete politische Talkshow-/Kommentarpositionen bleiben ohne zusätzliche Primärquellen schwach. Als Debattenindikatoren sind sie wertvoll, als Beweis noch nicht.

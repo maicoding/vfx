@@ -1,5 +1,13 @@
 # Digital Rooms, AI und Postproduktion
 
+## Karpathy-Status
+
+- Lifecycle: `scoping`
+- Rolle: Arbeitsnotiz
+- Evidenzmodus: Material und Verlinkung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als Claim verwenden.
+- Nächster Prüfschritt: Status prüfen.
 GitHub-Pages-Wissenshub aus dem Obsidian-Vault `AI_Postproduktion_VFX_Vault`.
 
 Der Vault sammelt Recherche zu generativer KI, Postproduktion, VFX, Video- und Bildmodellen, Digital Rooms, Digital Image Space, Recht/Ethik/Provenance, Lehre, Promotion, Markt, Tools und Workflows.
@@ -16,7 +24,7 @@ https://maicoding.github.io/vfx/
 
 Der Pages-Export ist bewusst auf Inhalte kuratiert: interne Betriebs-, Sync-, System- und Workflow-Notizen bleiben im Vault, werden aber nicht in die öffentliche Seite, Suche, Backlinks oder Linklisten übernommen.
 
-Die Seite enthaelt:
+Die Seite enthält:
 
 - `index.html` als Atlas-Startseite
 - `strands.html` als kuratierte Forschungs- und Lesestränge

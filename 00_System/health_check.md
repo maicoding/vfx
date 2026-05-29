@@ -1,5 +1,13 @@
 # Health Check
 
+## Karpathy-Status
+
+- Lifecycle: `system-rule`
+- Rolle: Systemregel / Workflow
+- Evidenzmodus: Regeltext, keine Forschungsclaim-Seite
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: Regel anwenden, nicht als Evidenz zitieren.
+- Nächster Prüfschritt: Bei Workflow-Änderung synchronisieren.
 ## Regelmäßig prüfen
 
 - Welche Quellen liegen in `raw/inbox/`, sind aber noch nicht kompiliert?

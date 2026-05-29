@@ -1,5 +1,13 @@
 # Recht, Ethik und Provenance
 
+## Karpathy-Status
+
+- Lifecycle: `signal / scoping`
+- Rolle: Praxis- oder Forschungsachse
+- Evidenzmodus: Beobachtungen, Quellen, offene Prüffragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als finalen Claim verwenden.
+- Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #recht #ethik #c2pa #synthid #content-credentials #ip
 
 ## Warum das für Postproduktion zentral ist

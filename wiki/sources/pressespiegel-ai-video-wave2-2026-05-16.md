@@ -9,6 +9,14 @@ source_status: mixed-press-and-policy-report
 
 # Pressespiegel Wave 2 mit Studienbasis, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `signal / needs-review`
+- Rolle: Quellenkarte / Branchensignal
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Unsicherheit
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als harten Claim verwenden.
+- Nächster Prüfschritt: Primärquelle und Gegenbelege prüfen.
 AI-Postproduktion/VFX: AI Slop, Kreativbranche, Arbeitsmarkt, Lern-/Kompetenzfragen.
 
 ## Quellenstatus
@@ -51,11 +59,11 @@ Diese Welle mischt Presseartikel mit einer starken OECD-Policy-/Reviewquelle. Pr
 - Dateien: `raw/assets/pressespiegel-ki-studienbasis-2026-05-16/062a7394-en.pdf`
 - Thema: Generative AI in education, learning, assessment, adoption, policy, risks, effective use
 - Kernaussage: OECD-Flagship-Publikation zu generativer KI in Bildung. Behandelt Nutzung in Schul- und Hochschulkontexten, Chancen, Risiken, Assessment, kognitive Unterstützung, Produktionsunterstützung und wirksame didaktische Nutzung.
-- Studienbasis / Evidenzstatus: Starke Policy-/Review-Basis. DOI 10.1787/062a7394-en. Diese Quelle kann Presseartikel zu Schule, Assessment und KI-Kompetenz belastbar unterfuettern.
+- Studienbasis / Evidenzstatus: Starke Policy-/Review-Basis. DOI 10.1787/062a7394-en. Diese Quelle kann Presseartikel zu Schule, Assessment und KI-Kompetenz belastbar unterfüttern.
 - Nutzungsstatus: official framework/report; core/supporting evidence
 
 ## Evidenzregeln
 
-- Presseartikel liefern Debattenlage, Beispiele und Praxisfaelle.
+- Presseartikel liefern Debattenlage, Beispiele und Praxisfälle.
 - OECD und peer-reviewed Studien dürfen tragende Argumente stützen.
 - Zahlen, Marktprognosen, politische Bewertungen und konkrete Unternehmensbeispiele werden erst nach Primärquellenprüfung stark formuliert.

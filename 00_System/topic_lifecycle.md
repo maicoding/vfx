@@ -1,5 +1,13 @@
 # Topic Lifecycle
 
+## Karpathy-Status
+
+- Lifecycle: `system-rule`
+- Rolle: Systemregel / Workflow
+- Evidenzmodus: Regeltext, keine Forschungsclaim-Seite
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: Regel anwenden, nicht als Evidenz zitieren.
+- Nächster Prüfschritt: Bei Workflow-Änderung synchronisieren.
 Status: living-system-rule  
 Zweck: Denkraum und Evidenzlogik verbinden.
 

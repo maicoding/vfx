@@ -9,6 +9,14 @@ source_status: press-articles
 
 # Synthese: Pressespiegel KI, 16.05.2026
 
+## Karpathy-Status
+
+- Lifecycle: `draft / synthesis`
+- Rolle: Verdichtung
+- Evidenzmodus: kompilierte Quellen- und Theoriearbeit
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht claim-ready ohne Human Review.
+- Nächster Prüfschritt: Claims gegen Matrix prüfen.
 Quelle: [[../sources/pressespiegel-ai-video-governance-2026-05-16]]
 
 ## Kurzfazit

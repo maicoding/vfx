@@ -1,5 +1,13 @@
 # Skills und Rollen der Zukunft
 
+## Karpathy-Status
+
+- Lifecycle: `signal / scoping`
+- Rolle: Praxis- oder Forschungsachse
+- Evidenzmodus: Beobachtungen, Quellen, offene Prüffragen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als finalen Claim verwenden.
+- Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #skills #rollen #ausbildung #future-work
 
 ## Warum neue Skills entstehen

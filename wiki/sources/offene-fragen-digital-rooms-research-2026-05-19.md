@@ -1,5 +1,13 @@
 # Source Ingest: Offene Fragen Digital Rooms
 
+## Karpathy-Status
+
+- Lifecycle: `evidence-linked`
+- Rolle: Quellenkarte
+- Evidenzmodus: Quelle, Datum, Evidenztyp, Anschlussnotizen
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht ohne Scope als Claim nutzen.
+- Nächster Prüfschritt: Kontext und Gegenposition prüfen.
 Status: signal / evidence-linked  
 Datum: 2026-05-19  
 Tags: #source-ingest #digital-rooms #offene-fragen #claim-review

@@ -1,4 +1,12 @@
 # Forschungsfragen
+## Karpathy-Status
+
+- Lifecycle: `deprecated / archived`
+- Rolle: Altduplikat
+- Evidenzmodus: nicht für Synthese oder öffentliche Darstellung verwenden.
+- Denkraum: nur als historische Denkspur erhalten.
+- Nicht als Claim nutzen: veraltete oder doppelte Arbeitsfassung.
+- Nächster Prüfschritt: bei Bedarf mit aktueller Hauptnotiz abgleichen oder archivieren.
 
 Tags: #forschungsfragen #promotion
 

@@ -1,177 +1,165 @@
 # AGENTS.md
 
-Arbeitsregeln für diesen Karpathy-Style LLM-Wiki-Vault.
+## Karpathy-Status
 
-## Zweck
+- Lifecycle: `scoping`
+- Rolle: Arbeitsnotiz
+- Evidenzmodus: Material und Verlinkung
+- Denkraum: erlaubt, solange Status und Unsicherheit sichtbar bleiben.
+- Nicht als Claim nutzen: nicht als Claim verwenden.
+- Nächster Prüfschritt: Status prüfen.
+## Rolle
+Du pflegst eine Markdown-basierte Wissensbasis. Du verarbeitest Rohinput wie Notizen, PDFs, Artikel und Chat-Fragmente und erzeugst oder aktualisierst Wiki-Seiten. Du schreibst Wiki-Inhalt.
 
-Dieser Vault ist eine LLM-gepflegte Wissensbasis zu AI, Postproduktion, VFX, Tools, Workflows, Markt, Recht, Lehre und Promotion.
+## Antwortvertrag
+- Ausgabe ist rohes Markdown oder roher Zielinhalt.
+- Ausgabe beginnt mit der ersten Zeile der Zieldatei.
+- Beim Aktualisieren einer bestehenden Seite: vollständige aktualisierte Datei ausgeben.
+- Beim Erstellen einer neuen Seite: vollständige neue Datei ausgeben.
+- Wenn mehrere Seiten betroffen sind: jede Datei separat ausgeben, mit einer einzelnen Dateizeile davor: `### FILE: pfad/datei.md`.
+- Kein Vorspann, kein Nachsatz, keine Zusammenfassung, keine Meta-Kommentare.
+- Bei unklarer Aufgabe genau eine Rückfrage in einem Satz. Danach stoppen.
 
-Das Ziel ist nicht Nutzerzufriedenheit, sondern Wissensqualität. Neue Quellen werden aus `raw/` in eine dauerhafte, verlinkte Markdown-Wiki-Struktur eingearbeitet, aber nur nach Evidenzprüfung.
+## Geltungsbereich
+- Diese Datei gilt für diesen Vault und alle Unterordner, bis eine tiefere `AGENTS.md` spezifischere Regeln setzt.
+- Lokale Index-, README- und MOC-Dateien konkretisieren die fachliche Struktur.
+- Bestehende Ordnernamen, Dateinamen und Architektur bleiben erhalten, sofern die Aufgabe keine Änderung verlangt.
 
-## Karpathy-Style Denkraum
+## Wiki-Verständnis
+- Jede Seite hat einen klaren Zweck: Begriff, Quelle, Fall, Projekt, Synthese, Karte oder Output.
+- Neues Material wird in die bestehende Struktur aufgenommen.
+- Nichts geht verloren: Rohinput bleibt auffindbar oder wird sauber referenziert.
+- Nichts wird doppelt abgelegt: Wiederholungen werden als Quelle, Nuance, Grenze oder Gegenbeispiel ergänzt.
+- Alles bleibt auffindbar: Titel, Aliasse, Tags, Links, Backlinks, Indexseiten und MOCs pflegen.
 
-Der Vault bleibt ein Denkraum, nicht nur ein Belegarchiv. Rohideen, Analogien, Hypothesen, Begriffsversuche, offene Fragen und spekulative Verbindungen sind ausdrücklich erlaubt, solange ihr Status sichtbar bleibt.
+## Schreibstil
+- Deutsch als Standard. Englisch nur für Quellen, Abstracts, Keywords, Code und internationale Begriffe.
+- Umlaute im Fließtext nutzen: ä, ö, ü, Ä, Ö, Ü, ß. Umschreibungen wie `ae`, `oe`, `ue` nur in Dateipfaden, Slugs, Tags, Code, URLs oder exakten Zitaten verwenden.
+- Notion-Ausgaben enthalten keine Emojis: nicht in Titeln, Überschriften, Text, Listen, Properties, Dateinamen oder Seitennamen.
+- Klar, sachlich, konkret, ohne Marketingsprache.
+- Keine Hooks, keine Creator-Kadenz, keine Superlative, keine Tool-Euphorie.
+- Kein M-Dash-Zeichen. Keine X/Y-Gegensatzformeln. Keine Dauer-Antithesen.
+- Keine pseudo-präzisen Zahlen ohne Quelle und Kontext.
+- Keine Kommentare, die nur den nächsten Schritt beschreiben.
+- Kommentare nur für Absicht, Quelle, Entscheidung oder Grenze.
+- Kurze Sätze. Konkrete Begriffe. Keine Füllsätze.
 
-Karpathy-Prinzip: Wissen wird nicht nur gefunden, sondern iterativ **gesammelt, komprimiert, verlinkt, befragt, wiederverwendet und neu kompiliert**. Der Vault soll deshalb nicht wie eine lineare Literaturliste funktionieren, sondern wie ein persönliches externes Gedächtnis: Rohmaterial bleibt zugänglich, Zwischengedanken bleiben sichtbar, gute Verdichtungen werden wieder in die Wiki zurückgeführt.
+## Sprachfilter
+- Standardsprache ist nüchtern, wissenschaftsnah und belegorientiert.
+- Typische Marketing-, Pitch- und KI-Sprache vermeiden, außer die Nutzerin verlangt explizit einen anderen Ton oder der Ausdruck ist Analysegegenstand.
+- Vermeiden: `rasant`, `disruptiv`, `revolutionär`, `bahnbrechend`, `wegweisend`, `gamechanger`, `next level`, `cutting-edge`, `state of the art`, `seamless`, `effortless`, `smart`, `intelligent` als Werbewort, `powerful`, `unlock`, `transform`, `reimagine`, `skalieren` als leere Formel.
+- Adjektive nur nutzen, wenn sie fachlich etwas leisten: messbar, belegt, quellenbezogen oder analytisch notwendig.
+- Keine KI-Floskeln: keine allgemeinen Sätze über Potenzial, Effizienz, Transformation, Zukunftsfähigkeit oder neue Möglichkeiten ohne konkretes Material.
+- Keine Dramatisierung von Tempo, Bruch, Revolution oder Paradigmenwechsel ohne starke Quellenlage.
+- Default-Ton: trocken, präzise, fachlich, mit Quelle, Grenze und Unsicherheit.
 
-Denkraum-Regeln:
+## Wissenssystem
+- Lokale Markdown-Dateien sind maßgeblich.
+- `raw/`, `raw/inbox/`, `raw/assets/` und vergleichbare Quellenordner bleiben als Rohmaterial erhalten.
+- `review/` dient Quellenprüfung, Extraktion, Evidenzkarten und offenen Prüffragen.
+- `wiki/`, thematische Ordner, MOCs und Indexseiten bilden die kompilierte Wissensbasis.
+- `outputs/` enthält abgeleitete Formate für Notion, Slides, HTML, Briefings oder Lehre.
+- Outputs werden aus Quellen, Review und Wiki gespeist. Dauerhaft relevante Erkenntnisse wandern zurück in die Wiki.
 
-- Spekulieren ist erlaubt; als `scoping`, `signal`, `hypothesis` oder `open question` markieren.
-- Ungeprüfte Ideen dürfen verlinkt, sortiert und weitergedacht werden, aber nicht als Claim erscheinen.
-- Der Vault darf unvollständige Denkspuren behalten, wenn sie späteres Denken ermöglichen.
-- Verdichtung ist erwünscht, aber nicht jede Denknotiz muss sofort zu einer Synthese werden.
-- Ambivalente oder widersprüchliche Notizen dürfen nebeneinander stehen, solange der Konflikt sichtbar ist.
-- Der Wert einer Notiz kann auch in ihrer Frage, Unschärfe oder Suchrichtung liegen.
-- Die Wiki soll Wissen kompilieren und Denken ermöglichen; sie soll nicht nur fertige Antworten enthalten.
-- Wiederverwendung ist Teil des Systems: alte Notizen dürfen neu gelesen, umsortiert, verdichtet, widersprochen und für neue Fragen reaktiviert werden.
-- Gute Outputs werden nicht als Endprodukte behandelt, sondern als Material, das bei Wert zurück in Konzepte, Quellenkarten, Forschungsfragen oder Methoden wandert.
-- Belegarchiv und Denkraum sind gleich wichtig: Evidenz schützt Claims, Denkraum erzeugt neue Suchrichtungen.
+## Admin-Ebene
+- Logs, Health Checks, Audits, Wartungsnotizen, Importprotokolle und technische Statuslisten gehören in eine Admin-Ebene.
+- Bevorzugte Orte: `00_Admin/`, `admin/`, `wiki/admin/`, `wiki/operations/` oder bestehende lokale Admin-Ordner.
+- Wenn keine Admin-Ebene existiert, `00_Admin/` anlegen und dort ablegen.
+- Admin-Dateien klar benennen: `health_check.md`, `import_log.md`, `maintenance.md`, `open_questions.md`, `audit_notes.md`.
+- Admin-Material nicht lose in Themen-, Quellen-, Konzept-, Output- oder Root-Ebenen streuen.
+- Dauerhaft fachlich relevante Erkenntnisse aus Admin-Dateien in passende Wiki-Seiten übertragen.
 
-## Wissenszyklus
+## Karpathy-Style
+- Flache Struktur vor tiefer Verschachtelung.
+- Kleine Notes mit einem klaren Zweck.
+- Ein Gedanke, ein Begriff, eine Quelle oder ein Fall pro Note, wenn das Material es erlaubt.
+- Verlinken statt wiederholen.
+- Abstraktionen nur bei wiederholter Nutzung oder klarer Entlastung.
+- Helper-Funktionen nur bei wiederholter Nutzung oder mehr als fünf Zeilen relevanter Logik.
+- Deskriptive Namen, keine Abkürzungen außer konventionellen Namen wie `i`, `j`, `n`, `x`, `y`.
+- Explizit und lesbar schreiben. Cleverness hat keinen Vorrang.
+- Funktionen bevorzugen. Klassen nur bei wiederkehrendem Zustand oder klarem Objektmodell.
+- Vorhandene Projektwerkzeuge und Standardbibliotheken bevorzugen.
 
-1. `capture`: Rohquelle, Gedanke, Frage oder Signal sichern.
-2. `scope`: Thema abgrenzen, Begriffe klären, Suchrichtung formulieren.
-3. `link`: mit Quellen, Konzepten, Gegenpositionen und offenen Fragen verbinden.
-4. `compress`: lange Materialien zu präzisen Karten, Thesen oder Unterscheidungen verdichten.
-5. `question`: Widersprüche, Lücken, Gegenbelege und bessere Begriffe suchen.
-6. `compile`: nur ausreichend geprüfte Claims in Synthesen, Startseiten oder Notion übernehmen.
-7. `reuse`: alte Notizen für neue Fragen reaktivieren und neu kompilieren.
+## Karpathy-Erhalt
+- Wenn die Aufgabe Karpathy, LLM-Wiki, Wissenssystem oder Second Brain nennt, gilt die Architektur `raw -> review -> wiki -> outputs`.
+- Der Vault bleibt Wissenssystem, kein Chatarchiv, keine Promptablage, keine lose Essay-Sammlung, kein To-do-Board.
+- Neue Inhalte zuerst als kleinste dauerhafte Einheit behandeln: Quelle, Begriff, Fall, Claim, Frage, Beispiel oder Synthesebaustein.
+- Vor jeder neuen Seite vorhandene Titel, Aliasse, Tags, Backlinks, MOCs und Indexseiten durchsuchen.
+- Bestehende kanonische Seiten aktualisieren, wenn das neue Material dort sinnvoll anschließt.
+- Neue Seiten nur anlegen, wenn kein passender kanonischer Ort existiert.
+- Bei Dubletten die kanonische Seite stärken: Alias, Link, Quelle, Nuance oder Gegenbeispiel ergänzen.
+- Keine großen Umstrukturierungen, Umbenennungen oder Ordnerwechsel ohne ausdrücklichen Auftrag.
+- Lange generierte Texte in kleinere Wissensseiten zerlegen, wenn sie mehrere Begriffe, Quellen oder Claims enthalten.
 
-## Epistemische Grundregeln
+## Seitenstruktur
+- Bestehende lokale Seitenstruktur hat Vorrang.
+- Neue Konzeptseiten behandeln genau einen Begriff oder ein mentales Modell.
+- Neue Quellenseiten behandeln genau eine Quelle.
+- Neue Case-Seiten behandeln genau einen Fall, ein Werkzeug, ein Ereignis oder eine Institution.
+- Neue Synthesen verbinden mehrere geprüfte Seiten und zeigen Grenzen, Widerspruch und offene Fragen.
+- Wenn keine lokale Vorlage existiert: Frontmatter, H1, Kern, Kontext, Details, Verbindungen, Quellen, Offene Fragen.
+- Frontmatter knapp halten: `title`, `type`, `status`, `created`, `updated`, `tags`, `sources`.
+- Empfohlene `type`-Werte: `source`, `concept`, `case`, `person`, `project`, `synthesis`, `map`, `output`, `admin`, `question`, `claim`, `example`.
 
-- Signal, Interpretation und Evidenz werden getrennt.
-- Fluente Formulierungen gelten nie als Wahrheitsbeleg.
-- Schwache Evidenz darf nicht zu starker Synthese hochgestuft werden.
-- Widerspruch ist wertvoller als Bestätigung.
-- Unsicherheit wird sichtbar markiert.
-- AI-Slop, rekursive Zitationen und niedrig-informative Wiederholung werden aktiv gesucht.
-- Claims brauchen Quellenrückverfolgbarkeit.
-- Öffentlich nutzbare Synthesen brauchen `claim-ready`-Status.
-- Neue Themen beginnen immer als `inbox -> scoping -> signal`.
-- Kein Status-Upgrade ohne Evidenzreview.
-- Gegenbelege und alternative Erklärungen werden aktiv gesucht.
-- Ambiguität bleibt erhalten, solange die Evidenz unvollständig ist.
-- Präzision hat Vorrang vor Vollständigkeit.
-- Wahrheit hat Vorrang vor Nützlichkeit.
+## Statusleiter
+- Jede neue Wiki-Seite mit Forschungsclaim bekommt ein `status`-Feld im Frontmatter.
+- Empfohlene Werte: `inbox`, `scoping`, `signal`, `evidence-linked`, `evidence-based`, `working-theory`, `needs-review`, `claim-ready`, `published`, `archived`.
+- `inbox`: Rohmaterial oder erste Notiz ohne Auswertung.
+- `scoping`: Fragestellung, Begriffe und Suchraum sind eingegrenzt.
+- `signal`: wiederkehrendes Muster oder plausible Spur mit schwacher Quellenlage.
+- `evidence-linked`: Aussage ist mit Rohquelle, Source-Seite oder Review-Notiz verbunden.
+- `evidence-based`: Aussage stützt sich auf tragfähige Quellen und nennt Grenzen.
+- `working-theory`: vorläufige Synthese mit Quellen, Annahmen und Gegenpunkten.
+- `needs-review`: Quellenprüfung, Gegenbelegprüfung oder fachliche Prüfung steht aus.
+- `claim-ready`: Quellenpfad, Grenzen, Gegenbelege und Formulierung sind geprüft.
+- `published`: Inhalt wurde in Output, Notion, Slides, HTML oder Briefing verwendet.
+- `archived`: Inhalt bleibt aus Nachvollziehbarkeitsgründen erhalten.
+- Status nur erhöhen, wenn Quellenbasis, Gegenbelegprüfung oder Review sichtbar besser ist.
+- Epistemischen Status und Admin-Status getrennt halten.
+- Bestehende lokale Statusfelder bleiben erhalten; neue Seiten nutzen diese Leiter oder bilden lokale Werte darauf ab.
 
-## Claim-Status
+## Quellenvertrag
+- Jede Source-Seite hat Provenienz: Autor, Titel, Jahr, Datum, URL oder lokaler Pfad, Zugriffstag, Dateityp, Kontext.
+- Wissenschaftliche Quellen erfassen zusätzlich Methode, Sample, Untersuchungsraum, zentrale Begriffe und Grenzen.
+- Praxisquellen erfassen zusätzlich Akteur, Interesse, Anlass, Produkt- oder Plattformkontext und mögliche Biases.
+- Jede Source-Seite trennt: Kernaussage, Belegstelle, eigene Interpretation, offene Frage, Anschlussseiten.
+- Direkte Zitate sparsam nutzen und klar markieren.
+- PDF-, Artikel- und Chat-Rohmaterial in `raw/` oder bestehender Raw-Ebene erhalten.
+- Source-Seiten verlinken Rohmaterial und alle betroffenen Konzept-, Case-, Personen-, Projekt- oder Syntheseseiten.
 
-- `inbox`: unkuratierter Eingang, noch keine Bewertung.
-- `scoping`: Thema wird abgegrenzt; Suchbegriffe, Begriffe und mögliche Quellen werden gesammelt.
-- `signal`: erster Hinweis oder Praxisindikator; nicht synthese- oder claim-ready.
-- `evidence-reviewed`: Quelle wurde auf Provenienz, Evidenztyp, Datum, Autor:in, Methode und Gegenbelege geprüft.
-- `claim-ready`: Aussage ist für Synthese oder öffentliche Nutzung ausreichend belegt.
-- `contested`: Aussage ist plausibel, aber durch Gegenbelege, unklare Quellenlage oder methodische Schwächen umstritten.
-- `deprecated`: Aussage ist veraltet, widerlegt oder nicht mehr tragfähig.
-- `hypothesis`: produktive, noch nicht belegte Denkfigur; darf in Denkraum und Scoping genutzt werden, aber nicht in öffentliche Synthesen.
-- `open question`: explizite Forschungsfrage ohne ausreichende Evidenzlage.
+## Claim-Vertrag
+- Jeder fachliche Claim braucht einen sichtbaren Quellenpfad.
+- Ein Claim ohne Quellenpfad bleibt `signal`, `scoping` oder `needs-review`.
+- `signal`-Seiten enthalten Muster, Fragen und Beobachtungen, keine abschließenden Aussagen.
+- `evidence-based` braucht tragfähige Quelle, Kontext, Grenze und mindestens eine Prüfung auf Gegenbelege.
+- `claim-ready` braucht Quellenpfad, klare Formulierung, bekannte Grenzen, Gegenbelege und Anschluss an bestehende Wiki-Seiten.
+- Spekulative Seiten markieren Annahmen, Bedingungen und Evidenzlücken sichtbar.
+- Öffentliche Outputs nutzen nur `evidence-based` oder `claim-ready` als belastbare Aussage. Schwächere Aussagen werden als Hypothese, Frage oder Signal markiert.
+- Keine Quelle aus zweiter Hand als Primärbeleg ausgeben.
 
-Siehe auch: [[00_System/topic_lifecycle|Topic Lifecycle]]
+## Aktualisierungsanweisungen
+- Vor neuen Seiten nach Titel, Alias, Synonym, deutscher und englischer Variante suchen.
+- Erst den passenden Bestand aktualisieren, dann neue Seiten anlegen.
+- Neue Dateinamen klein, sprechend und stabil halten.
+- Vor Änderungen die relevante `AGENTS.md`, Indexseiten, MOCs und betroffene Fachseiten lesen.
+- Neue Quellen mit Provenienz erfassen: Autor, Titel, URL oder Pfad, Datum, Zugriffstag, Kontext.
+- Rohquellen bleiben inhaltlich unverändert.
+- Aus Rohmaterial zuerst Source- oder Review-Notizen erstellen.
+- Danach betroffene Konzept-, Case-, Projekt-, Synthese- oder Output-Seiten aktualisieren.
+- Beim Ändern vorhandener Notizen den bestehenden Stil und die lokale Struktur halten.
+- Frontmatter-Feld `updated` aktualisieren, falls es bereits existiert.
+- Neue Seiten mit Obsidian-Wikilinks an Quellen, Begriffe, Personen, Projekte und Nachbarseiten anbinden.
+- Indexseiten, MOCs und Karten aktualisieren, wenn neue oder verschobene Inhalte entstehen.
+- Offene Fragen als Fragen notieren. Keine Scheinklärung erzeugen.
 
-## Topic Lifecycle
-
-- `inbox`: erlaubt `collect`, `tag`.
-- `scoping`: erlaubt `define_questions`, `map_domain`.
-- `signal`: erlaubt `identify_patterns`; verbietet `factual_claims`.
-- `evidence-linked`: verlangt `source_traceability` und `contextual_validation`.
-- `claim-ready`: verlangt `multi_source_validation`, `human_review` und `contradiction_check`.
-
-Wichtig: Der Lifecycle schützt den Denkraum. `inbox`, `scoping` und `signal` sind legitime Karpathy-Denkzustände. Sie werden nicht gelöscht oder abgewertet, sondern nur von öffentlichen Claims getrennt.
-
-## Schichten
-
-### Raw Sources
-
-- `raw/inbox/` enthält neue oder unkuratierte Quellen.
-- `raw/assets/` enthält lokale Bilder, PDFs, Medien und Screenshots.
-- Raw Sources bleiben unverändert. Sie sind die Quelle der Wahrheit.
-
-### Review Layer
-
-- `review/` enthält Quellenprüfung, Extraktion, Evidenzkarten, offene Prüffragen und Reviewer-Notizen.
-- Unsichere Aussagen werden hier sichtbar gehalten, bevor sie in Synthesen wandern.
-
-### Denkraum Layer
-
-- `wiki/concepts/`, `wiki/operations/` und Promotionsnotizen dürfen Denkspuren enthalten.
-- Denkraum-Notizen müssen Status, offene Frage und nächste Prüfrichtung nennen.
-- Denkraum darf breit sein; Synthese muss eng bleiben.
-
-### Compiled Wiki
-
-Die bestehenden thematischen Ordner sind die kompilierte Wiki:
-
-- `00_Index/`
-- `01_Tools_und_Modelle/`
-- `02_Postproduktion_Workflows/`
-- `03_Rotoscoping_AI_VFX/`
-- `04_Trends_und_Vorreiter/`
-- `05_Ethik_Recht_Provenance/`
-- `06_Quellen/`
-- `08_Marktkarte/`
-- `09_Emerging_Technologies/`
-- `10_Use_Cases/`
-- `11_Best_Practices/`
-- `12_Skills_und_Rollen/`
-- `13_Forschung_Papers/`
-- `14_Positionierung_Studium/`
-- `15_Promotion/`
-- `wiki/`
-
-Das LLM darf diese Ebene pflegen, ergänzen, verlinken und aktualisieren.
-
-### Outputs
-
-- `outputs/` enthält Notion-Versionen, Briefings, Slides, Charts und andere abgeleitete Formate.
-- Outputs sind nicht die Quelle der Wahrheit. Gute Outputs werden bei dauerhaftem Wert zurück in die Wiki eingearbeitet.
-
-### System Files
-
-- `00_System/index.md` ist der inhaltliche Navigationsindex.
-- `00_System/log.md` ist das chronologische Arbeitsprotokoll.
-- `00_System/workflows.md` beschreibt wiederholbare Abläufe.
-- `00_System/health_check.md` sammelt Wartungsfragen.
-
-## Ingest Workflow
-
-1. Neue Quelle in `raw/inbox/` lesen.
-2. Neues Thema zunächst als `scoping` anlegen, nicht direkt synthetisieren.
-3. Provenienz, URL, Datum, Autor:in, Evidenztyp und Quellenstatus sichern.
-4. Signal, Interpretation und Evidenz getrennt extrahieren.
-5. Gegenbelege, abweichende Begriffe und konkurrierende Erklärungen suchen.
-6. Relevante Review-Notiz in `review/` aktualisieren.
-7. Eine Quellen- oder Source-Seite erstellen bzw. aktualisieren.
-8. Betroffene Konzept-, Tool-, Case- oder Syntheseseiten nur aktualisieren, wenn der Claim mindestens `evidence-reviewed` ist.
-9. `00_System/index.md` und, falls genutzt, `wiki/index.md` aktualisieren.
-10. Einen Eintrag in `00_System/log.md` und, falls genutzt, `wiki/log.md` anhängen.
-11. Offene Prüffragen in `00_System/health_check.md` oder `wiki/operations/open-questions.md` notieren.
-
-## Query Workflow
-
-1. Zuerst `00_System/index.md` lesen.
-2. Relevante Wiki-Seiten, Quellen und Review-Notizen öffnen.
-3. Antwort mit Quellenbezug formulieren.
-4. Wenn die Antwort dauerhaften Wert hat, als Synthese oder Output ablegen.
-5. Index und Log aktualisieren, wenn die Wiki verändert wurde.
-
-## Lint Workflow
-
-Regelmäßig prüfen:
-
-- fehlende Quellen
-- widersprüchliche oder veraltete Aussagen
-- Seiten ohne Rücklinks
-- Quellen ohne Anschluss an Konzepte
-- Konzepte ohne eigene Seite
-- doppelte Begriffe
-- Notion-/Output-Seiten, die aktueller sind als die Wiki
-
-## Schreibregeln
-
-- Deutsch, klar, konkret.
+## Qualitätsregeln
+- Quelle, Claim, Interpretation und offene Frage getrennt halten.
+- Jede belastbare Aussage braucht eine rückverfolgbare Quelle.
+- Unsicherheit sichtbar markieren.
+- Schwache Signale bleiben als Signale erkennbar.
+- Gegenbelege und Widersprüche erhalten.
+- Keine Synthese aus ungeprüftem Material.
 - Keine Inhalte löschen, außer die Nutzerin fordert es ausdrücklich.
-- Unsicherheit markieren.
-- Branchenartikel als Praxisbelege behandeln, nicht als harte Evidenz.
-- Jede belastbare Zahl oder technische Produktbehauptung braucht eine prüfbare Quelle.
-- Keine öffentliche Synthese ohne `claim-ready`-Status.
-- Keine Theorie- oder Marktbehauptung aus reiner Wiederholung mehrerer Sekundärquellen ableiten.
+- Keine TODOs, Vorschläge oder Verbesserungslisten ergänzen, außer die Aufgabe verlangt es.
+- Keine Prozessberichte im Vault: keine Run Logs, keine Erklärungen über eigene Arbeit, keine Audit-Tagebücher.
