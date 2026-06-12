@@ -1,5 +1,7 @@
 # Digital Rooms
 
+Kanonische Toolprofile und Workflow-Empfehlungen liegen im zentralen Vault: [KI Tools und Workflows - Obsidian Vault](../../KI%20Tools%20und%20Workflows%20-%20Obsidian%20Vault/00_System/index.md)
+
 ## Karpathy-Status
 
 - Lifecycle: `index`
@@ -33,6 +35,7 @@ Stand: 2026-05-29
 - [[../16_Digital_Image_Space/Interface_als_Bildraum|Interface als Bildraum]]
 - [[../16_Digital_Image_Space/Vom_Frame_zur_Szene|Vom Frame zur Szene]]
 - [[../16_Digital_Image_Space/Neural_Rendering_und_räumliche_Bilder|Neural Rendering]]
+- [[../09_Emerging_Technologies/Neural_Codecs|Neural Codecs]]
 
 ### 3. Scene Room
 
@@ -130,4 +133,4 @@ Stand: 2026-05-29
 - [[../00_System/topic_lifecycle|Topic Lifecycle]]
 - [[../00_System/Karpathy_Capture_Template|Karpathy Capture Template]]
 - [[../00_System/index|System Index]]
-- [[../07_Notion_Sync/Notion_Sync|Notion Sync]]
+- [[../07_Notion_Sync/Notion_Sync|Google Drive Sync]]

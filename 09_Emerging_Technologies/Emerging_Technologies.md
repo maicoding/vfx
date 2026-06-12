@@ -84,6 +84,8 @@ Automatische Qualitätskontrolle wird wachsen:
 
 AI-basierte Kompression kann Review, Remote Workflows und Volumetric/Neural Rendering entlasten. Wichtig wird, ob Qualität, Latenz und Archivfähigkeit professionellen Ansprüchen genügen.
 
+Vertiefung: [[Neural_Codecs|Neural Codecs]]
+
 ## 10. Multimodale Produktionsmodelle
 
 Die nächste Stufe ist nicht Text-to-Video, sondern ein Produktionsmodell, das Script, Storyboard, Kamera, Audio, Assets, Referenzen und Schnittlogik gemeinsam verarbeitet.

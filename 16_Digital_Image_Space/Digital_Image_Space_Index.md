@@ -43,6 +43,7 @@ Generative KI, Neural Rendering, Spatial Computing und operative Bilder verände
 - [[Operative_Bildräume|Operative Bildräume]]
 - [[Interface_als_Bildraum|Interface als Bildraum]]
 - [[Neural_Rendering_und_räumliche_Bilder|Neural Rendering und räumliche Bilder]]
+- [[../09_Emerging_Technologies/Neural_Codecs|Neural Codecs]]
 - [[Image_Space_und_Indexikalität|Image Space und Indexikalität]]
 - [[Methodische_Experimente_Digital_Image_Space|Methodische Experimente]]
 - [[Manovich_und_Digital_Image_Space|Manovich und Digital Image Space]]
