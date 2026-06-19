@@ -2,10 +2,18 @@
 type: wiki-index
 status: living
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-16
 ---
 
 # Research Wiki Index
+
+## Graph
+
+- [[maps/ai-postproduktion-vfx-vault-knowledge-graph]] - zentrale Knoten, Linknachbarschaften und Beziehungstypen.
+- [[maps/ai-postproduktion-vfx-vault-graph-edges]] - Kantenliste als CSV-Block.
+- [[maps/ai-postproduktion-vfx-vault-cross-vault-bridge]] - Brücken zu anderen Vaults.
+- [[operations/graph-query-layer]] - Abfragen vor Änderungen an Seiten, Quellen und Synthesen.
+
 
 ## Karpathy-Status
 

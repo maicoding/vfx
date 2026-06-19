@@ -12,6 +12,9 @@ Tags: #quellen #research
 
 ## Primärquellen und offizielle Ankündigungen
 
+- HAICA: Hamburg AI Creators Award, Winners 2025  
+  https://haic-award.de/
+
 - ByteDance Seed Team: Seedance 2.0 Official Launch, 2026-02-12  
   https://seed.bytedance.com/blog/seedance-2-0-official-launch
 
@@ -67,6 +70,21 @@ Tags: #quellen #research
   https://arxiv.org/abs/2604.24890
 
 ## Forschung und Papers
+
+- VFX Promotion Weekly Research, 2026-06-19  
+  [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19]]
+
+- Edit3DGS: Unified Framework for Dynamic Head Editing via 2D Instruction-Guided Diffusion and 3D Gaussian Splatting, 2026-06-16  
+  https://arxiv.org/abs/2606.17432
+
+- Local-GS: Accelerating 3D Gaussian Splatting via Tile-Local Warp Coherence, 2026-06-15  
+  https://arxiv.org/abs/2606.16566
+
+- CHIEF: Creator-Driven Recurrent Video Generation with Agentic Feedback Loops, 2026-06-17  
+  https://arxiv.org/abs/2606.18591
+
+- Relightable Gaussian Splatting for Virtual Production Using Image-Based Illumination, 2026-05  
+  https://arxiv.org/abs/2605.09024
 
 - FlashMotion: Few-Step Controllable Video Generation with Trajectory Guidance, Microsoft Research, 2026  
   https://www.microsoft.com/en-us/research/publication/flashmotion-few-step-controllable-video-generation-with-trajectory-guidance/
@@ -197,6 +215,36 @@ Tags: #quellen #research
   https://www.mdpi.com/1424-8220/25/12/3626
 
 ## Sekundärquellen / Branchenkontext
+
+- Google Flow: AI Creative Studio  
+  https://labs.google/fx/tools/flow
+
+- Adobe Premiere What’s New  
+  https://helpx.adobe.com/premiere-pro/using/whats-new.html
+
+- Adobe After Effects What’s New  
+  https://helpx.adobe.com/after-effects/using/whats-new.html
+
+- The Verge: Adobe AI Assistants in Photoshop, Premiere, Illustrator and Frame.io, 2026-06-18  
+  https://www.theverge.com/tech/952099/adobe-ai-assistants-photoshop-premiere-illustrator-beta-launch
+
+- The Verge: Adobe Firefly Elements / Projects, 2026-06-18  
+  https://www.theverge.com/tech/952104/adobe-firefly-ai-agent-elements-projects-update
+
+- The Verge: Tribeca 2026 and human-guided AI filmmaking, 2026-06  
+  https://www.theverge.com/ai-artificial-intelligence/948425/tribeca-2026-dear-upstairs-neighbors-google-deepmind-openai
+
+- Vanity Fair: Dreams of Violets at Tribeca, 2026-06  
+  https://www.vanityfair.com/story/first-fully-ai-movie-to-screen-at-a-festival-has-nearly-glitch-free-tribeca-debut
+
+- Business Insider: Runway AI Film Festival 2026  
+  https://www.businessinsider.com/runway-ai-film-festival-crowd-tech-2026-6
+
+- Axios: Disney uses custom Adobe Firefly models for Imagineering, 2026-06-16  
+  https://www.axios.com/2026/06/16/disney-puts-adobes-ai-to-work-in-its-parks
+
+- PAGE AI Newsletter: Firefly Boards, ChatGPT Images 2.0 und AI Film, 2026-06-04  
+  [[PAGE AI Newsletter - Firefly ChatGPT Images AI Film 2026-06-04]]
 
 - The Verge: ByteDance Seedance 2.0 Launch  
   https://www.theverge.com/ai-artificial-intelligence/877931/bytedance-seedance-2-video-generator-ai-launch

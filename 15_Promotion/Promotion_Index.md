@@ -40,6 +40,9 @@ Stand: 2026-05-29
 - Node-Interfaces
 - Prompt-Systeme
 - Review-Interfaces
+- AI Assistants
+- Google Flow Agent
+- Firefly Projects / Elements
 
 ### Scene Room
 
@@ -47,6 +50,9 @@ Stand: 2026-05-29
 - [[../03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX|Rotoscoping und AI VFX]]
 - Neural Rendering
 - Gaussian Splatting
+- Edit3DGS
+- Local-GS
+- Relightable Gaussian Splatting
 - NeRFs
 - Depth / Normal / Motion Vectors
 - Camera Solves
@@ -62,6 +68,16 @@ Stand: 2026-05-29
 - soziale Plattformräume
 - Architekturvisualisierung
 - Spatial Computing
+- Custom IP Models / Imagineering
+- AI-Filmfestivals
+
+## Update 2026-06-19
+
+- [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19|VFX Promotion Weekly Research 2026-06-19]]
+- Agentic Postproduction als Interface-Room-Signal.
+- Gaussian Splatting als Scene-Room-Technologieachse.
+- Human-guided AI filmmaking als Gegenposition zu prompt-only Generierung.
+- Custom IP Models als Public-/Built-Room- und Studio-Governance-Signal.
 
 ## Kapitel
 

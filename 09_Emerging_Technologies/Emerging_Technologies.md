@@ -23,6 +23,15 @@ Anwendungen:
 - immersive Installationen.
 - virtuelle Produkt-/Architekturvisualisierung.
 
+Update 2026-06-19:
+
+- Edit3DGS: dynamisches Head Editing mit 2D instruction-guided diffusion und 3D Gaussian Splatting.
+- Local-GS: Performance-Optimierung für interaktives Gaussian-Splatting-Rendering.
+- Relightable Gaussian Splatting for Virtual Production: relightbare VP-Szenen mit Depth, Lighting Intensity, Lighting Color und Unlit Render als Outputvariablen.
+- Forschungsstatus: `paper-signal / evidence-linked`, nicht produktionsvalidiert.
+
+Quelle: [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19|VFX Promotion Weekly Research 2026-06-19]]
+
 Warum wichtig:
 
 Es schließt eine Lücke zwischen 2D-Footage und vollmodelliertem 3D. Besonders stark, wenn Kamera-, Licht- und Szenenveränderungen nur moderat sein müssen.

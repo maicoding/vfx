@@ -10,7 +10,7 @@
 - Nächster Prüfschritt: Quellen aktualisieren und Gegenbeispiele suchen.
 Tags: #trends #postproduktion #ai-video #vfx #markt #workflow
 
-Stand: 2026-05-15
+Stand: 2026-06-19
 
 ## Kurzthese
 
@@ -31,6 +31,21 @@ Die wichtigsten Trends liegen nicht nur bei besseren Generatoren. Der Markt bewe
 | AI QC | entstehend | prüft Artefakte, Continuity, Rechte, Specs | falsche Sicherheit |
 | Skill Shift | akut | neue Rollen entstehen, alte Lernwege brechen weg | Deskilling, Junior-Lücke |
 
+## Update 2026-06-19: VFX, Scene Rooms, Agentic Postproduction
+
+Quelle: [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19|VFX Promotion Weekly Research 2026-06-19]]
+
+| Signal | Promotionsanschluss | Status |
+|---|---|---|
+| Adobe AI Assistants in Premiere, Photoshop und Frame.io | `Interface Room`, agentische Postproduktion, Timeline als Kontrollfläche | `signal / evidence-linked` |
+| Firefly Elements / Projects | persistenter Projektkontext, Charaktere, Orte, Objekte | `signal` |
+| Google Flow | generativer Produktionsraum mit Agent, Storyboard Studio, Video-to-video editing und Tools | `evidence-linked` |
+| Edit3DGS | 2D diffusion + 3D Gaussian Splatting für dynamisches Head Editing | `paper-signal` |
+| Local-GS | Performance-Schub für interaktives Gaussian Splatting | `paper-signal` |
+| CHIEF | agentische Feedback-Loops für längere Videogenerierung | `paper-signal` |
+| Tribeca / Runway / AI-Film | Debatte um human-guided Workflows, Festivalfähigkeit, narrative Schwächen | `industry-signal` |
+| Disney + Adobe Firefly Custom Models | IP-kontrollierte Studio-/Imagineering-Modelle | `industry-signal` |
+
 ## 1. Von Generierung zu Produktionssystemen
 
 ### Signal
@@ -46,11 +61,22 @@ Für Postproduktion ist das der wichtigste Wechsel. Ein beeindruckender Clip ist
 - AI-Funktionen sitzen direkt in NLEs und Compositing-Tools.
 - Medienarchive werden semantisch durchsuchbar.
 - AI-Ausgaben werden als Assets, Shots, Passes oder Timeline-Elemente behandelt.
-- Modelle werden nicht nur "kreativ", sondern workflowfähig.
+- Modelle werden workflowfähig: Assets, Shots, Passes, Timeline-Elemente.
 
 ### Relevante Akteure
 
 Adobe, Avid/Google Cloud, Foundry, Blackmagic Design, Autodesk, Runway, Luma.
+
+### Praxisanker
+
+HAICA 2025 zeigt mehrere Arbeitsweisen, die für Postproduktion und Digital Rooms relevant sind:
+
+- `Rote Rosen feat. Charlize`: Motion Capture, lokale Bild-KI, TouchDesigner, MIDI-Steuerung, Live-Prompting.
+- `THE BANANA RETURNS`: analoges 16mm-Stop-Motion-Material als visuelle Vorlage für AI-generierte Fortsetzung.
+- `Gap Years`: Interviews, altes Videomaterial und AI-generierte Bildteile als Dokumentar-Hybrid.
+- `1Q89`: historische Rekonstruktion und spekulative Bildräume.
+
+Quelle: https://haic-award.de/
 
 ## 2. Agentic Editing und agentische Postproduktion
 
@@ -166,7 +192,7 @@ Diese Passes sind Schätzungen. Sie müssen im finalen Compositing validiert wer
 
 ### Signal
 
-Neue Ansätze wie Object-WIPER adressieren nicht nur das Objekt selbst, sondern assoziierte Effekte: Schatten, Reflexionen, Transparenzen, Lichtspuren.
+Neue Ansätze wie Object-WIPER adressieren das Objekt und assoziierte Effekte: Schatten, Reflexionen, Transparenzen, Lichtspuren.
 
 ### Bedeutung
 
@@ -242,7 +268,7 @@ Je mehr generischer AI-Output entsteht, desto wertvoller werden visuelle Eigenhe
 
 ### Bedeutung
 
-Nicht "AI benutzen" wird unterscheidend sein, sondern einen eigenen Look trotz AI zu halten. Das betrifft besonders Werbung, Musikvideo, Fashion, Kunst, Editorial und kulturelle Projekte.
+Unterscheidend wird ein eigener Look trotz AI. Das betrifft besonders Werbung, Musikvideo, Fashion, Kunst, Editorial und kulturelle Projekte.
 
 ### Woran man den Trend erkennt
 
@@ -258,7 +284,7 @@ AI greift zuerst repetitive Aufgaben an: Roto, Cleanup, Logging, Transkription, 
 
 ### Bedeutung
 
-Studierende und Junior Artists müssen sich anders positionieren: nicht nur ausführen, sondern prüfen, vergleichen, dokumentieren, korrigieren, pipelinefähig machen.
+Studierende und Junior Artists müssen prüfen, vergleichen, dokumentieren, korrigieren und Outputs pipelinefähig machen.
 
 ### Neue Einstiegskompetenzen
 

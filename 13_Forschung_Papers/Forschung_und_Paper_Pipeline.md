@@ -10,7 +10,7 @@
 - Nächster Prüfschritt: Quellenstatus und Scope nachziehen.
 Tags: #papers #forschung #ai-video #vfx #pipeline
 
-Stand: 2026-05-12
+Stand: 2026-06-19
 
 ## Was im Vault bisher noch fehlte
 
@@ -26,6 +26,18 @@ Die wichtigsten Forschungsfelder sind:
 6. Neural Rendering, 4D Gaussian Splatting und volumetrische Rekonstruktion.
 7. Effizienz: Few-Step, Distillation, Flow Models und schnellere DiTs.
 8. Benchmarks und QC-Metriken für Produktionsfähigkeit.
+
+## Update 2026-06-19
+
+Quelle: [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19|VFX Promotion Weekly Research 2026-06-19]]
+
+| Paper / Position | Feld | Signal | Promotionsrelevanz | Status |
+|---|---|---|---|---|
+| Edit3DGS, 16.06.2026 | Dynamic Head Editing / 3DGS | 2D instruction-guided diffusion wird mit 3D Gaussian Splatting verbunden | `Scene Room`, virtuelle Avatare, temporale 3D-Kohärenz | `paper-signal` |
+| Local-GS, 15.06.2026 | 3DGS Rendering | tile-local warp coherence beschleunigt 3DGS | interaktive Scene-Room-Workflows | `paper-signal` |
+| CHIEF, 17.06.2026 | Agentic Video Generation | creator-driven iterative Videogenerierung mit agentischem Feedback | `Interface Room`, human-guided workflow, Regie als Feedbacksystem | `paper-signal` |
+| Relightable Gaussian Splatting for Virtual Production, 05.2026 | Virtual Production / Relighting | relightbares GS für VP-Szenen und nützliche Outputvariablen | `Scene Room`, LED-Wall, Licht, Comp, Reconstruction | `evidence-linked` |
+| Fi-Gaussian / CGS-Retinex, 15.06.2026 | Low-Level Vision | Gaussian-Ansätze für Dehazing und Low-Light Enhancement | schwaches Signal für Gaussianisierung der Bildverarbeitung | `weak-signal` |
 
 ## 1. Kontrollierbare Video-Generierung
 

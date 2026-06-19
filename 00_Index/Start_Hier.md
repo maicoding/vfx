@@ -25,6 +25,7 @@ Stand: 2026-05-29
 - [[../15_Promotion/Promotionsformel_Digital_Rooms|Promotionsformel]]
 - [[../15_Promotion/Digital_Rooms_Mapping_Matrix|Mapping Matrix]]
 - [[../15_Promotion/Denkachsen_Register|Denkachsen Register]]
+- [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19|VFX Promotion Weekly Research 2026-06-19]]
 
 ### 2. Digital Image Space
 
