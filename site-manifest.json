@@ -1,0 +1,911 @@
+{
+  "generatedAt": "2026-06-25T19:30:25.140Z",
+  "notes": 81,
+  "externalLinks": 246,
+  "attachments": 6,
+  "strands": [
+    {
+      "id": "digital-rooms",
+      "title": "Digital Rooms als Promotionskern",
+      "description": "Der theoretische Hauptpfad: vom Digital Image Space über operative Bildräume bis zur Promotionsformel Digital Rooms.",
+      "pages": [
+        {
+          "title": "Digital Rooms",
+          "rel": "00_Index/Start_Hier.md",
+          "href": "pages/00-index--start-hier.html"
+        },
+        {
+          "title": "Promotion: Digital Rooms",
+          "rel": "15_Promotion/Promotion_Index.md",
+          "href": "pages/15-promotion--promotion-index.html"
+        },
+        {
+          "title": "Promotionsformel: Digital Rooms",
+          "rel": "15_Promotion/Promotionsformel_Digital_Rooms.md",
+          "href": "pages/15-promotion--promotionsformel-digital-rooms.html"
+        },
+        {
+          "title": "Digital Rooms Mapping Matrix",
+          "rel": "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+          "href": "pages/15-promotion--digital-rooms-mapping-matrix.html"
+        },
+        {
+          "title": "TheorieLandkarte: AI, VFX und postproduktive Gestaltung",
+          "rel": "15_Promotion/Theorie_Landkarte_AI_Postproduktion.md",
+          "href": "pages/15-promotion--theorie-landkarte-ai-postproduktion.html"
+        },
+        {
+          "title": "Digital Image Space und Digital Rooms",
+          "rel": "16_Digital_Image_Space/Digital_Image_Space_Index.md",
+          "href": "pages/16-digital-image-space--digital-image-space-index.html"
+        },
+        {
+          "title": "Digital Rooms",
+          "rel": "16_Digital_Image_Space/Digital_Rooms.md",
+          "href": "pages/16-digital-image-space--digital-rooms.html"
+        },
+        {
+          "title": "Digital Rooms: Erweiterte Felder",
+          "rel": "16_Digital_Image_Space/Digital_Rooms_Erweiterte_Felder.md",
+          "href": "pages/16-digital-image-space--digital-rooms-erweiterte-felder.html"
+        },
+        {
+          "title": "Interface als Bildraum",
+          "rel": "16_Digital_Image_Space/Interface_als_Bildraum.md",
+          "href": "pages/16-digital-image-space--interface-als-bildraum.html"
+        },
+        {
+          "title": "Latent Space als Gestaltungsraum",
+          "rel": "16_Digital_Image_Space/Latent_Space_als_Gestaltungsraum.md",
+          "href": "pages/16-digital-image-space--latent-space-als-gestaltungsraum.html"
+        },
+        {
+          "title": "Operative Bildräume",
+          "rel": "16_Digital_Image_Space/Operative_Bildräume.md",
+          "href": "pages/16-digital-image-space--operative-bildraume.html"
+        }
+      ]
+    },
+    {
+      "id": "interface-room",
+      "title": "Interface Room: generative Interfaces",
+      "description": "Wie Interfaces (Chat, Canvas, Timeline, Node Graph, Review) zu operativen Räumen werden, in denen Entscheidung, Kontrolle und Verantwortung verteilt sind.",
+      "pages": [
+        {
+          "title": "Interface als Bildraum",
+          "rel": "16_Digital_Image_Space/Interface_als_Bildraum.md",
+          "href": "pages/16-digital-image-space--interface-als-bildraum.html"
+        },
+        {
+          "title": "Digital Rooms Mapping Matrix",
+          "rel": "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+          "href": "pages/15-promotion--digital-rooms-mapping-matrix.html"
+        },
+        {
+          "title": "Fallstudien und Experimente",
+          "rel": "15_Promotion/Fallstudien_und_Experimente.md",
+          "href": "pages/15-promotion--fallstudien-und-experimente.html"
+        },
+        {
+          "title": "Forschungsfragen",
+          "rel": "15_Promotion/Forschungsfragen.md",
+          "href": "pages/15-promotion--forschungsfragen.html"
+        },
+        {
+          "title": "Promotionsformel: Digital Rooms",
+          "rel": "15_Promotion/Promotionsformel_Digital_Rooms.md",
+          "href": "pages/15-promotion--promotionsformel-digital-rooms.html"
+        },
+        {
+          "title": "Best Practice Workflows",
+          "rel": "11_Best_Practices/Best_Practice_Workflows.md",
+          "href": "pages/11-best-practices--best-practice-workflows.html"
+        }
+      ]
+    },
+    {
+      "id": "tool-radar",
+      "title": "Tool- und Modellradar",
+      "description": "Aktuelle Modell- und Tool-Landschaft für Video, Bild, Compositing, Rotoscoping und Postproduktionspipelines.",
+      "pages": [
+        {
+          "title": "ToolLandschaft 2026",
+          "rel": "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
+          "href": "pages/01-tools-und-modelle--tool-landschaft-2026.html"
+        },
+        {
+          "title": "Sora 2",
+          "rel": "01_Tools_und_Modelle/Sora_2.md",
+          "href": "pages/01-tools-und-modelle--sora-2.html"
+        },
+        {
+          "title": "Runway Gen4.5",
+          "rel": "01_Tools_und_Modelle/Runway_Gen_4_5.md",
+          "href": "pages/01-tools-und-modelle--runway-gen-4-5.html"
+        },
+        {
+          "title": "Kling 3.0",
+          "rel": "01_Tools_und_Modelle/Kling_3.md",
+          "href": "pages/01-tools-und-modelle--kling-3.html"
+        },
+        {
+          "title": "Seedance 2.0",
+          "rel": "01_Tools_und_Modelle/Seedance_2.md",
+          "href": "pages/01-tools-und-modelle--seedance-2.html"
+        },
+        {
+          "title": "Nano Banana 2, Imagen 4 und Bildmodelle",
+          "rel": "01_Tools_und_Modelle/Nano_Banana_2_Imagen.md",
+          "href": "pages/01-tools-und-modelle--nano-banana-2-imagen.html"
+        },
+        {
+          "title": "Adobe Firefly, Premiere und After Effects",
+          "rel": "01_Tools_und_Modelle/Adobe_Firefly_Postproduktion.md",
+          "href": "pages/01-tools-und-modelle--adobe-firefly-postproduktion.html"
+        },
+        {
+          "title": "Foundry Nuke AI",
+          "rel": "01_Tools_und_Modelle/Foundry_Nuke_AI.md",
+          "href": "pages/01-tools-und-modelle--foundry-nuke-ai.html"
+        },
+        {
+          "title": "Best Practice Workflows",
+          "rel": "11_Best_Practices/Best_Practice_Workflows.md",
+          "href": "pages/11-best-practices--best-practice-workflows.html"
+        }
+      ]
+    },
+    {
+      "id": "scene-room",
+      "title": "Scene Room: VFX und Postproduktion",
+      "description": "Wie KI-Modelle vom Frame zur Szene, zur Rotoscoping-Pipeline und zu neuen Use Cases in der Postproduktion wandern.",
+      "pages": [
+        {
+          "title": "Bedeutung für Postproduktion",
+          "rel": "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
+          "href": "pages/02-postproduktion-workflows--bedeutung-fur-postproduktion.html"
+        },
+        {
+          "title": "Rotoscoping und AI VFX",
+          "rel": "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
+          "href": "pages/03-rotoscoping-ai-vfx--rotoscoping-und-ai-vfx.html"
+        },
+        {
+          "title": "Emerging Technologies",
+          "rel": "09_Emerging_Technologies/Emerging_Technologies.md",
+          "href": "pages/09-emerging-technologies--emerging-technologies.html"
+        },
+        {
+          "title": "Use Cases nach Produktionsphase",
+          "rel": "10_Use_Cases/Use_Cases_nach_Produktionsphase.md",
+          "href": "pages/10-use-cases--use-cases-nach-produktionsphase.html"
+        },
+        {
+          "title": "Best Practice Workflows",
+          "rel": "11_Best_Practices/Best_Practice_Workflows.md",
+          "href": "pages/11-best-practices--best-practice-workflows.html"
+        },
+        {
+          "title": "Vom Frame zur Szene",
+          "rel": "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
+          "href": "pages/16-digital-image-space--vom-frame-zur-szene.html"
+        },
+        {
+          "title": "Neural Rendering und räumliche Bilder",
+          "rel": "16_Digital_Image_Space/Neural_Rendering_und_räumliche_Bilder.md",
+          "href": "pages/16-digital-image-space--neural-rendering-und-raumliche-bilder.html"
+        }
+      ]
+    },
+    {
+      "id": "public-built-room",
+      "title": "Public / Built Room: Lernraum, Ausstellung, Twin",
+      "description": "Der dritte Fallcluster: öffentliche, institutionelle oder gebaute Digital Rooms – als Lernraum, Ausstellung oder (falls möglich) Digital Twin.",
+      "pages": [
+        {
+          "title": "Public / Built Room (Fallcluster 3)",
+          "rel": "15_Promotion/Public_Built_Room.md",
+          "href": "pages/15-promotion--public-built-room.html"
+        },
+        {
+          "title": "Digital Rooms Mapping Matrix",
+          "rel": "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+          "href": "pages/15-promotion--digital-rooms-mapping-matrix.html"
+        },
+        {
+          "title": "Fallstudien und Experimente",
+          "rel": "15_Promotion/Fallstudien_und_Experimente.md",
+          "href": "pages/15-promotion--fallstudien-und-experimente.html"
+        },
+        {
+          "title": "Claim Evidence Matrix",
+          "rel": "review/Claim_Evidence_Matrix.md",
+          "href": "pages/review--claim-evidence-matrix.html"
+        },
+        {
+          "title": "Offene Fragen Research",
+          "rel": "review/Offene_Fragen_Research_2026-05-19.md",
+          "href": "pages/review--offene-fragen-research-2026-05-19.html"
+        },
+        {
+          "title": "Source Ingest: Digital Rooms Erweiterung",
+          "rel": "wiki/sources/digital-rooms-erweiterung-ingest-2026-05-16.md",
+          "href": "pages/wiki--sources--digital-rooms-erweiterung-ingest-2026-05-16.html"
+        },
+        {
+          "title": "Source Ingest: Offene Fragen Digital Rooms",
+          "rel": "wiki/sources/offene-fragen-digital-rooms-research-2026-05-19.md",
+          "href": "pages/wiki--sources--offene-fragen-digital-rooms-research-2026-05-19.html"
+        }
+      ]
+    },
+    {
+      "id": "provenance",
+      "title": "Provenance, Recht und Verantwortung",
+      "description": "Der kritische Pfad zu Nachweisbarkeit, C2PA, Urheberrecht, Gegenstimmen und ethischen Grenzen generativer Postproduktion.",
+      "pages": [
+        {
+          "title": "Recht, Ethik und Provenance",
+          "rel": "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
+          "href": "pages/05-ethik-recht-provenance--recht-ethik-provenance.html"
+        },
+        {
+          "title": "Quellenbibliothek",
+          "rel": "06_Quellen/Quellenbibliothek.md",
+          "href": "pages/06-quellen--quellenbibliothek.html"
+        },
+        {
+          "title": "Claim Evidence Matrix",
+          "rel": "review/Claim_Evidence_Matrix.md",
+          "href": "pages/review--claim-evidence-matrix.html"
+        },
+        {
+          "title": "Gegenstimmen Register",
+          "rel": "review/Gegenstimmen_Register.md",
+          "href": "pages/review--gegenstimmen-register.html"
+        },
+        {
+          "title": "Synthese: Pressespiegel KI, 16.05.2026",
+          "rel": "wiki/syntheses/pressespiegel-ai-video-governance-2026-05-16.md",
+          "href": "pages/wiki--syntheses--pressespiegel-ai-video-governance-2026-05-16.html"
+        },
+        {
+          "title": "Pressespiegel KI, 16.05.2026",
+          "rel": "wiki/sources/pressespiegel-ai-video-governance-2026-05-16.md",
+          "href": "pages/wiki--sources--pressespiegel-ai-video-governance-2026-05-16.html"
+        }
+      ]
+    },
+    {
+      "id": "evidence",
+      "title": "Forschung und Evidence Layer",
+      "description": "Paper, Claim-Matrix, Review-Layer und Wiki-Synthesen als Prüfschicht für belastbare Forschungsargumente.",
+      "pages": [
+        {
+          "title": "Forschung und Paper Pipeline",
+          "rel": "13_Forschung_Papers/Forschung_und_Paper_Pipeline.md",
+          "href": "pages/13-forschung-papers--forschung-und-paper-pipeline.html"
+        },
+        {
+          "title": "Literatur und Referenzfelder",
+          "rel": "15_Promotion/Literatur_und_Referenzfelder.md",
+          "href": "pages/15-promotion--literatur-und-referenzfelder.html"
+        },
+        {
+          "title": "Claim Evidence Matrix",
+          "rel": "review/Claim_Evidence_Matrix.md",
+          "href": "pages/review--claim-evidence-matrix.html"
+        },
+        {
+          "title": "Review: Digital Image Space",
+          "rel": "review/digital-image-space-evidence.md",
+          "href": "pages/review--digital-image-space-evidence.html"
+        },
+        {
+          "title": "Review: TheorieErweiterung",
+          "rel": "review/theorie-erweiterung-evidence.md",
+          "href": "pages/review--theorie-erweiterung-evidence.html"
+        },
+        {
+          "title": "Synthese: Digital Image Space",
+          "rel": "wiki/syntheses/digital-image-space-2026-05-16.md",
+          "href": "pages/wiki--syntheses--digital-image-space-2026-05-16.html"
+        },
+        {
+          "title": "Synthese: Promotionsshift zu Digital Rooms",
+          "rel": "wiki/syntheses/digital-rooms-promotion-shift-2026-05-16.md",
+          "href": "pages/wiki--syntheses--digital-rooms-promotion-shift-2026-05-16.html"
+        },
+        {
+          "title": "Digital Image Space Ingest, 16.05.2026",
+          "rel": "wiki/sources/digital-image-space-ingest-2026-05-16.md",
+          "href": "pages/wiki--sources--digital-image-space-ingest-2026-05-16.html"
+        },
+        {
+          "title": "TheorieIngest Erweiterung, 16.05.2026",
+          "rel": "wiki/sources/theorie-ingest-erweiterung-2026-05-16.md",
+          "href": "pages/wiki--sources--theorie-ingest-erweiterung-2026-05-16.html"
+        }
+      ]
+    },
+    {
+      "id": "lehre-rollen",
+      "title": "Lehre, Skills und Rollen",
+      "description": "Was Studierende, Artists und Lehrformate aus der KI-Verschiebung in Postproduktion und VFX ableiten können.",
+      "pages": [
+        {
+          "title": "Strategie für Studierende: Positionierung in AI VFX und Postproduktion",
+          "rel": "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
+          "href": "pages/14-positionierung-studium--strategie-fur-studierende-ai-vfx-postproduktion.html"
+        },
+        {
+          "title": "Skills und Rollen der Zukunft",
+          "rel": "12_Skills_und_Rollen/Skills_der_Zukunft.md",
+          "href": "pages/12-skills-und-rollen--skills-der-zukunft.html"
+        },
+        {
+          "title": "Methodik: Research through Design",
+          "rel": "15_Promotion/Methodik_Research_through_Design.md",
+          "href": "pages/15-promotion--methodik-research-through-design.html"
+        },
+        {
+          "title": "Fallstudien und Experimente",
+          "rel": "15_Promotion/Fallstudien_und_Experimente.md",
+          "href": "pages/15-promotion--fallstudien-und-experimente.html"
+        },
+        {
+          "title": "Forschungsfragen",
+          "rel": "15_Promotion/Forschungsfragen.md",
+          "href": "pages/15-promotion--forschungsfragen.html"
+        },
+        {
+          "title": "Hypothesen",
+          "rel": "15_Promotion/Hypothesen.md",
+          "href": "pages/15-promotion--hypothesen.html"
+        }
+      ]
+    },
+    {
+      "id": "markt-workflows",
+      "title": "Markt, Studios und Workflows",
+      "description": "Der Branchenblick: Marktkarte, Studios, Vorreiter, Trends und realistische Workflow-Konsequenzen.",
+      "pages": [
+        {
+          "title": "Marktkarte AI Postproduktion",
+          "rel": "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
+          "href": "pages/08-marktkarte--marktkarte-ai-postproduktion.html"
+        },
+        {
+          "title": "Führende Firmen, Studios und Agenturen",
+          "rel": "08_Marktkarte/Führende_Firmen_Studios_Agenturen.md",
+          "href": "pages/08-marktkarte--fuhrende-firmen-studios-agenturen.html"
+        },
+        {
+          "title": "Trends 2026: AI, VFX und Postproduktion",
+          "rel": "04_Trends_und_Vorreiter/Trends_2026.md",
+          "href": "pages/04-trends-und-vorreiter--trends-2026.html"
+        },
+        {
+          "title": "Use Cases nach Produktionsphase",
+          "rel": "10_Use_Cases/Use_Cases_nach_Produktionsphase.md",
+          "href": "pages/10-use-cases--use-cases-nach-produktionsphase.html"
+        },
+        {
+          "title": "Best Practice Workflows",
+          "rel": "11_Best_Practices/Best_Practice_Workflows.md",
+          "href": "pages/11-best-practices--best-practice-workflows.html"
+        },
+        {
+          "title": "Evidenzsynthese: Pressespiegel Wave 2, 16.05.2026",
+          "rel": "wiki/syntheses/pressespiegel-ai-video-wave2-2026-05-16.md",
+          "href": "pages/wiki--syntheses--pressespiegel-ai-video-wave2-2026-05-16.html"
+        },
+        {
+          "title": "Pressespiegel Wave 2 mit Studienbasis, 16.05.2026",
+          "rel": "wiki/sources/pressespiegel-ai-video-wave2-2026-05-16.md",
+          "href": "pages/wiki--sources--pressespiegel-ai-video-wave2-2026-05-16.html"
+        }
+      ]
+    }
+  ],
+  "dailyTheses": [
+    {
+      "label": "These",
+      "text": "Digital Rooms sind weniger ein einzelnes Tool als eine neue Produktionssituation: Bild, Interface, Daten und Handlung fallen im selben Raum zusammen.",
+      "source": "15_Promotion/Promotionsformel_Digital_Rooms.md",
+      "sourceTitle": "Promotionsformel: Digital Rooms",
+      "href": "pages/15-promotion--promotionsformel-digital-rooms.html"
+    },
+    {
+      "label": "These",
+      "text": "Public / Built Rooms werden erst als Forschungsfall stark, wenn ein konkretes Artefakt gewählt ist und sich Verantwortung, Zugang und Datenflüsse daran prüfen lassen.",
+      "source": "15_Promotion/Public_Built_Room.md",
+      "sourceTitle": "Public / Built Room (Fallcluster 3)",
+      "href": "pages/15-promotion--public-built-room.html"
+    },
+    {
+      "label": "These",
+      "text": "Die zentrale Frage der KI-Postproduktion ist nicht, ob Modelle Arbeit ersetzen, sondern welche Entscheidungen in den Raum vor dem finalen Frame wandern.",
+      "source": "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
+      "sourceTitle": "Bedeutung für Postproduktion",
+      "href": "pages/02-postproduktion-workflows--bedeutung-fur-postproduktion.html"
+    },
+    {
+      "label": "These",
+      "text": "Ein AI-VFX-Workflow wird erst professionell, wenn er wiederholbar, nachweisbar und in bestehende Verantwortlichkeiten übersetzbar ist.",
+      "source": "11_Best_Practices/Best_Practice_Workflows.md",
+      "sourceTitle": "Best Practice Workflows",
+      "href": "pages/11-best-practices--best-practice-workflows.html"
+    },
+    {
+      "label": "These",
+      "text": "Provenance ist keine nachträgliche Fußnote, sondern ein Gestaltungsparameter für glaubwürdige generative Bildproduktion.",
+      "source": "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
+      "sourceTitle": "Recht, Ethik und Provenance",
+      "href": "pages/05-ethik-recht-provenance--recht-ethik-provenance.html"
+    },
+    {
+      "label": "These",
+      "text": "Der Digital Image Space verschiebt Bildproduktion vom Bearbeiten einzelner Frames zum Navigieren, Kuratieren und Stabilisieren möglicher Szenen.",
+      "source": "16_Digital_Image_Space/Digital_Image_Space_Index.md",
+      "sourceTitle": "Digital Image Space und Digital Rooms",
+      "href": "pages/16-digital-image-space--digital-image-space-index.html"
+    },
+    {
+      "label": "These",
+      "text": "Die Stärke generativer Video-Tools liegt nicht nur im Output, sondern in der neuen Arbeit am Prompt, an Referenzen, Seeds, Loops und Kontrollbildern.",
+      "source": "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
+      "sourceTitle": "ToolLandschaft 2026",
+      "href": "pages/01-tools-und-modelle--tool-landschaft-2026.html"
+    },
+    {
+      "label": "These",
+      "text": "Rotoscoping wird durch KI nicht banal, sondern wandert näher an Fragen von Segmentierung, Kontrolle, Qualitätssicherung und Verantwortung.",
+      "source": "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
+      "sourceTitle": "Rotoscoping und AI VFX",
+      "href": "pages/03-rotoscoping-ai-vfx--rotoscoping-und-ai-vfx.html"
+    },
+    {
+      "label": "These",
+      "text": "Studierende brauchen weniger Tool-Listen als Denkmodelle, mit denen sie neue Werkzeuge schnell einordnen und kritisch einsetzen können.",
+      "source": "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
+      "sourceTitle": "Strategie für Studierende: Positionierung in AI VFX und Postproduktion",
+      "href": "pages/14-positionierung-studium--strategie-fur-studierende-ai-vfx-postproduktion.html"
+    },
+    {
+      "label": "These",
+      "text": "Der Markt für AI-Postproduktion wird nicht durch ein Sieger-Tool entschieden, sondern durch anschlussfähige Pipelines zwischen Modellen, Studios und Rechtssystemen.",
+      "source": "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
+      "sourceTitle": "Marktkarte AI Postproduktion",
+      "href": "pages/08-marktkarte--marktkarte-ai-postproduktion.html"
+    },
+    {
+      "label": "These",
+      "text": "Forschung durch Gestaltung wird hier zur Methode, weil Digital Rooms erst sichtbar werden, wenn man sie baut, benutzt und scheitern lässt.",
+      "source": "15_Promotion/Methodik_Research_through_Design.md",
+      "sourceTitle": "Methodik: Research through Design",
+      "href": "pages/15-promotion--methodik-research-through-design.html"
+    },
+    {
+      "label": "These",
+      "text": "Backlinks im Vault sind keine reine Navigation; sie zeigen, welche Begriffe argumentativ tragen und welche noch Evidenz brauchen.",
+      "source": "review/Claim_Evidence_Matrix.md",
+      "sourceTitle": "Claim Evidence Matrix",
+      "href": "pages/review--claim-evidence-matrix.html"
+    },
+    {
+      "label": "These",
+      "text": "Vom Frame zur Szene heisst: Das Bild wird nicht mehr nur gerendert, sondern als verhandelbarer Raum aus Zeit, Perspektive, Prompt und Modellzustand organisiert.",
+      "source": "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
+      "sourceTitle": "Vom Frame zur Szene",
+      "href": "pages/16-digital-image-space--vom-frame-zur-szene.html"
+    }
+  ],
+  "pages": [
+    {
+      "title": "Digital Rooms",
+      "rel": "00_Index/Start_Hier.md",
+      "href": "pages/00-index--start-hier.html"
+    },
+    {
+      "title": "Adobe Firefly, Premiere und After Effects",
+      "rel": "01_Tools_und_Modelle/Adobe_Firefly_Postproduktion.md",
+      "href": "pages/01-tools-und-modelle--adobe-firefly-postproduktion.html"
+    },
+    {
+      "title": "Foundry Nuke AI",
+      "rel": "01_Tools_und_Modelle/Foundry_Nuke_AI.md",
+      "href": "pages/01-tools-und-modelle--foundry-nuke-ai.html"
+    },
+    {
+      "title": "Kling 3.0",
+      "rel": "01_Tools_und_Modelle/Kling_3.md",
+      "href": "pages/01-tools-und-modelle--kling-3.html"
+    },
+    {
+      "title": "Nano Banana 2, Imagen 4 und Bildmodelle",
+      "rel": "01_Tools_und_Modelle/Nano_Banana_2_Imagen.md",
+      "href": "pages/01-tools-und-modelle--nano-banana-2-imagen.html"
+    },
+    {
+      "title": "Runway Gen4.5",
+      "rel": "01_Tools_und_Modelle/Runway_Gen_4_5.md",
+      "href": "pages/01-tools-und-modelle--runway-gen-4-5.html"
+    },
+    {
+      "title": "Seedance 2.0",
+      "rel": "01_Tools_und_Modelle/Seedance_2.md",
+      "href": "pages/01-tools-und-modelle--seedance-2.html"
+    },
+    {
+      "title": "Sora 2",
+      "rel": "01_Tools_und_Modelle/Sora_2.md",
+      "href": "pages/01-tools-und-modelle--sora-2.html"
+    },
+    {
+      "title": "ToolLandschaft 2026",
+      "rel": "01_Tools_und_Modelle/Tool_Landschaft_2026.md",
+      "href": "pages/01-tools-und-modelle--tool-landschaft-2026.html"
+    },
+    {
+      "title": "Bedeutung für Postproduktion",
+      "rel": "02_Postproduktion_Workflows/Bedeutung_für_Postproduktion.md",
+      "href": "pages/02-postproduktion-workflows--bedeutung-fur-postproduktion.html"
+    },
+    {
+      "title": "Rotoscoping und AI VFX",
+      "rel": "03_Rotoscoping_AI_VFX/Rotoscoping_und_AI_VFX.md",
+      "href": "pages/03-rotoscoping-ai-vfx--rotoscoping-und-ai-vfx.html"
+    },
+    {
+      "title": "Trends 2026: AI, VFX und Postproduktion",
+      "rel": "04_Trends_und_Vorreiter/Trends_2026.md",
+      "href": "pages/04-trends-und-vorreiter--trends-2026.html"
+    },
+    {
+      "title": "Recht, Ethik und Provenance",
+      "rel": "05_Ethik_Recht_Provenance/Recht_Ethik_Provenance.md",
+      "href": "pages/05-ethik-recht-provenance--recht-ethik-provenance.html"
+    },
+    {
+      "title": "PAGE AI Newsletter: Firefly Boards, ChatGPT Images 2.0 und AI Film",
+      "rel": "06_Quellen/PAGE AI Newsletter - Firefly ChatGPT Images AI Film 2026-06-04.md",
+      "href": "pages/06-quellen--page-ai-newsletter-firefly-chatgpt-images-ai-film-2026-06-04.html"
+    },
+    {
+      "title": "Quellenbibliothek",
+      "rel": "06_Quellen/Quellenbibliothek.md",
+      "href": "pages/06-quellen--quellenbibliothek.html"
+    },
+    {
+      "title": "Führende Firmen, Studios und Agenturen",
+      "rel": "08_Marktkarte/Führende_Firmen_Studios_Agenturen.md",
+      "href": "pages/08-marktkarte--fuhrende-firmen-studios-agenturen.html"
+    },
+    {
+      "title": "Marktkarte AI Postproduktion",
+      "rel": "08_Marktkarte/Marktkarte_AI_Postproduktion.md",
+      "href": "pages/08-marktkarte--marktkarte-ai-postproduktion.html"
+    },
+    {
+      "title": "Emerging Technologies",
+      "rel": "09_Emerging_Technologies/Emerging_Technologies.md",
+      "href": "pages/09-emerging-technologies--emerging-technologies.html"
+    },
+    {
+      "title": "Neural Codecs",
+      "rel": "09_Emerging_Technologies/Neural_Codecs.md",
+      "href": "pages/09-emerging-technologies--neural-codecs.html"
+    },
+    {
+      "title": "Use Cases nach Produktionsphase",
+      "rel": "10_Use_Cases/Use_Cases_nach_Produktionsphase.md",
+      "href": "pages/10-use-cases--use-cases-nach-produktionsphase.html"
+    },
+    {
+      "title": "Best Practice Workflows",
+      "rel": "11_Best_Practices/Best_Practice_Workflows.md",
+      "href": "pages/11-best-practices--best-practice-workflows.html"
+    },
+    {
+      "title": "Skills und Rollen der Zukunft",
+      "rel": "12_Skills_und_Rollen/Skills_der_Zukunft.md",
+      "href": "pages/12-skills-und-rollen--skills-der-zukunft.html"
+    },
+    {
+      "title": "Forschung und Paper Pipeline",
+      "rel": "13_Forschung_Papers/Forschung_und_Paper_Pipeline.md",
+      "href": "pages/13-forschung-papers--forschung-und-paper-pipeline.html"
+    },
+    {
+      "title": "Strategie für Studierende: Positionierung in AI VFX und Postproduktion",
+      "rel": "14_Positionierung_Studium/Strategie_für_Studierende_AI_VFX_Postproduktion.md",
+      "href": "pages/14-positionierung-studium--strategie-fur-studierende-ai-vfx-postproduktion.html"
+    },
+    {
+      "title": "Begriffsapparat",
+      "rel": "15_Promotion/Begriffsapparat_Promotion.md",
+      "href": "pages/15-promotion--begriffsapparat-promotion.html"
+    },
+    {
+      "title": "Denkachsen Register",
+      "rel": "15_Promotion/Denkachsen_Register.md",
+      "href": "pages/15-promotion--denkachsen-register.html"
+    },
+    {
+      "title": "Digital Rooms Mapping Matrix",
+      "rel": "15_Promotion/Digital_Rooms_Mapping_Matrix.md",
+      "href": "pages/15-promotion--digital-rooms-mapping-matrix.html"
+    },
+    {
+      "title": "Fallstudien und Experimente",
+      "rel": "15_Promotion/Fallstudien_und_Experimente.md",
+      "href": "pages/15-promotion--fallstudien-und-experimente.html"
+    },
+    {
+      "title": "Forschungsfragen",
+      "rel": "15_Promotion/Forschungsfragen.md",
+      "href": "pages/15-promotion--forschungsfragen.html"
+    },
+    {
+      "title": "Hybrid Workflows als Digital Rooms",
+      "rel": "15_Promotion/Hybrid_Workflows_als_Digital_Rooms.md",
+      "href": "pages/15-promotion--hybrid-workflows-als-digital-rooms.html"
+    },
+    {
+      "title": "Hypothesen",
+      "rel": "15_Promotion/Hypothesen.md",
+      "href": "pages/15-promotion--hypothesen.html"
+    },
+    {
+      "title": "Literatur und Referenzfelder",
+      "rel": "15_Promotion/Literatur_und_Referenzfelder.md",
+      "href": "pages/15-promotion--literatur-und-referenzfelder.html"
+    },
+    {
+      "title": "Manovich und generative Postproduktion",
+      "rel": "15_Promotion/Manovich_und_generative_Postproduktion.md",
+      "href": "pages/15-promotion--manovich-und-generative-postproduktion.html"
+    },
+    {
+      "title": "Methodik: Research through Design",
+      "rel": "15_Promotion/Methodik_Research_through_Design.md",
+      "href": "pages/15-promotion--methodik-research-through-design.html"
+    },
+    {
+      "title": "Mögliche Gliederung",
+      "rel": "15_Promotion/Mögliche_Gliederung.md",
+      "href": "pages/15-promotion--mogliche-gliederung.html"
+    },
+    {
+      "title": "Promotion: Digital Rooms",
+      "rel": "15_Promotion/Promotion_Index.md",
+      "href": "pages/15-promotion--promotion-index.html"
+    },
+    {
+      "title": "Promotionsformel: Digital Rooms",
+      "rel": "15_Promotion/Promotionsformel_Digital_Rooms.md",
+      "href": "pages/15-promotion--promotionsformel-digital-rooms.html"
+    },
+    {
+      "title": "Public / Built Room (Fallcluster 3)",
+      "rel": "15_Promotion/Public_Built_Room.md",
+      "href": "pages/15-promotion--public-built-room.html"
+    },
+    {
+      "title": "TheorieLandkarte: AI, VFX und postproduktive Gestaltung",
+      "rel": "15_Promotion/Theorie_Landkarte_AI_Postproduktion.md",
+      "href": "pages/15-promotion--theorie-landkarte-ai-postproduktion.html"
+    },
+    {
+      "title": "Theorieachsen",
+      "rel": "15_Promotion/Theorieachsen.md",
+      "href": "pages/15-promotion--theorieachsen.html"
+    },
+    {
+      "title": "Theoriepositionen: Erweiterung jenseits von Manovich",
+      "rel": "15_Promotion/Theoriepositionen_Erweiterung.md",
+      "href": "pages/15-promotion--theoriepositionen-erweiterung.html"
+    },
+    {
+      "title": "Digital Image Space: Begriff",
+      "rel": "16_Digital_Image_Space/Digital_Image_Space_Begriff.md",
+      "href": "pages/16-digital-image-space--digital-image-space-begriff.html"
+    },
+    {
+      "title": "Digital Image Space und Digital Rooms",
+      "rel": "16_Digital_Image_Space/Digital_Image_Space_Index.md",
+      "href": "pages/16-digital-image-space--digital-image-space-index.html"
+    },
+    {
+      "title": "Digital Rooms: Erweiterte Felder",
+      "rel": "16_Digital_Image_Space/Digital_Rooms_Erweiterte_Felder.md",
+      "href": "pages/16-digital-image-space--digital-rooms-erweiterte-felder.html"
+    },
+    {
+      "title": "Digital Rooms",
+      "rel": "16_Digital_Image_Space/Digital_Rooms.md",
+      "href": "pages/16-digital-image-space--digital-rooms.html"
+    },
+    {
+      "title": "Image Space und Indexikalität",
+      "rel": "16_Digital_Image_Space/Image_Space_und_Indexikalität.md",
+      "href": "pages/16-digital-image-space--image-space-und-indexikalitat.html"
+    },
+    {
+      "title": "Interface als Bildraum",
+      "rel": "16_Digital_Image_Space/Interface_als_Bildraum.md",
+      "href": "pages/16-digital-image-space--interface-als-bildraum.html"
+    },
+    {
+      "title": "Latent Space als Gestaltungsraum",
+      "rel": "16_Digital_Image_Space/Latent_Space_als_Gestaltungsraum.md",
+      "href": "pages/16-digital-image-space--latent-space-als-gestaltungsraum.html"
+    },
+    {
+      "title": "Manovich und Digital Image Space",
+      "rel": "16_Digital_Image_Space/Manovich_und_Digital_Image_Space.md",
+      "href": "pages/16-digital-image-space--manovich-und-digital-image-space.html"
+    },
+    {
+      "title": "Methodische Experimente: Digital Image Space",
+      "rel": "16_Digital_Image_Space/Methodische_Experimente_Digital_Image_Space.md",
+      "href": "pages/16-digital-image-space--methodische-experimente-digital-image-space.html"
+    },
+    {
+      "title": "Neural Rendering und räumliche Bilder",
+      "rel": "16_Digital_Image_Space/Neural_Rendering_und_räumliche_Bilder.md",
+      "href": "pages/16-digital-image-space--neural-rendering-und-raumliche-bilder.html"
+    },
+    {
+      "title": "Operative Bildräume",
+      "rel": "16_Digital_Image_Space/Operative_Bildräume.md",
+      "href": "pages/16-digital-image-space--operative-bildraume.html"
+    },
+    {
+      "title": "Vom Frame zur Szene",
+      "rel": "16_Digital_Image_Space/Vom_Frame_zur_Szene.md",
+      "href": "pages/16-digital-image-space--vom-frame-zur-szene.html"
+    },
+    {
+      "title": "Google Drive Verknüpfung",
+      "rel": "Google Drive Verknüpfung.md",
+      "href": "pages/google-drive-verknupfung.html"
+    },
+    {
+      "title": "Prompt Cases Sync",
+      "rel": "Prompt Cases Sync.md",
+      "href": "pages/prompt-cases-sync.html"
+    },
+    {
+      "title": "Claim Evidence Matrix",
+      "rel": "review/Claim_Evidence_Matrix.md",
+      "href": "pages/review--claim-evidence-matrix.html"
+    },
+    {
+      "title": "Review: Digital Image Space",
+      "rel": "review/digital-image-space-evidence.md",
+      "href": "pages/review--digital-image-space-evidence.html"
+    },
+    {
+      "title": "Gegenstimmen Register",
+      "rel": "review/Gegenstimmen_Register.md",
+      "href": "pages/review--gegenstimmen-register.html"
+    },
+    {
+      "title": "MethodikLücken Research",
+      "rel": "review/Methodik_Luecken_Research_2026-05-20.md",
+      "href": "pages/review--methodik-luecken-research-2026-05-20.html"
+    },
+    {
+      "title": "Offene Fragen Research",
+      "rel": "review/Offene_Fragen_Research_2026-05-19.md",
+      "href": "pages/review--offene-fragen-research-2026-05-19.html"
+    },
+    {
+      "title": "Review: TheorieErweiterung",
+      "rel": "review/theorie-erweiterung-evidence.md",
+      "href": "pages/review--theorie-erweiterung-evidence.html"
+    },
+    {
+      "title": "Research Wiki Index",
+      "rel": "wiki/index.md",
+      "href": "pages/wiki--index.html"
+    },
+    {
+      "title": "AIPostproduktionVFXVault Cross Vault Bridge",
+      "rel": "wiki/maps/ai-postproduktion-vfx-vault-cross-vault-bridge.md",
+      "href": "pages/wiki--maps--ai-postproduktion-vfx-vault-cross-vault-bridge.html"
+    },
+    {
+      "title": "AIPostproduktionVFXVault Graph Edges",
+      "rel": "wiki/maps/ai-postproduktion-vfx-vault-graph-edges.md",
+      "href": "pages/wiki--maps--ai-postproduktion-vfx-vault-graph-edges.html"
+    },
+    {
+      "title": "AIPostproduktionVFXVault Knowledge Graph",
+      "rel": "wiki/maps/ai-postproduktion-vfx-vault-knowledge-graph.md",
+      "href": "pages/wiki--maps--ai-postproduktion-vfx-vault-knowledge-graph.html"
+    },
+    {
+      "title": "Agentic Workflow Guardrails und Media Buying 2026",
+      "rel": "wiki/sources/agentic-workflow-guardrails-media-buying-2026-05-21.md",
+      "href": "pages/wiki--sources--agentic-workflow-guardrails-media-buying-2026-05-21.html"
+    },
+    {
+      "title": "Designer Fund AI in Design Report 2026",
+      "rel": "wiki/sources/designer-fund-ai-in-design-report-2026.md",
+      "href": "pages/wiki--sources--designer-fund-ai-in-design-report-2026.html"
+    },
+    {
+      "title": "Digital Image Space Ingest, 16.05.2026",
+      "rel": "wiki/sources/digital-image-space-ingest-2026-05-16.md",
+      "href": "pages/wiki--sources--digital-image-space-ingest-2026-05-16.html"
+    },
+    {
+      "title": "Source Ingest: Digital Rooms Erweiterung",
+      "rel": "wiki/sources/digital-rooms-erweiterung-ingest-2026-05-16.md",
+      "href": "pages/wiki--sources--digital-rooms-erweiterung-ingest-2026-05-16.html"
+    },
+    {
+      "title": "Hybrid CG AI Proxy Render Claim, 25.06.2026",
+      "rel": "wiki/sources/hybrid-cg-ai-proxy-render-claim-2026-06-25.md",
+      "href": "pages/wiki--sources--hybrid-cg-ai-proxy-render-claim-2026-06-25.html"
+    },
+    {
+      "title": "Neural Codecs Research, 12.06.2026",
+      "rel": "wiki/sources/neural-codecs-research-2026-06-12.md",
+      "href": "pages/wiki--sources--neural-codecs-research-2026-06-12.html"
+    },
+    {
+      "title": "Source Ingest: Offene Fragen Digital Rooms",
+      "rel": "wiki/sources/offene-fragen-digital-rooms-research-2026-05-19.md",
+      "href": "pages/wiki--sources--offene-fragen-digital-rooms-research-2026-05-19.html"
+    },
+    {
+      "title": "Pressespiegel KI, 16.05.2026",
+      "rel": "wiki/sources/pressespiegel-ai-video-governance-2026-05-16.md",
+      "href": "pages/wiki--sources--pressespiegel-ai-video-governance-2026-05-16.html"
+    },
+    {
+      "title": "Pressespiegel Wave 2 mit Studienbasis, 16.05.2026",
+      "rel": "wiki/sources/pressespiegel-ai-video-wave2-2026-05-16.md",
+      "href": "pages/wiki--sources--pressespiegel-ai-video-wave2-2026-05-16.html"
+    },
+    {
+      "title": "TheorieIngest Erweiterung, 16.05.2026",
+      "rel": "wiki/sources/theorie-ingest-erweiterung-2026-05-16.md",
+      "href": "pages/wiki--sources--theorie-ingest-erweiterung-2026-05-16.html"
+    },
+    {
+      "title": "VFX Promotion Weekly Research, 19.06.2026",
+      "rel": "wiki/sources/vfx-promotion-weekly-research-2026-06-19.md",
+      "href": "pages/wiki--sources--vfx-promotion-weekly-research-2026-06-19.html"
+    },
+    {
+      "title": "Zendesk Autonomous Service Workforce 2026",
+      "rel": "wiki/sources/zendesk-autonomous-service-workforce-2026-05-21.md",
+      "href": "pages/wiki--sources--zendesk-autonomous-service-workforce-2026-05-21.html"
+    },
+    {
+      "title": "Synthese: Digital Image Space",
+      "rel": "wiki/syntheses/digital-image-space-2026-05-16.md",
+      "href": "pages/wiki--syntheses--digital-image-space-2026-05-16.html"
+    },
+    {
+      "title": "Synthese: Promotionsshift zu Digital Rooms",
+      "rel": "wiki/syntheses/digital-rooms-promotion-shift-2026-05-16.md",
+      "href": "pages/wiki--syntheses--digital-rooms-promotion-shift-2026-05-16.html"
+    },
+    {
+      "title": "Synthese: Pressespiegel KI, 16.05.2026",
+      "rel": "wiki/syntheses/pressespiegel-ai-video-governance-2026-05-16.md",
+      "href": "pages/wiki--syntheses--pressespiegel-ai-video-governance-2026-05-16.html"
+    },
+    {
+      "title": "Evidenzsynthese: Pressespiegel Wave 2, 16.05.2026",
+      "rel": "wiki/syntheses/pressespiegel-ai-video-wave2-2026-05-16.md",
+      "href": "pages/wiki--syntheses--pressespiegel-ai-video-wave2-2026-05-16.html"
+    }
+  ]
+}
