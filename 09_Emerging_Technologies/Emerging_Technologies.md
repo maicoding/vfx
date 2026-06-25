@@ -105,6 +105,12 @@ Hybrid Workflows verbinden Live-Action-Plates, CG-Render, Unreal-/Real-Time-Ausg
 
 Vertiefung: [[../15_Promotion/Hybrid_Workflows_als_Digital_Rooms|Hybrid Workflows als Digital Rooms]]
 
+Update 2026-06-25:
+
+- Proxy-CG + AI-Finish als neues Signal: vereinfachter 3D-Render für Motion Control, Referenzbild für Material/Look, generatives Videomodell für Finish.
+- Anschluss: [[../wiki/sources/hybrid-cg-ai-proxy-render-claim-2026-06-25|Hybrid CG AI Proxy Render Claim 2026-06-25]]
+- Status: `signal / needs-test`, nicht als Produktionsclaim verwenden.
+
 Quellen / Signale:
 
 - Foundry Nuke 17.0: native Gaussian Splats, USD-basiertes 3D-System und erweiterte Machine-Learning-Funktionen: https://www.foundry.com/news-and-awards/foundry-releases-nuke-17-advancing-compositing-workflows

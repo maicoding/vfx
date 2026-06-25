@@ -71,6 +71,18 @@ Tags: #quellen #research
 
 ## Forschung und Papers
 
+- Hybrid CG AI Proxy Render Claim, 2026-06-25  
+  [[../wiki/sources/hybrid-cg-ai-proxy-render-claim-2026-06-25]]
+
+- GO-Renderer: Generative Object Rendering with 3D-aware Controllable Video Diffusion Models, 2026  
+  https://arxiv.org/abs/2603.23246
+
+- Seedance 2.0: Advancing Video Generation for World Complexity, 2026  
+  https://arxiv.org/abs/2604.14148
+
+- BlenderFusion: 3D-Grounded Visual Editing and Generative Compositing, 2025  
+  https://arxiv.org/abs/2506.17450
+
 - VFX Promotion Weekly Research, 2026-06-19  
   [[../wiki/sources/vfx-promotion-weekly-research-2026-06-19]]
 

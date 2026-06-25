@@ -44,6 +44,18 @@ Für die Promotion ist das stark, weil `Hybrid Workflow` ein konkreter Praxisbel
 
 ## Typologie
 
+### 0. Proxy-CG + AI-Finish
+
+Ein vereinfachtes Mesh oder ein Low-Quality-Render liefert Bewegung, Timing, Kamera und räumliche Kontrolle. Ein Referenzbild liefert Material, Licht und Look. Ein generatives Videomodell schließt die visuelle Lücke.
+
+Quelle / Signal:
+
+- [[../wiki/sources/hybrid-cg-ai-proxy-render-claim-2026-06-25|Hybrid CG AI Proxy Render Claim 2026-06-25]]
+- GO-Renderer verbindet 3D-Proxies mit diffusion-basiertem Object Rendering und stützt die technische Grundidee, dass Proxy-3D Viewpoint-Kontrolle liefern kann, während ein generatives Modell Appearance und Lighting ergänzt: https://arxiv.org/abs/2603.23246
+- Seedance 2.0 unterstützt multimodale Referenzen mit Text, Bild, Audio und Video, ist aber für den konkreten Caramel-/Proxy-Render-Claim nicht als Originalquelle belegt: https://arxiv.org/abs/2604.14148
+
+Evidenzstatus: `signal / needs-test`. Der Workflow ist plausibel, aber nicht als Produktionsbeweis zu nutzen.
+
 ### 1. Plate + CG + AI Cleanup
 
 Klassischer Dreh bleibt Ausgangspunkt. CG ergänzt Sets, Props, Figuren oder Effekte. AI wird für Roto, Object Masking, Cleanup, Upscaling, Denoising, Beauty Work oder temporale Fixes eingesetzt.
